@@ -1,0 +1,26 @@
+.filter-data {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    outline: none;
+}
+.filter-data button {
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+}
+.filter-data .filter-option {
+    font-weight: 600;
+}
+.show-tick {
+    width: 100% !important;
+    min-width: 100px !important;
+    max-width: 200px !important;
+    overflow: visible !important;
+}
+.pagination {
+    margin-bottom: 0px !important;
+}
+.daterangepicker.dropdown-menu {
+    border-color: bisque;
+}
