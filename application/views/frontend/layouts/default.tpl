@@ -11,6 +11,7 @@
   <link rel='stylesheet' href="{base_url()}static/default/frontend/css/material-icons.css">
   <link rel='stylesheet' href="{base_url()}static/default/frontend/css/google-map.css">
   <link rel="stylesheet" href="{base_url()}static/default/frontend/css/camera.css"/>
+  <link rel="stylesheet" href="{base_url()}static/default/frontend/css/custom.css"/>
   {$listCss}
 
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700'>

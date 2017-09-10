@@ -24,7 +24,7 @@ img {
 }
 h1 {
     font: 700 57px/57px "Montserrat", sans-serif;
-    color: #f96332;
+    color: #646ba2;
 }
 h2 {
     font: 400 60px/78px "Montserrat", sans-serif;
@@ -197,7 +197,7 @@ dd {
 .marked-list li:before,
 .marked-list-1 li:before {
     background: #fff;
-    color: #f96332;
+    color: #646ba2;
     display: inline-block;
     text-align: center;
     font-size: 40px;
@@ -234,7 +234,7 @@ dd {
 .marked-list li a,
 .marked-list-1 li a {
     font: 400 24px/48px "Montserrat", sans-serif;
-    color: #f96332;
+    color: #646ba2;
 }
 .marked-list li a:hover,
 .marked-list-1 li a:hover {
@@ -265,7 +265,7 @@ dd {
     color: #fff;
 }
 .marked-list-1 li a:hover {
-    color: #f96332;
+    color: #646ba2;
 }
 .index-list,
 .index-list_1 {
@@ -338,7 +338,7 @@ dd {
 .index-list_1 li:before {
     counter-increment: myCounter;
     content: counter(myCounter, decimal-leading-zero);
-    background: #f96332;
+    background: #646ba2;
     display: inline-block;
     text-align: center;
     font-size: 40px;
@@ -504,7 +504,7 @@ br.br-lg {
 .brand {
     display: inline-block;
     text-transform: uppercase;
-    color: #f96332;
+    color: #646ba2;
 }
 .brand_name {
     overflow: hidden;
@@ -535,9 +535,9 @@ br.br-lg {
     display: inline-block;
 }
 .primary-icon {
-    color: #f96332;
+    color: #646ba2;
     display: inline-block;
-    color: #f96332;
+    color: #646ba2;
 }
 .primary-icon:hover {
     text-decoration: none;
@@ -547,7 +547,7 @@ br.br-lg {
 }
 .secondary-icon {
     color: #fff;
-    background: #f96332;
+    background: #646ba2;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -654,7 +654,7 @@ br.br-lg {
 }
 .btn-default {
     color: #fff;
-    background: #f96332;
+    background: #646ba2;
 }
 .btn-default:hover {
     background: #272d33;
@@ -867,10 +867,10 @@ br.br-lg {
 }
 .sf-menu>li.sfHover>a,
 .sf-menu>li>a:hover {
-    color: #f96332;
+    color: #646ba2;
 }
 .sf-menu>li.active>a {
-    color: #f96332;
+    color: #646ba2;
 }
 @media (max-width: 1199px) {
     .sf-menu li+li {
@@ -922,7 +922,7 @@ br.br-lg {
 }
 .sf-menu ul>li.sfHover>a,
 .sf-menu ul>li>a:hover {
-    color: #f96332;
+    color: #646ba2;
 }
 .sf-menu ul ul {
     position: static;
@@ -947,7 +947,7 @@ br.br-lg {
 }
 .sf-menu ul ul>li.sfHover>a,
 .sf-menu ul ul>li>a:hover {
-    color: #f96332;
+    color: #646ba2;
 }
 @media (max-width: 767px) {
     .sf-menu {
@@ -1243,7 +1243,7 @@ br.br-lg {
     font-size: 14px;
     line-height: 42px;
     color: #fff;
-    background: #f96332;
+    background: #646ba2;
     border-radius: 50%;
     -webkit-box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
@@ -2112,7 +2112,7 @@ main {
     color: #272d33;
 }
 .secondary_color {
-    color: #f96332;
+    color: #646ba2;
 }
 .product {
     position: relative;
@@ -2142,6 +2142,9 @@ main {
     background: rgba(255, 255, 255, 0.95);
 }
 .product_cont:hover h3 {
+    color: #646ba2;
+}
+.product_cont:hover h4 {
     color: #f96332;
 }
 .product_cont:hover p {
@@ -2303,7 +2306,7 @@ footer .footer-cnt {
     padding-top: 23px;
 }
 footer .rights {
-    color: #f96332;
+    color: #646ba2;
 }
 footer .rights:hover {
     text-decoration: underline;

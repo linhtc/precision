@@ -67,6 +67,12 @@ $route['tai-lieu/(:any)'] = 'frontend/document/view/$1';
 $route['tai-lieu/(:any)/(:any)'] = 'frontend/document/view/$1/$2';
 $route['tai-lieu/(:any)/(:any)/(:any)'] = 'frontend/document/view/$1/$2/$3';
 
+$route['company'] = 'frontend/Company/view';
+$route['products-services'] = 'frontend/ProductService/view';
+$route['design-technology-transfer'] = 'frontend/TechnologyTransfer/view';
+$route['gallery'] = 'frontend/Gallery/view';
+$route['contacts'] = 'frontend/Contact/view';
+
 $route['lop-moi'] = 'frontend/NewClass/view';
 $route['hoc-phi'] = 'frontend/fee/view';
 $route['muc-phi-nhan-lop'] = 'frontend/MinFee/view';

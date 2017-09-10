@@ -2,18 +2,66 @@
 
     <section class="well-1 bg-primary">
       <div class="container">
-        <div class="row offset"> 
+        <div class="row offset">
+        <!--
           <div class="col-lg-5 col-xs-5">
-            <div class="product pr-img-01 wow fadeIn">
-              <a href="#" class="product_cont">
-                <h3>Ducting</h3>
-                <p>This custom fabricated stainless steel ducting was designed for use in the semiconductor industry.</p>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
+	            <div class="panel panel-default" style="height: 369px;">
+	          		<div class="panel-heading"><h3>Hỗ trợ trực tuyến</h3></div>
+				  	<div class="panel-body">
+						<ul class="list-group">
+						  	<li class="list-group-item">
+						  		Phòng kinh doanh (Mr. Thắng) 0984499008
+					  			<span class="ht_img">
+                                	<a rel="nofollow" href="skype:?chat"><img src="http://duyvietprecision.com/images/skype.png" alt="P. Kinh Doanh (Mr. Đáng)" title=""></a>
+                                	<a rel="nofollow" href="ymsgr:sendIM?"><img src="http://duyvietprecision.com/images/icon_yahoo.png" alt="P. Kinh Doanh (Mr. Đáng)"> </a>
+                                </span>
+					  		</li>
+						  <li class="list-group-item">Second item</li>
+						  <li class="list-group-item">Third item</li>
+						</ul>
+					</div>
+				</div>
+          </div>
+          -->
+          <div class="col-lg-5 col-xs-5">
+            <div class="product pr-img-01 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
+              <div href="#" class="product_cont product_cont_custom">
+                <h3>Hỗ trợ trực tuyến</h3>
+                <h4>Hotline: 0984499008</h4>
+                <p>
+                	<span>
+                		Phòng kinh doanh (Mr. Thắng) 0984499008
+                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+                			<img src="{base_url()}media/images/zalo.png" />
+                		</a>
+                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+                			<img src="{base_url()}media/images/skype.png" />
+                		</a>
+                	</span>
+                	<span>
+                		Phòng kỹ thuật (Mr. Thắng) 0984499008
+                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+                			<img src="{base_url()}media/images/zalo.png" />
+                		</a>
+                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+                			<img src="{base_url()}media/images/skype.png" />
+                		</a>
+                	</span>
+                	<span>
+                		Phòng mua hàng (Mr. Thắng) 0984499008
+                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+                			<img src="{base_url()}media/images/zalo.png" />
+                		</a>
+                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+                			<img src="{base_url()}media/images/skype.png" />
+                		</a>
+                	</span>
+                </p>
+              </div>
             </div>
           </div>
           <div class="col-lg-7 col-xs-7 offset-6">
-            <div class="product pr-img-02 wow fadeIn">
+            <div class="product pr-img-02 wowfadeIn" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
               <a href="#" class="product_cont">
                 <h3>Stacks</h3>
                 <p>Each stack is essential in maintaining air quality emissions regulatory 
@@ -25,7 +73,7 @@
         </div>
         <div class="row offset"> 
           <div class="col-lg-6 col-xs-6">
-            <div class="product pr-img-03 wow fadeIn">
+            <div class="product pr-img-03 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/AluminiumMilling.jpg);">
               <a href="#" class="product_cont">
                 <h3>Tanks</h3>
                 <p>We specialize in the fabrication of custom industrial tanks of all kinds, including stainless steel tanks.</p>
@@ -34,7 +82,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xs-6 offset-6">
-            <div class="product pr-img-04 wow fadeIn">
+            <div class="product pr-img-04 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/SUS304Milling.png);">
               <a href="#" class="product_cont">
                 <h3>Structural</h3>
                 <p>Our primary business is providing design, fabrication, and erection of structural steel for commercial needs...</p>

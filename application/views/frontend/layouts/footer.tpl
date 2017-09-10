@@ -1,4 +1,5 @@
 <footer>
+    {if $uuid eq 'home' or $uuid eq 'contact'}
     <div class="container">
       <div class="row inset-2 flow-offset-1">
         <div class="col-lg-4 col-xs-12 icon-hover">
@@ -17,7 +18,7 @@
         <div class="col-lg-4 col-xs-12 icon-hover offset-6">
           <i class="icon secondary-icon icon-xs material-icons-schedule"></i>
           <h3>Hours:</h3>
-          <p>7 days a week from<br>
+          <p>24/7 from<br>
           8:00 am  to  7:00 pm</p>
         </div>
       </div>
@@ -30,7 +31,8 @@
         </li>
       </ul>
     </section>
+    {/if}
     <div class="footer-cnt center_text">
-      <p class="copyright">Steel and Fabrication Industry   © 2016. <a href="index-5.html" class="rights">Privacy Policy</a></p>
+      <p class="copyright">Toan Thang Precision © 2016. <a href="index-5.html" class="rights">Privacy Policy</a></p>
     </div>
   </footer>

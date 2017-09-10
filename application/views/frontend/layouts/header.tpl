@@ -16,9 +16,25 @@
           <div class="col-lg-9 col-sm-9">
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
-                <li class="active">
+                <li class="{if $uuid eq 'home'}active{/if}">
                   <a href="{base_url()}">{lang('home')}</a>
                 </li>
+                <li class="{if $uuid eq 'company'}active{/if}">
+                  <a href="{base_url()}company">{lang('company')}</a>
+                </li>
+                <li class="{if $uuid eq 'product'}active{/if}">
+                  <a href="{base_url()}products-services">Products & Services</a>
+                </li>
+                <li class="{if $uuid eq 'technology'}active{/if}">
+                  <a href="{base_url()}design-technology-transfer">Technology Transfer</a>
+                </li>
+                <li class="{if $uuid eq 'gallery'}active{/if}">
+                  <a href="{base_url()}gallery">Gallery</a>
+                </li>
+                <li class="{if $uuid eq 'contact'}active{/if}">
+                  <a href="{base_url()}contacts">Contacts</a>
+                </li>
+                <!--
                 <li>
                   <a href="{base_url()}company">{lang('company')}</a>
                   <ul>
@@ -44,18 +60,7 @@
                     </li>
                   </ul>
                 </li>
-                <li>
-                  <a href="{base_url()}products-services">Products & Services</a>
-                </li>
-                <li>
-                  <a href="{base_url()}design-tt">Technology Transfer</a>
-                </li>
-                <li>
-                  <a href="{base_url()}galary">Gallery</a>
-                </li>
-                <li>
-                  <a href="{base_url()}contacts">Contacts</a>
-                </li>
+                -->
               </ul>
             </nav>
           </div>
@@ -66,19 +71,7 @@
 {if $uuid eq 'home'}
       <div class="camera_container">
         <div id="camera" class="camera_wrap">
-          <div data-src="{base_url()}static/default/frontend/images/page-01_slide-01.jpg">
-            <div class="camera_caption fadeIn">
-              <div class="container">
-                <div class="camera_cont cam_ins_1">
-                  <h2>A wide range</h2>
-                  <h3>of high quality structural steel projects</h3>
-                  <p>Welcome to the number 1 company in the industry! Looking for some helpful advice? Go no further; you've come to the right place. </p>
-                  <a href="#" class="btn btn-primary btn-sm">read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div data-src="{base_url()}static/default/frontend/images/page-01_slide-02.jpg">
+          <div data-src="{base_url()}media/uploads/images/Lapping.JPG">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
@@ -90,7 +83,7 @@
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}static/default/frontend/images/page-01_slide-03.jpg">
+          <div data-src="{base_url()}media/uploads/images/SandpaperMachine.JPG">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_3">
@@ -98,6 +91,18 @@
                   <h3>excellence in steel fabrication</h3>
                   <p>Our company can boast the reputation of the trusted partner known worldwide.</p>
                   <a href="#" class="btn btn-default btn-sm">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-src="{base_url()}media/uploads/images/HightSpeedCNC.jpg">
+            <div class="camera_caption fadeIn">
+              <div class="container">
+                <div class="camera_cont cam_ins_1">
+                  <h2>A wide range</h2>
+                  <h3>of high quality structural steel projects</h3>
+                  <p>Welcome to the number 1 company in the industry! Looking for some helpful advice? Go no further; you've come to the right place. </p>
+                  <a href="#" class="btn btn-primary btn-sm">read more</a>
                 </div>
               </div>
             </div>
