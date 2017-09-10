@@ -5,7 +5,7 @@
     <div id="stuck_container" class="stuck_container">
       <div class="container">
         <div class="row"> 
-          <div class="col-lg-3 col-sm-3">
+          <div class="col-lg-3 col-sm-3 no-padding">
             <div class="brand">
               <h1 class="brand_name">
                 <a href="./">CNC</a>
@@ -13,7 +13,7 @@
               <h5>technology for life</h5>
             </div>
           </div>
-          <div class="col-lg-9 col-sm-9">
+          <div class="col-lg-9 col-sm-9 no-padding">
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
                 <li class="{if $uuid eq 'home'}active{/if}">
@@ -23,16 +23,19 @@
                   <a href="{base_url()}company">{lang('company')}</a>
                 </li>
                 <li class="{if $uuid eq 'product'}active{/if}">
-                  <a href="{base_url()}products-services">Products & Services</a>
+                  <a href="{base_url()}products-services">{lang('product_and_service')}</a>
                 </li>
                 <li class="{if $uuid eq 'technology'}active{/if}">
-                  <a href="{base_url()}design-technology-transfer">Technology Transfer</a>
+                  <a href="{base_url()}design-technology-transfer">{lang('design_and_technology_transfer')}</a>
                 </li>
                 <li class="{if $uuid eq 'gallery'}active{/if}">
-                  <a href="{base_url()}gallery">Gallery</a>
+                  <a href="{base_url()}gallery">{lang('project')}</a>
                 </li>
                 <li class="{if $uuid eq 'contact'}active{/if}">
-                  <a href="{base_url()}contacts">Contacts</a>
+                  <a href="{base_url()}contacts">{lang('contact')}</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </li>
                 <!--
                 <li>

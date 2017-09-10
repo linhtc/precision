@@ -33,6 +33,6 @@
     </section>
     {/if}
     <div class="footer-cnt center_text">
-      <p class="copyright">Toan Thang Precision © 2016. <a href="index-5.html" class="rights">Privacy Policy</a></p>
+      <p class="copyright">Toan Thang Precision © 2017. <a href="index-5.html" class="rights">Privacy Policy</a></p>
     </div>
   </footer>

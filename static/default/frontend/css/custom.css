@@ -84,5 +84,18 @@
 	background-size: cover;
 }
 
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;	
+}
 
+.search-input {
+	    position: absolute;
+    border-bottom: 1px solid black;
+    width: 300px;
+    right: 0;
+    padding: 4px;
+    background: wheat;
+    z-index: 1;
+}
 
