@@ -183,13 +183,12 @@ dd {
     -webkit-box-shadow: 4px 5px 15px 0 transparent;
     -moz-box-shadow: 4px 5px 15px 0 transparent;
     box-shadow: 4px 5px 15px 0 transparent;
-    background: #272d33;
+    background: rgb(255, 255, 102);
     -moz-transform: scale3d(1.03, 1.03, 1.03);
     -ms-transform: scale3d(1.03, 1.03, 1.03);
     -o-transform: scale3d(1.03, 1.03, 1.03);
     -webkit-transform: scale3d(1.03, 1.03, 1.03);
     transform: scale3d(1.03, 1.03, 1.03);
-    color: rgb(255, 255, 102);
 }
 .marked-list li+li,
 .marked-list-1 li+li {
@@ -615,7 +614,8 @@ br.br-lg {
     transition: 0.4s;
 }
 .icon-hover_3 li:hover:before {
-    background: #272d33;
+    background: rgb(255, 255, 102);
+    color: #646ba2;
     -moz-transform: scale3d(1.05, 1.05, 1.05);
     -ms-transform: scale3d(1.05, 1.05, 1.05);
     -o-transform: scale3d(1.05, 1.05, 1.05);
@@ -658,7 +658,8 @@ br.br-lg {
     background: #646ba2;
 }
 .btn-default:hover {
-    background: #272d33;
+    background: rgb(255, 255, 102);
+    color: #646ba2;
 }
 .btn-primary {
     color: #fff;

@@ -1,7 +1,7 @@
 .panel {
     margin-bottom: 20px;
     background-color: #fff;
-    border: 1px solid transparent;
+    border: 1px solid #646ba2;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -9,16 +9,17 @@
 }
 
 .panel-default>.panel-heading {
-    color: #333;
-    background-color: #f5f5f5;
+    color: #fff;
+    background-color: #646ba2;
     border-color: #ddd;
+    font: 400 28px/48px "Montserrat", sans-serif;
 }
 
 .panel-heading {
-    padding: 10px 15px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    padding: 0px 15px;
+    border-bottom: 1px solid #646ba2;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .panel-heading h3{
@@ -69,22 +70,23 @@
 	color: rgb(255, 255, 102);
 }
 
-.product_cont_custom .anchor-contact {
+.anchor-contact {
     position: absolute;
-    right: 10px;
+    right: 0px;
+    bottom: 3px;
 }
 
-.product_cont_custom .anchor-contact:nth-last-child(1) {
+.anchor-contact:nth-last-child(1) {
     position: absolute;
-    right: 37px;
+    right: 45px;
 }
 
-.product_cont_custom .anchor-contact img{
-	height: 22px;
+.anchor-contact img{
+	height: 25px;
 }
 
 
-.product_cont_custom .anchor-contact:hover {
+.anchor-contact:hover {
     transform: rotate(-360deg);
 }
 
@@ -118,8 +120,8 @@
 }
 
 @keyframes blinker {  
-  25% { opacity: .75; color: rgb(255, 255, 102); }
-  75% { opacity: .95; color: rgb(255, 255, 102); }
+  25% { opacity: .0; color: #646ba2; }
+  75% { opacity: .95; color: #646ba2; }
 }
 
 @keyframes animated_div
@@ -188,5 +190,18 @@
     width: 48px;
     margin: 0;
 }
+
+.online-support {
+    background-image: url(http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png);
+    background-size: 58px 58px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.online-support h4 span{
+	display: block;
+	padding-left: 62px;
+}
+
 
 

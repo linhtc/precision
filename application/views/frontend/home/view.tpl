@@ -2,69 +2,72 @@
 
     <section class="well-1 bg-primary">
       <div class="container">
-        <div class="row offset">
-        <!--
-          <div class="col-lg-5 col-xs-5">
-	            <div class="panel panel-default" style="height: 369px;">
-	          		<div class="panel-heading"><h3>Hỗ trợ trực tuyến</h3></div>
-				  	<div class="panel-body">
-						<ul class="list-group">
-						  	<li class="list-group-item">
-						  		Phòng kinh doanh (Mr. Thắng) 0984499008
-					  			<span class="ht_img">
-                                	<a rel="nofollow" href="skype:?chat"><img src="http://duyvietprecision.com/images/skype.png" alt="P. Kinh Doanh (Mr. Đáng)" title=""></a>
-                                	<a rel="nofollow" href="ymsgr:sendIM?"><img src="http://duyvietprecision.com/images/icon_yahoo.png" alt="P. Kinh Doanh (Mr. Đáng)"> </a>
-                                </span>
-					  		</li>
-						  <li class="list-group-item">Second item</li>
-						  <li class="list-group-item">Third item</li>
-						</ul>
-					</div>
+	      <div class="row offset">
+	      	<div class="col-lg-3 col-xs-3">
+	      		<div class="panel panel-default">
+				  <div class="panel-heading">Hỗ trợ trực tuyến</div>
+				  <div class="panel-body">
+			  		<div class="online-support" style="background-image:url(http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png);">
+				  		<h4 class="blink_me">
+		                	<span>Hotline: <br />098 44 99 008</span>
+		                </h4>
+			  		</div>
+					<span style="color: #272d33; display: block; margin-top: 3px;">Nhân viên tư vấn:</span>
+			  		<p style="position: relative;margin-top: 5px;border-bottom: thin dotted;">
+	                	<span>
+	                		<b>Phòng kỹ thuật: Mr. Thắng 0963 693 626</b>
+	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+	                			<img src="{base_url()}media/images/zalo.png" />
+	                		</a>
+	                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+	                			<img src="{base_url()}media/images/skype.png" />
+	                		</a>
+	                	</span>
+	                </p>
+			  		<p style="position: relative; margin-top: 5px;">
+	                	<span>
+	                		<b>hoặc liên hệ: Mr. Hùng &nbsp;&nbsp;&nbsp; 0982 791 7176</b>
+	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+	                			<img src="{base_url()}media/images/zalo.png" />
+	                		</a>
+	                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+	                			<img src="{base_url()}media/images/skype.png" />
+	                		</a>
+	                	</span>
+	                </p>
+	                <span style="color: #272d33; display: block; margin-top: 3px;">Thông tin liên hệ:</span>
+			  		<p style="position: relative;">
+	                	<span>
+	                		<b>Email: </b>info@toanthangprecision.com
+	                	</span>
+	                </p>
+				  </div>
 				</div>
-          </div>
-          -->
-          <div class="col-lg-5 col-xs-5">
-            <div class="product pr-img-01 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
-              <div href="#" class="product_cont product_cont_custom">
-                <h3 class="wave_me" style="color: #f96332;">Hỗ trợ trực tuyến</h3>
-                <h4 class="blink_me">
-                	<img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png" style="height: 30px; padding-right: 10px;">
-                	Hotline: 098 44 99 008
-                </h4>
-                <p>
-                	<span>
-                		Phòng kỹ thuật: <b>Mr. Thắng 0963 693 626</b>
-                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
-                			<img src="{base_url()}media/images/zalo.png" />
-                		</a>
-                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
-                			<img src="{base_url()}media/images/skype.png" />
-                		</a>
-                	</span>
-                	<span>
-                		hoặc liên hệ <b>Mr. Hùng 0982 791 717</b>
-                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
-                			<img src="{base_url()}media/images/zalo.png" />
-                		</a>
-                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
-                			<img src="{base_url()}media/images/skype.png" />
-                		</a>
-                	</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-7 col-xs-7 offset-6">
-            <div class="product pr-img-02 wowfadeIn" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
-              <a href="#" class="product_cont">
-                <h3>Stacks</h3>
-                <p>Each stack is essential in maintaining air quality emissions regulatory 
-                compliance for your facility.</p>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+	      	</div>
+	      	<div class="col-lg-9 col-xs-9 offset-6">
+		        <div class="row offset">
+		          <div class="col-lg-6 col-xs-6">
+		            <div class="product pr-img-01 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
+		              <a href="#" class="product_cont">
+		                <h3>Ducting</h3>
+		                <p>This custom fabricated stainless steel ducting was designed for use in the semiconductor industry.</p>
+		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+		              </a>
+		            </div>
+		          </div>
+		          <div class="col-lg-6 col-xs-6 offset-6">
+		            <div class="product pr-img-02 wowfadeIn" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
+		              <a href="#" class="product_cont">
+		                <h3>Stacks</h3>
+		                <p>Each stack is essential in maintaining air quality emissions regulatory 
+		                compliance for your facility.</p>
+		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+		              </a>
+		            </div>
+		          </div>
+		        </div>
+	      	</div>
+	      </div>
         <div class="row offset"> 
           <div class="col-lg-6 col-xs-6">
             <div class="product pr-img-03 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/AluminiumMilling.jpg);">
@@ -84,7 +87,7 @@
               </a>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
     </section>
 <!--======================End well=========================-->

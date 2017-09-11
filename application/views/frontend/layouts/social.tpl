@@ -20,22 +20,22 @@ function mailShare()
 <ul>
 	<li>
 		<a target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffanuc-europe" onclick="eventTrackingSocialMenu('Share', 'LinkedIn');">
-			<img height="48" alt="LinkedIn" width="48" src="http://www.fanuc.eu/~/media/social-icons/ico_in.png?la=en">
+			<img height="48" alt="LinkedIn" width="48" src="{base_url()}media/uploads/images/ico_in.png">
 		</a>
 	</li>
 	<li>
 		<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/pages/FANUC-Europe/844403015605689" onclick="eventTrackingSocialMenu('Share', 'Facebook');">
-			<img alt="Facebook Share" src="http://www.fanuc.eu/~/media/social-icons/ico_fb_share.png?h=48&amp;w=48&amp;la=en" style="height: 48px; width: 48px;">
+			<img width="48" height="48" alt="Facebook Share" src="{base_url()}media/uploads/images/ico_FB_share.png">
 		</a>
 	</li>
 	<li>
 		<a target="_blank" href="https://www.youtube.com/user/FANUCEurope" onclick="eventTrackingSocialMenu('Follow', 'YouTube');">
-			<img width="48" height="48" alt="YouTube" src="http://www.fanuc.eu/~/media/social-icons/ico_yt_share.png?la=en">
+			<img width="48" height="48" alt="YouTube" src="{base_url()}media/uploads/images/ico_yt_share.png">
 		</a>
 	</li>
 	<li>
 		<a target="_self" href="#" onclick="mailShare();">
-			<img height="48" alt="Mail" width="48" src="http://www.fanuc.eu/~/media/social-icons/ico_mail_share.png?la=en">
+			<img height="48" alt="Mail" width="48" src="{base_url()}media/uploads/images/ico_mail_share.png">
 		</a>
 	</li>
 </ul>

@@ -74,7 +74,7 @@
 {if $uuid eq 'home'}
       <div class="camera_container">
         <div id="camera" class="camera_wrap">
-          <div data-src="{base_url()}media/uploads/images/Lapping.JPG">
+          <div data-src="{base_url()}media/uploads/images/CNC.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
@@ -86,7 +86,7 @@
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}media/uploads/images/SandpaperMachine.JPG">
+          <div data-src="{base_url()}media/uploads/images/maxresdefault.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_3">
@@ -98,7 +98,7 @@
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}media/uploads/images/HightSpeedCNC.jpg">
+          <div data-src="{base_url()}media/uploads/images/154479068494.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_1">
