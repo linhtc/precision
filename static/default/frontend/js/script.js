@@ -53,7 +53,7 @@ include('static/default/frontend/js/jquery.easing.1.3.js');;
 (function($) {
     var o = document.getElementById("google-map");
     if (o) {
-        include('//maps.google.com/maps/api/js?sensor=false');
+        include('//maps.google.com/maps/api/js?key=AIzaSyB5z32jqH-C7gxnIwak042HEObgIUAU04E');
         include('static/default/frontend/js/jquery.rd-google-map.js');
         $(document).ready(function() {
             var o = $('#google-map');
