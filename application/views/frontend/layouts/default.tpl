@@ -23,6 +23,7 @@
 </head>
 <body>
 <div class="page">
+  {include file='frontend/layouts/social.tpl'}
   {include file='frontend/layouts/header.tpl'}
   <main>
 	{$content}

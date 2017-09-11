@@ -65,6 +65,10 @@
 	display: block;
 }
 
+.product_cont_custom p span b{
+	color: rgb(255, 255, 102);
+}
+
 .product_cont_custom .anchor-contact {
     position: absolute;
     right: 10px;
@@ -77,6 +81,11 @@
 
 .product_cont_custom .anchor-contact img{
 	height: 22px;
+}
+
+
+.product_cont_custom .anchor-contact:hover {
+    transform: rotate(-360deg);
 }
 
 .product {
@@ -104,8 +113,80 @@
    color: #f96332;
 }
 
-@keyframes blinker {  
-  25% { opacity: .75; }
-  75% { opacity: .25; }
+.wave_me {
+  animation: animated_div 1s linear infinite;
 }
+
+@keyframes blinker {  
+  25% { opacity: .75; color: rgb(255, 255, 102); }
+  75% { opacity: .95; color: rgb(255, 255, 102); }
+}
+
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(10deg);}
+/* 50% {transform: rotate(0deg);left:500px;}
+55% {transform: rotate(0deg);left:500px;} */
+70% {transform: rotate(-5deg);}
+/* 100% {transform: rotate(-360deg);left:0px;} */
+}
+
+@-webkit-keyframes animated_div
+{
+0% {-webkit-transform: rotate(0deg);left:0px;}
+25% {-webkit-transform: rotate(20deg);left:0px;}
+50% {-webkit-transform: rotate(0deg);left:500px;}
+55% {-webkit-transform: rotate(0deg);left:500px;}
+70% {-webkit-transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {-webkit-transform: rotate(-360deg);left:0px;}
+}
+
+@-moz-keyframes animated_div
+{
+0%  {-moz-transform: rotate(0deg);left:0px;}
+25% {-moz-transform: rotate(20deg);left:0px;}
+50%  {-moz-transform: rotate(0deg);left:500px;}
+55%  {-moz-transform: rotate(0deg);left:500px;}
+70%  {-moz-transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {-moz-transform: rotate(-360deg);left:0px;}
+}
+
+@-o-keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50%  {transform: rotate(0deg);left:500px;}
+55%  {transform: rotate(0deg);left:500px;}
+70%  {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+.socialBtns {
+    position: fixed;
+    z-index: 11;
+    margin-top: 145px;
+}
+
+.socialBtns ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.socialBtns ul li {
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    width: 48px;
+}
+
+.socialBtns ul li a {
+    display: block;
+    line-height: normal;
+    height: 48px;
+    width: 48px;
+    margin: 0;
+}
+
 

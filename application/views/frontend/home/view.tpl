@@ -26,11 +26,14 @@
           <div class="col-lg-5 col-xs-5">
             <div class="product pr-img-01 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
               <div href="#" class="product_cont product_cont_custom">
-                <h3>Hỗ trợ trực tuyến</h3>
-                <h4 class="blink_me">Hotline: 0984499008</h4>
+                <h3 class="wave_me" style="color: #f96332;">Hỗ trợ trực tuyến</h3>
+                <h4 class="blink_me">
+                	<img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png" style="height: 30px; padding-right: 10px;">
+                	Hotline: 098 44 99 008
+                </h4>
                 <p>
                 	<span>
-                		Phòng kinh doanh (Mr. Thắng) 0984499008
+                		Phòng kỹ thuật: <b>Mr. Thắng 0963 693 626</b>
                 		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
                 			<img src="{base_url()}media/images/zalo.png" />
                 		</a>
@@ -39,16 +42,7 @@
                 		</a>
                 	</span>
                 	<span>
-                		Phòng kỹ thuật (Mr. Thắng) 0984499008
-                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
-                			<img src="{base_url()}media/images/zalo.png" />
-                		</a>
-                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
-                			<img src="{base_url()}media/images/skype.png" />
-                		</a>
-                	</span>
-                	<span>
-                		Phòng mua hàng (Mr. Thắng) 0984499008
+                		hoặc liên hệ <b>Mr. Hùng 0982 791 717</b>
                 		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
                 			<img src="{base_url()}media/images/zalo.png" />
                 		</a>

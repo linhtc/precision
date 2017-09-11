@@ -361,15 +361,15 @@
     bottom: 30px;
 }
 .cam_ins_1 {
-    background: rgba(249, 99, 50, 0.9);
+    background: rgba(249, 99, 50, 0.8);
 }
 .cam_ins_2 {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.8);
     color: #646ba2;
 }
 .cam_ins_2 p {
     color: #272d33;
 }
 .cam_ins_3 {
-    background: rgba(39, 45, 51, 0.9);
+    background: rgba(39, 45, 51, 0.8);
 }
