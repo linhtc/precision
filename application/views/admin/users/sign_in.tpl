@@ -1,7 +1,7 @@
 <body class="login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="{full_url()}"><b>Gia sư</b> Sáng tạo Việt</a>
+            <a href="{full_url()}"><b>CNC</b> Precision</a>
             {$listCss}
         </div>
         <div class="login-box-body">
@@ -48,7 +48,7 @@
             </form>
 
             <div class='lockscreen-footer text-center'>
-                Power by <b><a href="http://giasusangtaoviet.edu.vn" class='text-black' target="_blank">Sáng tạo Việt</a></b>
+                Power by <b><a href="{base_url()}" class='text-black' target="_blank">CNC</a></b>
             </div>
         </div>
     </div>

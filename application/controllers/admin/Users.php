@@ -63,7 +63,9 @@ class Users extends MY_Controller {
         $this->form_validation->set_rules('password', 'Password', 'required');
 
         if ($this->form_validation->run() == TRUE) {
-
+			
+        	redirect(base_url());
+        	
             /*if( $_POST['recaptcha_challenge_field']){
                 $resp = recaptcha_check_answer(SECRET_KEY,
                                             $_SERVER['REMOTE_ADDR'],

@@ -27,7 +27,7 @@
             <div class="product pr-img-01 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
               <div href="#" class="product_cont product_cont_custom">
                 <h3>Hỗ trợ trực tuyến</h3>
-                <h4>Hotline: 0984499008</h4>
+                <h4 class="blink_me">Hotline: 0984499008</h4>
                 <p>
                 	<span>
                 		Phòng kinh doanh (Mr. Thắng) 0984499008

@@ -99,3 +99,13 @@
     z-index: 1;
 }
 
+.blink_me {
+  animation: blinker 1s linear infinite;
+   color: #f96332;
+}
+
+@keyframes blinker {  
+  25% { opacity: .75; }
+  75% { opacity: .25; }
+}
+
