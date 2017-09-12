@@ -2,7 +2,7 @@
                             HEADER
   =========================================================-->
   <header>
-    <div id="stuck_container" class="stuck_container">
+    <div id="stuck_container" class="stuck_container stuck_container_custom">
       <div class="container">
         <div class="row"> 
           <div class="col-lg-3 col-sm-3 no-padding">

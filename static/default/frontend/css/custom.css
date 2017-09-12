@@ -221,9 +221,21 @@
     background-position: 0px 7px;
 }
 
-.statistic-request span{
+.statistic-request span {
 	display: block;
 	padding: 9px 32px;
+}
+
+.stuck_container_custom {
+	background-color: #004b80;
+}
+
+.stuck_container_custom h1, .stuck_container_custom h5, .stuck_container_custom li a {
+	color: white;
+}
+
+.stuck_container_custom li.active a {
+    color: #c1bfbf;
 }
 
 

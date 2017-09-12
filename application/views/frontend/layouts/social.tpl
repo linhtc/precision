@@ -23,8 +23,13 @@ function mailShare()
 			<img height="48" alt="LinkedIn" width="48" src="{base_url()}media/uploads/images/ico_in.png">
 		</a>
 	</li>
+	<!--<li>
+		<a target="_blank" href="https://www.facebook.com/toanthangprecision/" onclick="eventTrackingSocialMenu('Share', 'Facebook');">
+			<img width="48" height="48" alt="Facebook Share" src="{base_url()}media/uploads/images/ico_FB_share.png">
+		</a>
+	</li>-->
 	<li>
-		<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/pages/FANUC-Europe/844403015605689" onclick="eventTrackingSocialMenu('Share', 'Facebook');">
+		<a target="_blank" href="https://www.facebook.com/toanthangprecision/">
 			<img width="48" height="48" alt="Facebook Share" src="{base_url()}media/uploads/images/ico_FB_share.png">
 		</a>
 	</li>
