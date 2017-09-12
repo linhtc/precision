@@ -12,7 +12,7 @@
 		                	<span>Hotline: <br />098 44 99 008</span>
 		                </h4>
 			  		</div>
-					<span style="color: #272d33; display: block; margin-top: 3px;">Nhân viên tư vấn:</span>
+					<span style="color: #272d33; display: block; margin-top: 3px;">Tư vấn:</span>
 			  		<p style="position: relative;margin-top: 5px;border-bottom: thin dotted;">
 	                	<span>
 	                		<b>Phòng kỹ thuật: Mr. Thắng 0963 693 626</b>
