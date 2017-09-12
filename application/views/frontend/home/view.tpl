@@ -91,7 +91,7 @@
 	      	<div class="col-lg-9 col-xs-9 offset-6">
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
+		            <div class="product pr-img-01 wow fadeInUp" style="/* visibility: visible; animation-name: fadeIn; */ background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Ducting</h3>
 		                <p>This custom fabricated stainless steel ducting was designed for use in the semiconductor industry.</p>
