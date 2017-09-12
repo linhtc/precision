@@ -7,7 +7,7 @@
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Hỗ trợ trực tuyến</div>
 				  <div class="panel-body">
-			  		<div class="online-support" style="background-image:url(http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png);">
+			  		<div class="online-support" style="background-image:url({base_url()}media/uploads/images/phone.png);">
 				  		<h4 class="blink_me">
 		                	<span>Hotline: <br />098 44 99 008</span>
 		                </h4>
