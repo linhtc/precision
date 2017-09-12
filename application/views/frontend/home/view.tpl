@@ -4,7 +4,7 @@
       <div class="container">
 	      <div class="row offset">
 	      	<div class="col-lg-3 col-xs-3">
-	      		<div class="panel panel-default wow fadeInLeft">
+	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Hỗ trợ trực tuyến</div>
 				  <div class="panel-body">
 			  		<div class="online-support" style="background-image:url(http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png);">
@@ -43,7 +43,7 @@
 	                </p>
 				  </div>
 				</div>
-	      		<div class="panel panel-default wow fadeInRight">
+	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<iframe width="268" height="215"
@@ -51,7 +51,7 @@
 					</iframe>
 				  </div>
 				</div>
-	      		<div class="panel panel-default wow fadeInLeft">
+	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading" style="display:none;">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<div id="fb-root"></div>
@@ -70,7 +70,7 @@
   data-show-facepile="true"></div>
 				  </div>
 				</div>
-	      		<div class="panel panel-default wow fadeInRight">
+	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Thống kê</div>
 				  <div class="panel-body">
 			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/online.png);">
@@ -91,7 +91,7 @@
 	      	<div class="col-lg-9 col-xs-9 offset-6">
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
+		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Ducting</h3>
 		                <p>This custom fabricated stainless steel ducting was designed for use in the semiconductor industry.</p>
@@ -100,7 +100,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-02 wowfadeIn" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
+		            <div class="product pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Stacks</h3>
 		                <p>Each stack is essential in maintaining air quality emissions regulatory 
@@ -112,7 +112,7 @@
 		        </div>
 		        <div class="row offset"> 
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-03 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/AluminiumMilling.jpg);">
+		            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/AluminiumMilling.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Tanks</h3>
 		                <p>We specialize in the fabrication of custom industrial tanks of all kinds, including stainless steel tanks.</p>
@@ -121,7 +121,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-04 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/SUS304Milling.png);">
+		            <div class="product pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/SUS304Milling.png);">
 		              <a href="#" class="product_cont">
 		                <h3>Structural</h3>
 		                <p>Our primary business is providing design, fabrication, and erection of structural steel for commercial needs...</p>
@@ -132,7 +132,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
+		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Ducting</h3>
 		                <p>This custom fabricated stainless steel ducting was designed for use in the semiconductor industry.</p>
@@ -141,7 +141,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-02 wowfadeIn" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
+		            <div class="product pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Stacks</h3>
 		                <p>Each stack is essential in maintaining air quality emissions regulatory 
