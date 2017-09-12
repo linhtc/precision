@@ -259,7 +259,7 @@
     </section>
 <!--======================End well=========================-->
 <!--======================parallax=========================-->
-    <section class="parallax well-5 offset-10 inset-1" data-url="{base_url()}static/default/frontend/images/page-01_bg-01.jpg" data-mobile="true" data-speed="0.6">
+    <section style="display:none;" class="parallax well-5 offset-10 inset-1" data-url="{base_url()}static/default/frontend/images/page-01_bg-01.jpg" data-mobile="true" data-speed="0.6">
       <div class="container">
       <h2 class="center_text">Testimonials</h2>
         <div class="row flow-offset-1">
