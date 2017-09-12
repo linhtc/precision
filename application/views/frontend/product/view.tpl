@@ -1,3 +1,97 @@
+<!--======================well-1=========================-->
+    <section class="well-2 bg-primary border">
+      <div class="container">
+        <h2 class="secondary_color center_text">Sản phẩm & Dịch vụ</h2>
+        <div class="row primary_color flow-offset-1 text-center">
+          <div class="col-sm-6 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PART3.jpg" alt="">
+              <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
+              buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PART1.jpg" alt="">
+              <p>Our adaptability, skill, and experience are
+              proven by our past results. We are ideally suited to handle any project, worldwide. 
+              Utilizing the latest in cutting edge new 
+              millenium technology, we blend Old World experience with the newest in fabrication equipment and techniques.</p>
+            </div>
+          </div>
+          <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PSKD11.jpg" alt="">
+              <p>Our completed projects stand as proof of 
+              the quality of our work; the fact that 
+              most of our clients retain enduring 
+              relationships with us is further proof that 
+              not only our work is excellent, but also that our concern for our clients is of paramount 
+              importance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row primary_color flow-offset-1 text-center">
+          <div class="col-sm-6 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PART4.jpg" alt="">
+              <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
+              buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PART5.jpg" alt="">
+              <p>Our adaptability, skill, and experience are
+              proven by our past results. We are ideally suited to handle any project, worldwide. 
+              Utilizing the latest in cutting edge new 
+              millenium technology, we blend Old World experience with the newest in fabrication equipment and techniques.</p>
+            </div>
+          </div>
+          <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PART6.jpg" alt="">
+              <p>Our completed projects stand as proof of 
+              the quality of our work; the fact that 
+              most of our clients retain enduring 
+              relationships with us is further proof that 
+              not only our work is excellent, but also that our concern for our clients is of paramount 
+              importance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row primary_color flow-offset-1 text-center">
+          <div class="col-sm-6 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PALUMINIUM6061ANODIZE.jpg" alt="">
+              <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
+              buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PAluminumarm.jpg" alt="">
+              <p>Our adaptability, skill, and experience are
+              proven by our past results. We are ideally suited to handle any project, worldwide. 
+              Utilizing the latest in cutting edge new 
+              millenium technology, we blend Old World experience with the newest in fabrication equipment and techniques.</p>
+            </div>
+          </div>
+          <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
+            <div class="box">
+              <img src="{base_url()}media/uploads/products/PSUS304.jpg" alt="">
+              <p>Our completed projects stand as proof of 
+              the quality of our work; the fact that 
+              most of our clients retain enduring 
+              relationships with us is further proof that 
+              not only our work is excellent, but also that our concern for our clients is of paramount 
+              importance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section> 
+<!--======================End well-1=========================-->
 <!--======================well-3=========================-->
   <section class="well-6 bg-primary border">
     <div class="container">

@@ -8,9 +8,9 @@
           <div class="col-lg-3 col-sm-3 no-padding">
             <div class="brand">
               <h1 class="brand_name">
-                <a href="./">CNC</a>
+                <a href="./">TTP</a>
               </h1>
-              <h5>technology for life</h5>
+              <h5>ĐỈNH CAO CÔNG NGHỆ</h5>
             </div>
           </div>
           <div class="col-lg-9 col-sm-9 no-padding">
