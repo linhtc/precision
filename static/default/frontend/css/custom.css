@@ -203,5 +203,27 @@
 	padding-left: 62px;
 }
 
+.ul-social li a:hover {
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.statistic-request {
+    background-image: url(http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png);
+    background-size: 23px 25px;
+    background-repeat: no-repeat;
+    background-position: 0px 7px;
+}
+
+.statistic-request span{
+	display: block;
+	padding: 9px 32px;
+}
 
 

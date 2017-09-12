@@ -43,6 +43,50 @@
 	                </p>
 				  </div>
 				</div>
+	      		<div class="panel panel-default">
+				  <div class="panel-heading">Video Clip</div>
+				  <div class="panel-body" style="padding: 0px;">
+				  	<iframe width="268" height="215"
+						src="https://www.youtube.com/embed/NwOtZnjqKGA?autoplay=1">
+					</iframe>
+				  </div>
+				</div>
+	      		<div class="panel panel-default">
+				  <div class="panel-heading" style="display:none;">Video Clip</div>
+				  <div class="panel-body" style="padding: 0px;">
+				  	<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1701436310107866";
+						  fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+						
+						<div class="fb-page"
+  data-href="https://www.facebook.com/imdb" 
+  data-width="340"
+  data-hide-cover="false"
+  data-show-facepile="true"></div>
+				  </div>
+				</div>
+	      		<div class="panel panel-default">
+				  <div class="panel-heading">Thống kê</div>
+				  <div class="panel-body">
+			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/online.png);">
+				  		<span>Đang online: 9</span>
+			  		</div>
+			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/homqua.png);">
+				  		<span>Hôm qua: 99</span>
+			  		</div>
+			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/tuan.png);">
+				  		<span>Tuần này: 999</span>
+			  		</div>
+			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/tong.png);">
+				  		<span>Tổng truy cập: 9.999</span>
+			  		</div>
+				  </div>
+				</div>
 	      	</div>
 	      	<div class="col-lg-9 col-xs-9 offset-6">
 		        <div class="row offset">
@@ -66,28 +110,49 @@
 		            </div>
 		          </div>
 		        </div>
+		        <div class="row offset"> 
+		          <div class="col-lg-6 col-xs-6">
+		            <div class="product pr-img-03 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/AluminiumMilling.jpg);">
+		              <a href="#" class="product_cont">
+		                <h3>Tanks</h3>
+		                <p>We specialize in the fabrication of custom industrial tanks of all kinds, including stainless steel tanks.</p>
+		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+		              </a>
+		            </div>
+		          </div>
+		          <div class="col-lg-6 col-xs-6 offset-6">
+		            <div class="product pr-img-04 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/SUS304Milling.png);">
+		              <a href="#" class="product_cont">
+		                <h3>Structural</h3>
+		                <p>Our primary business is providing design, fabrication, and erection of structural steel for commercial needs...</p>
+		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+		              </a>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="row offset">
+		          <div class="col-lg-6 col-xs-6">
+		            <div class="product pr-img-01 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
+		              <a href="#" class="product_cont">
+		                <h3>Ducting</h3>
+		                <p>This custom fabricated stainless steel ducting was designed for use in the semiconductor industry.</p>
+		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+		              </a>
+		            </div>
+		          </div>
+		          <div class="col-lg-6 col-xs-6 offset-6">
+		            <div class="product pr-img-02 wowfadeIn" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
+		              <a href="#" class="product_cont">
+		                <h3>Stacks</h3>
+		                <p>Each stack is essential in maintaining air quality emissions regulatory 
+		                compliance for your facility.</p>
+		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+		              </a>
+		            </div>
+		          </div>
+		        </div>
 	      	</div>
 	      </div>
-        <div class="row offset"> 
-          <div class="col-lg-6 col-xs-6">
-            <div class="product pr-img-03 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/AluminiumMilling.jpg);">
-              <a href="#" class="product_cont">
-                <h3>Tanks</h3>
-                <p>We specialize in the fabrication of custom industrial tanks of all kinds, including stainless steel tanks.</p>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xs-6 offset-6">
-            <div class="product pr-img-04 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/SUS304Milling.png);">
-              <a href="#" class="product_cont">
-                <h3>Structural</h3>
-                <p>Our primary business is providing design, fabrication, and erection of structural steel for commercial needs...</p>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 <!--======================End well=========================-->

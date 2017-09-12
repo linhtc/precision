@@ -74,7 +74,7 @@
 {if $uuid eq 'home'}
       <div class="camera_container">
         <div id="camera" class="camera_wrap">
-          <div data-src="{base_url()}media/uploads/images/CNC.jpg">
+          <div data-src="{base_url()}media/uploads/images/1.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
@@ -86,7 +86,7 @@
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}media/uploads/images/maxresdefault.jpg">
+          <div data-src="{base_url()}media/uploads/images/2.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_3">
@@ -98,7 +98,7 @@
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}media/uploads/images/154479068494.jpg">
+          <div data-src="{base_url()}media/uploads/images/3.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_1">
@@ -106,6 +106,30 @@
                   <h3>of high quality structural steel projects</h3>
                   <p>Welcome to the number 1 company in the industry! Looking for some helpful advice? Go no further; you've come to the right place. </p>
                   <a href="#" class="btn btn-primary btn-sm">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-src="{base_url()}media/uploads/images/4.jpg">
+            <div class="camera_caption fadeIn">
+              <div class="container">
+                <div class="camera_cont cam_ins_2">
+                  <h2>Providing premium</h2>
+                  <h3>products of exceptional value</h3>
+                  <p>We are committed to the highest quality, reliability, responsibility, continuous improvement.</p>
+                  <a href="#" class="btn btn-default btn-sm">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-src="{base_url()}media/uploads/images/5.jpg">
+            <div class="camera_caption fadeIn">
+              <div class="container">
+                <div class="camera_cont cam_ins_3">
+                  <h2>Offering the best level of</h2>
+                  <h3>excellence in steel fabrication</h3>
+                  <p>Our company can boast the reputation of the trusted partner known worldwide.</p>
+                  <a href="#" class="btn btn-default btn-sm">read more</a>
                 </div>
               </div>
             </div>

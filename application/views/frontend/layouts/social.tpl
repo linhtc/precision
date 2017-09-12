@@ -17,7 +17,7 @@ function mailShare()
     document.location.href = "mailto:?subject=Fanuc.EU&body="  + document.location;
 }
 </script>
-<ul>
+<ul class="ul-social">
 	<li>
 		<a target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffanuc-europe" onclick="eventTrackingSocialMenu('Share', 'LinkedIn');">
 			<img height="48" alt="LinkedIn" width="48" src="{base_url()}media/uploads/images/ico_in.png">
