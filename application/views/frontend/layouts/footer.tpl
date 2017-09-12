@@ -12,7 +12,7 @@
           <i class="icon secondary-icon icon-xs material-icons-phone"></i>
           <h3>Điện thoại:</h3>
           <p><a href="callto:#">0963 693 626</a><br>
-          <a href="callto:#">0982 791 7176</a></p>
+          <a href="callto:#">0982 791 717</a></p>
         </div>
         <div class="col-lg-4 col-xs-12 icon-hover offset-6">
           <i class="icon secondary-icon icon-xs material-icons-schedule"></i>
