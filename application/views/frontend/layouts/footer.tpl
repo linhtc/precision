@@ -2,24 +2,23 @@
     {if $uuid eq 'home' or $uuid eq 'contact'}
     <div class="container">
       <div class="row inset-2 flow-offset-1">
-        <div class="col-lg-4 col-xs-12 icon-hover">
+        <div class="col-lg-4 col-xs-12 icon-hover" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-location_on"></i>
-          <h3>Address:</h3>
-          <p><a href="#">4578 Marmora Road,
-          Glasgow D04 89GR</a>
+          <h3>Địa chỉ:</h3>
+          <p><a href="#">68 Nguyễn Thị Minh Khai, Khu Phố Tân Long, Tân Đông Hiệp, Dĩ An, BD</a>
           </p>
         </div>
-        <div class="col-lg-4 col-xs-12 icon-hover offset-6">
+        <div class="col-lg-4 col-xs-12 icon-hover offset-6" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-phone"></i>
-          <h3>Phones:</h3>
-          <p><a href="callto:#">800-2345-6789;</a><br>
-          <a href="callto:#">800-2345-6790</a></p>
+          <h3>Điện thoại:</h3>
+          <p><a href="callto:#">0963 693 626</a><br>
+          <a href="callto:#">0982 791 7176</a></p>
         </div>
         <div class="col-lg-4 col-xs-12 icon-hover offset-6">
           <i class="icon secondary-icon icon-xs material-icons-schedule"></i>
-          <h3>Hours:</h3>
-          <p>24/7 from<br>
-          8:00 am  to  7:00 pm</p>
+          <h3>Mở cửa:</h3>
+          <p>24/7<br>
+          Tất cả các ngày trong tuần</p>
         </div>
       </div>
     </div>
