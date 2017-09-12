@@ -4,7 +4,7 @@
       <div class="container">
 	      <div class="row offset">
 	      	<div class="col-lg-3 col-xs-3">
-	      		<div class="panel panel-default">
+	      		<div class="panel panel-default wow fadeInLeft">
 				  <div class="panel-heading">Hỗ trợ trực tuyến</div>
 				  <div class="panel-body">
 			  		<div class="online-support" style="background-image:url(http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png);">
@@ -43,7 +43,7 @@
 	                </p>
 				  </div>
 				</div>
-	      		<div class="panel panel-default">
+	      		<div class="panel panel-default wow fadeInRight">
 				  <div class="panel-heading">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<iframe width="268" height="215"
@@ -51,7 +51,7 @@
 					</iframe>
 				  </div>
 				</div>
-	      		<div class="panel panel-default">
+	      		<div class="panel panel-default wow fadeInLeft">
 				  <div class="panel-heading" style="display:none;">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<div id="fb-root"></div>
@@ -70,7 +70,7 @@
   data-show-facepile="true"></div>
 				  </div>
 				</div>
-	      		<div class="panel panel-default">
+	      		<div class="panel panel-default wow fadeInRight">
 				  <div class="panel-heading">Thống kê</div>
 				  <div class="panel-body">
 			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/online.png);">
