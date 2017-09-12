@@ -33,7 +33,7 @@
         </div>
         <div class="row primary_color flow-offset-1 text-center">
           <div class="col-sm-6 col-md-4">
-            <div class="box">
+            <div class="box wow fadeInUp">
               <img src="{base_url()}media/uploads/products/PART4.jpg" alt="">
               <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
               buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
-            <div class="box">
+            <div class="box wow fadeInUp">
               <img src="{base_url()}media/uploads/products/PART6.jpg" alt="">
               <p>Our completed projects stand as proof of 
               the quality of our work; the fact that 
@@ -62,14 +62,14 @@
         </div>
         <div class="row primary_color flow-offset-1 text-center">
           <div class="col-sm-6 col-md-4">
-            <div class="box">
+            <div class="box wow fadeInUp">
               <img src="{base_url()}media/uploads/products/PALUMINIUM6061ANODIZE.jpg" alt="">
               <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
               buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
-            <div class="box">
+            <div class="box wow fadeInUp">
               <img src="{base_url()}media/uploads/products/PAluminumarm.jpg" alt="">
               <p>Our adaptability, skill, and experience are
               proven by our past results. We are ideally suited to handle any project, worldwide. 
@@ -78,7 +78,7 @@
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
-            <div class="box">
+            <div class="box wow fadeInUp">
               <img src="{base_url()}media/uploads/products/PSUS304.jpg" alt="">
               <p>Our completed projects stand as proof of 
               the quality of our work; the fact that 
