@@ -40,7 +40,7 @@
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
-            <div class="box">
+            <div class="box wow fadeInUp">
               <img src="{base_url()}media/uploads/products/PART5.jpg" alt="">
               <p>Our adaptability, skill, and experience are
               proven by our past results. We are ideally suited to handle any project, worldwide. 
