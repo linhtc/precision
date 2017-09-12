@@ -237,11 +237,11 @@
 
 .stuck_container_custom li a:hover {
     color: white;
-    font-weight: bolder;
 }
 
 .stuck_container_custom li.active a {
     color: #c1bfbf;
+    font-weight: 600;
 }
 
 

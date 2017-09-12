@@ -4,7 +4,7 @@
         <h2 class="center_text secondary_color">Projects gallery</h2>
         <div class="row offset-1 ">
           <div class="col-lg-5 col-xs-5">
-            <div class="product pr-img-05 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/PolishedGlassMachine2.jpg);">
+            <div class="product pr-img-05 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/PolishedGlassMachine2.jpg);">
               <a href="#" class="product_cont">
                 <h3>Dự án #1</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -12,7 +12,7 @@
             </div>
           </div>
           <div class="col-lg-7 col-xs-7 offset-7">
-            <div class="product pr-img-06 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/Lapping.JPG);">
+            <div class="product pr-img-06 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/Lapping.JPG);">
               <a href="#" class="product_cont">
                 <h3>Project #2</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -22,7 +22,7 @@
         </div>
         <div class="row offset"> 
           <div class="col-lg-6 col-xs-6">
-            <div class="product pr-img-07 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.JPG);">
+            <div class="product pr-img-07 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.JPG);">
               <a href="#" class="product_cont">
                 <h3>Project #3</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xs-6 offset-7">
-            <div class="product pr-img-08 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/Lapping.JPG);">
+            <div class="product pr-img-08 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/Lapping.JPG);">
               <a href="#" class="product_cont">
                 <h3>Project #4</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -40,7 +40,7 @@
         </div>
         <div class="row offset"> 
           <div class="col-lg-7 col-xs-7">
-            <div class="product pr-img-09 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.JPG);">
+            <div class="product pr-img-09 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.JPG);">
               <a href="#" class="product_cont">
                 <h3>Project #5</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div class="col-lg-5 col-xs-5 offset-7">
-            <div class="product pr-img-10 wow fadeIn" style="background-image: url({base_url()}media/uploads/images/WesserAngel.jpg);">
+            <div class="product pr-img-10 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/WesserAngel.jpg);">
               <a href="#" class="product_cont">
                 <h3>Project #6</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
