@@ -228,6 +228,7 @@
 
 .stuck_container_custom {
 	background-color: #004b80;
+	background-color: rgb(55, 96, 145);
 }
 
 .stuck_container_custom h1, .stuck_container_custom h5, .stuck_container_custom li a {
