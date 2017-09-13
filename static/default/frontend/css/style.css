@@ -876,7 +876,8 @@ br.br-lg {
     /* color: #646ba2; */
     color: white;
     font-weight: bold;
-    background: black;
+    background: #646ba2;
+    padding: 0 5px;
 }
 @media (max-width: 1199px) {
     .sf-menu li+li {
