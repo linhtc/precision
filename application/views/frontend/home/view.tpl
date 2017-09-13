@@ -12,10 +12,11 @@
 		                	<span>Hotline: <br />098 44 99 008</span>
 		                </h4>
 			  		</div>
-					<span style="color: #272d33; display: none; margin-top: 3px;">Tư vấn:</span>
+					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kỹ thuật:</span>
 			  		<p style="position: relative;margin-top: 5px;border-bottom: thin dotted;">
 	                	<span>
-	                		<b>Phòng kỹ thuật: Mr. Thắng 0963 693 626</b>
+	                		<b>Mr. Thắng: </b><br />
+	                		<b>0963 693 626</b>
 	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
@@ -26,7 +27,7 @@
 	                </p>
 			  		<p style="position: relative; margin-top: 5px;">
 	                	<span>
-	                		<b>Mr. Hùng</b><br />
+	                		<b>Mr. Hùng: </b><br />
 	                		<b>0982 791 717</b>
 	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
@@ -73,7 +74,7 @@
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Thống kê</div>
-				  <div class="panel-body" style="padding-bottom: 11px;">
+				  <div class="panel-body" style="padding-bottom: 8px;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
 				  		<span>Đang online: 9</span>
 			  		</div>
