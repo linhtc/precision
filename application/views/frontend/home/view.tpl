@@ -27,7 +27,7 @@
 			  		<p style="position: relative; margin-top: 5px;">
 	                	<span>
 	                		<b>Mr. Hùng</b><br />
-	                		<b>0982 791 7176</b>
+	                		<b>0982 791 717</b>
 	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
