@@ -74,7 +74,7 @@
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Thống kê</div>
-				  <div class="panel-body" style="padding-bottom: 8px;">
+				  <div class="panel-body" style="padding-bottom: 6px;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
 				  		<span>Đang online: 9</span>
 			  		</div>

@@ -64,7 +64,7 @@
       <div class="container">
         <div class="row flow-offset-1">
           <div class="col-lg-5">
-            <img src="https://livedemo00.template-help.com/wt_59561/images/page-04_img_07.jpg" alt="">
+            <img src="{base_url()}media/uploads/images/page-04_img_07.jpg" alt="">
           </div>
           <div class="col-lg-7 primary_color">
             <h2 class="secondary_color wow fadeInRight">Company team</h2>
@@ -77,7 +77,7 @@
     </section>
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-    <section class="parallax well-2" data-url="https://livedemo00.template-help.com/wt_59561/images/page-04_bg-01.jpg" data-mobile="true" data-speed="0.6">
+    <section class="parallax well-2" data-url="{base_url()}media/uploads/images/page-04_bg-01.jpg" data-mobile="true" data-speed="0.6">
       <div class="container">
         <h2 class="wow fadeInLeft">Our technology</h2>
         <h3 class="wow fadeInLeft">Unsurpassed quality</h3>

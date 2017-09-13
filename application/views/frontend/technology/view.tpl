@@ -88,7 +88,7 @@
      </section> 
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-  <section class="parallax well-6" data-url="https://livedemo00.template-help.com/wt_59561/images/page-02_bg-01.jpg" data-mobile="true" data-speed="0.6">
+  <section class="parallax well-6" data-url="{base_url()}media/uploads/images/page-02_bg-01.jpg" data-mobile="true" data-speed="0.6">
     <div class="container">
       <div class="row"> 
         <div class="col-lg-6">
@@ -120,28 +120,28 @@
       <div class="row offset-3 text-center text-lg-left flow-offset-1">
         <div class="col-lg-3 col-sm-6">
           <div class="blog-post wow fadeIn">
-            <img src="https://livedemo00.template-help.com/wt_59561/images/page-02_img-04.jpg" alt="">
+            <img src="{base_url()}media/uploads/images/page-02_img-04.jpg" alt="">
             <h4 class="secondary_color">Mark Johnson</h4>
             <p class="primary_color">Owner</p>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 offset-6">
           <div class="blog-post wow fadeIn">
-            <img src="https://livedemo00.template-help.com/wt_59561/images/page-02_img-05.jpg" alt="">
+            <img src="{base_url()}media/uploads/images/page-02_img-05.jpg" alt="">
             <h4 class="secondary_color">Patrick Pool</h4>
             <p class="primary_color">Head Engineer</p>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 offset-6">
           <div class="blog-post wow fadeIn">
-            <img src="https://livedemo00.template-help.com/wt_59561/images/page-02_img-06.jpg" alt="">
+            <img src="{base_url()}media/uploads/images/page-02_img-06.jpg" alt="">
             <h4 class="secondary_color">Sam Kromstain</h4>
             <p class="primary_color">Engineer</p>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 offset-6">
           <div class="blog-post">
-            <img src="https://livedemo00.template-help.com/wt_59561/images/page-02_img-07.jpg" alt="">
+            <img src="{base_url()}media/uploads/images/page-02_img-07.jpg" alt="">
             <h4 class="secondary_color">Alan Smith</h4>
             <p class="primary_color">Junior Engineer</p>
           </div>
@@ -151,7 +151,7 @@
   </section>
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-  <section class="parallax well-2" data-url="https://livedemo00.template-help.com/wt_59561/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6">
+  <section class="parallax well-2" data-url="{base_url()}media/uploads/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6">
     <div class="container">
       <h2>Our philosophy</h2>
       <h3>Our goal is your satisfaction and success</h3>

@@ -159,7 +159,7 @@
   </section>
   <!--======================End well-3=========================-->
   <!--======================parallax=========================-->
-  <section class="parallax well-6" data-url="https://livedemo00.template-help.com/wt_59561/images/page-03_bg_01.jpg" data-mobile="true" data-speed="0.6">
+  <section class="parallax well-6" data-url="{base_url()}media/uploads/images/page-03_bg_01.jpg" data-mobile="true" data-speed="0.6">
     <div class="container">
       <h2>Our full suite</h2>
       <h3>of services includes:</h3>
@@ -206,7 +206,7 @@
   </section>
   <!--======================End well-1=========================-->
   <!--======================parallax=========================-->
-  <section class="parallax well-2" data-url="https://livedemo00.template-help.com/wt_59561/images/page-03_bg_02.jpg" data-mobile="true" data-speed="0.6">
+  <section class="parallax well-2" data-url="{base_url()}media/uploads/images/page-03_bg_02.jpg" data-mobile="true" data-speed="0.6">
     <div class="container">
       <h2>Our facilities</h2>
       <h3>are ready to service our clients</h3>
