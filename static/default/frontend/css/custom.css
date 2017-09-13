@@ -254,6 +254,15 @@ footer .icon-xs {
     height: 365px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.box .img a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
 }
 
 

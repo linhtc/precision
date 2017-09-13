@@ -32,10 +32,10 @@ class Company extends MY_Controller {
         $this->layout->set_layout('default');
 
         $listCss = array(
-        		
+        		'static/default/template/lightbox/css/lightbox.css',
         );
         $listJs = array(
-        	
+        		'static/default/template/lightbox/js/lightbox.js',
         );
         
         $data = array(

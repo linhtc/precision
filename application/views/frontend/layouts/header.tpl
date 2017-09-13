@@ -78,9 +78,9 @@
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
-                  <h2>Providing premium</h2>
-                  <h3>products of exceptional value</h3>
-                  <p>We are committed to the highest quality, reliability, responsibility, continuous improvement.</p>
+                  <h2>Chất lượng sản phẩm</h2>
+                  <h3>Chúng tôi cam kết</h3>
+                  <p>tạo ra sản phẩm chất lượng cao, đáp ứng nhanh tiến độ và độ tin cậy cao.</p>
                   <a href="#" class="btn btn-default btn-sm">read more</a>
                 </div>
               </div>
@@ -90,9 +90,9 @@
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_3">
-                  <h2>Offering the best level of</h2>
-                  <h3>excellence in steel fabrication</h3>
-                  <p>Our company can boast the reputation of the trusted partner known worldwide.</p>
+                  <h2>Công nghệ hiện đại</h2>
+                  <h3>Trang bị máy móc, thiết bị</h3>
+                  <p>hiện đại, áp dụng công nghệ hiện đại vào sản xuất.</p>
                   <a href="#" class="btn btn-default btn-sm">read more</a>
                 </div>
               </div>
@@ -101,10 +101,10 @@
           <div data-src="{base_url()}media/uploads/images/3.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
-                <div class="camera_cont cam_ins_1">
-                  <h2>A wide range</h2>
-                  <h3>of high quality structural steel projects</h3>
-                  <p>Welcome to the number 1 company in the industry! Looking for some helpful advice? Go no further; you've come to the right place. </p>
+                <div class="camera_cont cam_ins_2">
+                  <h2>Máy phay</h2>
+                  <h3>tốc độ cao</h3>
+                  <p>Trang bị máy tốc độ cao, độ chính xác cao. </p>
                   <a href="#" class="btn btn-primary btn-sm">read more</a>
                 </div>
               </div>
@@ -113,10 +113,10 @@
           <div data-src="{base_url()}media/uploads/images/4.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
-                <div class="camera_cont cam_ins_2">
-                  <h2>Providing premium</h2>
-                  <h3>products of exceptional value</h3>
-                  <p>We are committed to the highest quality, reliability, responsibility, continuous improvement.</p>
+                <div class="camera_cont cam_ins_3">
+                  <h2>Liên tục cải tiến</h2>
+                  <h3>Không ngừng nâng cao</h3>
+                  <p>chất lượng sản phẩm nhằm tạo ra sản phẩm đáp ứng nhu cầu phát triển thị trường.</p>
                   <a href="#" class="btn btn-default btn-sm">read more</a>
                 </div>
               </div>
@@ -125,10 +125,10 @@
           <div data-src="{base_url()}media/uploads/images/5.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
-                <div class="camera_cont cam_ins_3">
-                  <h2>Offering the best level of</h2>
-                  <h3>excellence in steel fabrication</h3>
-                  <p>Our company can boast the reputation of the trusted partner known worldwide.</p>
+                <div class="camera_cont cam_ins_2">
+                  <h2>Quy trình chuẩn hóa</h2>
+                  <h3>Các sản phẩm được</h3>
+                  <p>kiểm soát chặt chẽ từ khâu chuẩn bị, gia công, đóng gói.</p>
                   <a href="#" class="btn btn-default btn-sm">read more</a>
                 </div>
               </div>

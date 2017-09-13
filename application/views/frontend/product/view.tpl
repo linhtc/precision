@@ -6,7 +6,9 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PART3.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART3.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART3.jpg);">
+              	<a href="{base_url()}media/uploads/products/PART3.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
               buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
             </div>
@@ -14,7 +16,9 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PART1.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART1.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART1.jpg);">
+              	<a href="{base_url()}media/uploads/products/PART1.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our adaptability, skill, and experience are
               proven by our past results. We are ideally suited to handle any project, worldwide. 
               Utilizing the latest in cutting edge new 
@@ -24,7 +28,9 @@
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PSKD11.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PSKD11.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PSKD11.jpg);">
+              	<a href="{base_url()}media/uploads/products/PSKD11.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our completed projects stand as proof of 
               the quality of our work; the fact that 
               most of our clients retain enduring 
@@ -38,7 +44,9 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PART4.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART4.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART4.jpg);">
+              	<a href="{base_url()}media/uploads/products/PART4.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
               buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
             </div>
@@ -46,7 +54,9 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PART5.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART5.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART5.jpg);">
+              	<a href="{base_url()}media/uploads/products/PART5.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our adaptability, skill, and experience are
               proven by our past results. We are ideally suited to handle any project, worldwide. 
               Utilizing the latest in cutting edge new 
@@ -56,7 +66,9 @@
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PART6.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART6.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PART6.jpg);">
+              	<a href="{base_url()}media/uploads/products/PART6.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our completed projects stand as proof of 
               the quality of our work; the fact that 
               most of our clients retain enduring 
@@ -70,7 +82,9 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PALUMINIUM6061ANODIZE.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PALUMINIUM6061ANODIZE.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PALUMINIUM6061ANODIZE.jpg);">
+              	<a href="{base_url()}media/uploads/products/PALUMINIUM6061ANODIZE.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
               buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
             </div>
@@ -78,7 +92,9 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PAluminumarm.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PAluminumarm.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PAluminumarm.jpg);">
+              	<a href="{base_url()}media/uploads/products/PAluminumarm.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our adaptability, skill, and experience are
               proven by our past results. We are ideally suited to handle any project, worldwide. 
               Utilizing the latest in cutting edge new 
@@ -88,7 +104,9 @@
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/products/PSUS304.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/products/PSUS304.jpg);"></div>
+              <div class="img" style="background-image: url({base_url()}media/uploads/products/PSUS304.jpg);">
+              	<a href="{base_url()}media/uploads/products/PSUS304.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our completed projects stand as proof of 
               the quality of our work; the fact that 
               most of our clients retain enduring 

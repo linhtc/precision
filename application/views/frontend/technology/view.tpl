@@ -1,12 +1,15 @@
 <!--======================well-1=========================-->
     <section class="well-2 bg-primary border">
       <div class="container">
-        <h2 class="secondary_color center_text">Design & Technology Transfer</h2>
+        <h2 class="secondary_color center_text">Thiết kế & chuyển giao Công nghệ</h2>
         <div class="row primary_color flow-offset-1 text-center">
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/BondingLCD.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/BondingLCD.jpg);"></div>
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/BondingLCD.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/BondingLCD.jpg);">
+              	<a href="{base_url()}media/uploads/images/BondingLCD.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
               buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
             </div>
@@ -14,7 +17,10 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/SandblastingMachine.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/SandblastingMachine.jpg);"></div>
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/SandblastingMachine.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/SandblastingMachine.jpg);">
+              	<a href="{base_url()}media/uploads/images/SandblastingMachine.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our adaptability, skill, and experience are
               proven by our past results. We are ideally suited to handle any project, worldwide. 
               Utilizing the latest in cutting edge new 
@@ -24,7 +30,10 @@
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/SandpaperMachine.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.jpg);"></div>
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.jpg);">
+              	<a href="{base_url()}media/uploads/images/SandpaperMachine.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our completed projects stand as proof of 
               the quality of our work; the fact that 
               most of our clients retain enduring 
@@ -38,7 +47,10 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/iValuate.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/iValuate.jpg);"></div>
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/iValuate.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/iValuate.jpg);">
+              	<a href="{base_url()}media/uploads/images/iValuate.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
               buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
             </div>
@@ -46,7 +58,10 @@
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/PolishedGlassMachine.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/PolishedGlassMachine.jpg);"></div>
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/PolishedGlassMachine.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/PolishedGlassMachine.jpg);">
+              	<a href="{base_url()}media/uploads/images/PolishedGlassMachine.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our adaptability, skill, and experience are
               proven by our past results. We are ideally suited to handle any project, worldwide. 
               Utilizing the latest in cutting edge new 
@@ -56,7 +71,10 @@
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/GamePlay.jpg" alt=""> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/GamePlay.jpg);"></div>
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/GamePlay.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/GamePlay.jpg);">
+              	<a href="{base_url()}media/uploads/images/GamePlay.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
               <p>Our completed projects stand as proof of 
               the quality of our work; the fact that 
               most of our clients retain enduring 

@@ -1,7 +1,7 @@
 <!--======================well-3=========================-->
     <section class="well-3 bg-primary border">
       <div class="container">
-        <h2 class="center_text secondary_color">Projects gallery</h2>
+        <h2 class="center_text secondary_color">Dự án đã thực hiện</h2>
         <div class="row offset-1 ">
           <div class="col-lg-5 col-xs-5">
             <div class="product pr-img-05 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/PolishedGlassMachine2.jpg);">
