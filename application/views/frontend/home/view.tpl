@@ -12,7 +12,7 @@
 		                	<span>Hotline: <br />098 44 99 008</span>
 		                </h4>
 			  		</div>
-					<span style="color: #272d33; display: block; margin-top: 3px;">Tư vấn:</span>
+					<span style="color: #272d33; display: none; margin-top: 3px;">Tư vấn:</span>
 			  		<p style="position: relative;margin-top: 5px;border-bottom: thin dotted;">
 	                	<span>
 	                		<b>Phòng kỹ thuật: Mr. Thắng 0963 693 626</b>
@@ -26,7 +26,8 @@
 	                </p>
 			  		<p style="position: relative; margin-top: 5px;">
 	                	<span>
-	                		<b>hoặc liên hệ: Mr. Hùng &nbsp;&nbsp;&nbsp; 0982 791 7176</b>
+	                		<b>Mr. Hùng</b><br />
+	                		<b>0982 791 7176</b>
 	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
@@ -72,17 +73,17 @@
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Thống kê</div>
-				  <div class="panel-body">
-			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/online.png);">
+				  <div class="panel-body" style="padding-bottom: 11px;">
+			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
 				  		<span>Đang online: 9</span>
 			  		</div>
-			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/homqua.png);">
+			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/homqua.png);">
 				  		<span>Hôm qua: 99</span>
 			  		</div>
-			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/tuan.png);">
+			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/tuan.png);">
 				  		<span>Tuần này: 999</span>
 			  		</div>
-			  		<div class="statistic-request" style="background-image:url(http://duyvietprecision.com/images/tong.png);">
+			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/tong.png);">
 				  		<span>Tổng truy cập: 9.999</span>
 			  		</div>
 				  </div>

@@ -32,4 +32,8 @@
 </div>
 <script src="{base_url()}static/default/frontend/js/script.js"></script>
 	{$listJs}
+	
+
+  {include file='frontend/layouts/contact.tpl'}
+
 </body>

@@ -1,5 +1,5 @@
 .panel {
-    margin-bottom: 20px;
+    margin-bottom: 31px;
     background-color: #fff;
     border: 1px solid #646ba2;
     border-radius: 4px;
@@ -265,4 +265,7 @@ footer .icon-xs {
     top: 0px;
 }
 
+#olark-wrapper .olark-launch-button {
+    background-color: #646ba2 !important;
+}
 
