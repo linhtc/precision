@@ -873,7 +873,10 @@ br.br-lg {
     color: #646ba2;
 }
 .sf-menu>li.active>a {
-    color: #646ba2;
+    /* color: #646ba2; */
+    color: white;
+    font-weight: bold;
+    background: black;
 }
 @media (max-width: 1199px) {
     .sf-menu li+li {

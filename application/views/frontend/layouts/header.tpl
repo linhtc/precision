@@ -10,7 +10,7 @@
               <h1 class="brand_name">
                 <a href="./">TTP</a>
               </h1>
-              <h5>Engineering Technology for life</h5>
+              <h5>Leading Quality</h5>
             </div>
           </div>
           <div class="col-lg-9 col-sm-9 no-padding">
@@ -22,14 +22,17 @@
                 <li class="{if $uuid eq 'company'}active{/if}">
                   <a href="{base_url()}company">{lang('company')}</a>
                 </li>
+                <li class="{if $uuid eq 'technology'}active{/if}">
+                  <a href="{base_url()}design-technology-transfer">{lang('r_and_d')}</a>
+                </li>
                 <li class="{if $uuid eq 'product'}active{/if}">
                   <a href="{base_url()}products-services">{lang('product_and_service')}</a>
                 </li>
-                <li class="{if $uuid eq 'technology'}active{/if}">
-                  <a href="{base_url()}design-technology-transfer">{lang('design_and_technology_transfer')}</a>
-                </li>
                 <li class="{if $uuid eq 'gallery'}active{/if}">
                   <a href="{base_url()}gallery">{lang('project')}</a>
+                </li>
+                <li class="{if $uuid eq 'career'}active{/if}">
+                  <a href="{base_url()}career">{lang('recruit')}</a>
                 </li>
                 <li class="{if $uuid eq 'contact'}active{/if}">
                   <a href="{base_url()}contacts">{lang('contact')}</a>

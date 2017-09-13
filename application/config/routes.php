@@ -61,6 +61,7 @@ $route['home'] = 'frontend/home/view';
 $route['company'] = 'frontend/Company/view';
 $route['products-services'] = 'frontend/ProductService/view';
 $route['design-technology-transfer'] = 'frontend/TechnologyTransfer/view';
+$route['career'] = 'frontend/Career/view';
 $route['gallery'] = 'frontend/Gallery/view';
 $route['contacts'] = 'frontend/Contact/view';
 

@@ -139,7 +139,3 @@
     </div>
   </section>
 <!--======================End parallax=========================-->
-
-<script>
-	console.log('lightbox-company');
-</script>

@@ -3,5 +3,7 @@ $lang['ms'] = 'MS';
 $lang['company'] = 'CÔNG TY';
 $lang['product_and_service'] = 'SẢN PHẨM & DỊCH VỤ';
 $lang['design_and_technology_transfer'] = 'THIẾT KẾ & CHUYỂN GIAO CN';
+$lang['r_and_d'] = 'R&D';
 $lang['project'] = 'DỰ ÁN';
+$lang['recruit'] = 'TUYỂN DỤNG';
 $lang['contact'] = 'LIÊN HỆ';
