@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{lang(home)}</title>
+  <title>Toàn Thắng Precision</title>
   <meta charset="utf-8"/>
   <meta name="format-detection" content="telephone=no"/>
   <link rel="icon" href="{base_url()}static/default/frontend/images/favicon.ico" type="image/x-icon"/>
