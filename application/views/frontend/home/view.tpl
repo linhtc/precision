@@ -46,9 +46,9 @@
 				  </div>
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
-				  <div class="panel-heading">Video Clip</div>
+				  <div class="panel-heading" style="border-bottom: 0px;">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
-				  	<iframe width="268" height="215"
+				  	<iframe style="width: 100%; height: 215px;"
 						src="https://www.youtube.com/embed/NwOtZnjqKGA?autoplay=1">
 					</iframe>
 				  </div>
@@ -74,7 +74,7 @@
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Thống kê</div>
-				  <div class="panel-body" style="padding-bottom: 6px;">
+				  <div class="panel-body" style="padding-bottom: 7px;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
 				  		<span>Đang online: 9</span>
 			  		</div>

@@ -120,8 +120,8 @@
 }
 
 @keyframes blinker {  
-  25% { opacity: .0; color: #646ba2; }
-  75% { opacity: .95; color: #646ba2; }
+  25% { opacity: .85; color: red; }
+  75% { opacity: .95; color: red; }
 }
 
 @keyframes animated_div
