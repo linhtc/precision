@@ -48,12 +48,22 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 20px 20px 20px 30px;
+    padding: 20px 20px 20px 20px;
     background: rgba(39, 45, 51, 0.7);
     -moz-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
+}
+
+.product_cont_mode p {
+	max-height: 52px;
+	overflow: hidden;
+}
+
+.product_cont:hover p {
+	max-height: 100%;
+	overflow: auto;
 }
 
 .product_cont_custom {
