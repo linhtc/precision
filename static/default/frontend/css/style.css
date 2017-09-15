@@ -1222,10 +1222,10 @@ br.br-lg {
     padding: 0;
 }
 #stuck_container.isStuck * nav {
-    padding: 27px 0px;
+    padding: 17px 0px;
 }
 #stuck_container.isStuck * nav a:before {
-    bottom: -30px;
+    bottom: -17px;
 }
 #stuck_container.isStuck * nav>ul>li>ul {
     margin-top: 31px;
