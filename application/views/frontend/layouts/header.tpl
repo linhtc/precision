@@ -87,7 +87,7 @@
                   <h2>Chất lượng sản phẩm</h2>
                   <h3 style="display:none;">Chúng tôi cam kết</h3>
                   <p>Chúng tôi cam kết tạo ra sản phẩm chất lượng cao, đáp ứng nhanh tiến độ và độ tin cậy cao.</p>
-                  <a href="#" class="btn btn-default btn-sm">read more</a>
+                  <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@
                   <h2>Công nghệ hiện đại</h2>
                   <h3 style="display:none;">Trang bị máy móc, thiết bị</h3>
                   <p>Trang bị máy móc, thiết bị hiện đại, áp dụng công nghệ hiện đại vào sản xuất.</p>
-                  <a href="#" class="btn btn-default btn-sm">read more</a>
+                  <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@
                   <h2>Máy phay tốc độ cao</h2>
                   <h3 style="display:none;">tốc độ cao</h3>
                   <p>Trang bị máy tốc độ cao, độ chính xác cao. <br /> <br /> &nbsp;</p>
-                  <a href="#" class="btn btn-primary btn-sm">read more</a>
+                  <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@
                   <h2>Liên tục cải tiến</h2>
                   <h3 style="display:none;">Không ngừng nâng cao</h3>
                   <p>Không ngừng nâng cao chất lượng sản phẩm nhằm tạo ra sản phẩm đáp ứng nhu cầu phát triển thị trường.</p>
-                  <a href="#" class="btn btn-default btn-sm">read more</a>
+                  <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@
                   <h2>Quy trình chuẩn hóa</h2>
                   <h3 style="display:none;">Các sản phẩm được</h3>
                   <p>Các sản phẩm được kiểm soát chặt chẽ từ khâu chuẩn bị, gia công, đóng gói.</p>
-                  <a href="#" class="btn btn-default btn-sm">read more</a>
+                  <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
