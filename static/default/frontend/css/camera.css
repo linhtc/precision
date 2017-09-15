@@ -312,7 +312,7 @@
     content: '\e315';
     font-size: 40px;
     font-weight: 700;
-    color: #646ba2;
+    color: rgb(31, 73, 125);
     top: 0;
     right: 3%;
     z-index: 10;
@@ -323,7 +323,7 @@
     content: '\e314';
     font-size: 40px;
     font-weight: 700;
-    color: #646ba2;
+    color: rgb(31, 73, 125);
     top: 0;
     left: 3%;
     z-index: 10;
@@ -365,7 +365,7 @@
 }
 .cam_ins_2 {
     background: rgba(255, 255, 255, 0.8);
-    color: #646ba2;
+    color: rgb(31, 73, 125);
 }
 .cam_ins_2 p {
     color: #272d33;

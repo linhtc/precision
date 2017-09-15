@@ -17,14 +17,14 @@
     var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
     b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
   loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
-/* custom configuration goes here (www.olark.com/documentation) */
 olark.identify('7830-582-10-3714');/*]]>*/</script>
 
 <script type="text/javascript">
+/* custom configuration goes here (www.olark.com/documentation) */
 /* setTimeout(function(){
 	$('.olark-launch-button').attr('style', function(i,s) { return s + 'background-color: #646ba2 !important;' });
 }, 5000); */
-olark.configure('system.hb_primary_color', '#646ba2');
+olark.configure('system.hb_primary_color', '#1F497D');
 </script>
 {/literal}
 <!-- end olark code -->

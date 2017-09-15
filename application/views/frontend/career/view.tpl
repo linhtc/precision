@@ -7,7 +7,7 @@
             <div class="box wow fadeInUp">
               <img src="{base_url()}media/images/recruitment.jpg" alt="" style="margin-bottom: 0px;">
             </div>         
-            <div class="benefit">
+            <div class="benefit wow fadeInUp">
 				<div class="item">
 					<p class="image">
 						<img src="{base_url()}media/images/recruitment4.png" alt="">
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 			</div>
-        	<table style="width:100%" class="listjob">
+        	<table style="width:100%" class="listjob wow fadeInUp">
 			  <tr>
 			    <th>Thông tin tuyển dụng</th>
 			    <th>Số lượng</th> 

@@ -1,23 +1,23 @@
 .panel {
     margin-bottom: 31px;
     background-color: #fff;
-    border: 1px solid #646ba2;
+    border: 1px solid rgb(31, 73, 125);
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
-        color: #646ba2;
+        color: rgb(31, 73, 125);
 }
 
 .panel-default>.panel-heading {
     color: #fff;
-    background-color: #646ba2;
+    background-color: rgb(31, 73, 125);
     border-color: #ddd;
     font: 400 28px/48px "Montserrat", sans-serif;
 }
 
 .panel-heading {
     padding: 0px 15px;
-    border-bottom: 1px solid #646ba2;
+    border-bottom: 1px solid rgb(31, 73, 125);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -27,7 +27,7 @@
 }
 
 .panel-body {
-    padding: 15px;
+	padding: 5px 15px;
 }
 
 .list-group {
@@ -223,14 +223,14 @@
 }
 
 .statistic-request {
-    background-size: 23px 25px;
+    background-size: 15px 16px;
     background-repeat: no-repeat;
-    background-position: 0px 7px;
+    background-position: 0px 4px;
 }
 
 .statistic-request span {
 	display: block;
-	padding: 6px 32px;
+    padding: 0px 32px;
 }
 
 .stuck_container_custom {
@@ -273,7 +273,7 @@ footer .icon-xs {
 }
 
 #olark-wrapper .olark-launch-button {
-    background-color: #646ba2 !important;
+    background-color: rgb(31, 73, 125) !important;
 }
 
 .benefit {

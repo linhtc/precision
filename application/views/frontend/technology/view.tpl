@@ -1,7 +1,8 @@
 <!--======================well-1=========================-->
     <section class="well-2 bg-primary border">
       <div class="container">
-        <h2 class="secondary_color center_text">Thiết kế & chuyển giao Công nghệ</h2>
+        <h2 class="secondary_color center_text">Nghiên cứu & Phát triển</h2>
+        <h2 class="secondary_color center_text">Chuyển giao Công nghệ</h2>
         <div class="row primary_color flow-offset-1 text-center">
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">

@@ -37,6 +37,19 @@
 	                		</a>
 	                	</span>
 	                </p>
+					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kinh doanh:</span>
+			  		<p style="position: relative;margin-top: 5px;border-bottom: thin dotted;">
+	                	<span>
+	                		<b>Mr. Thắng: </b><br />
+	                		<b>0963 693 626</b>
+	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+	                			<img src="{base_url()}media/images/zalo.png" />
+	                		</a>
+	                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+	                			<img src="{base_url()}media/images/skype.png" />
+	                		</a>
+	                	</span>
+	                </p>
 	                <span style="color: #272d33; display: block; margin-top: 3px;">Thông tin liên hệ:</span>
 			  		<p style="position: relative;">
 	                	<span>
@@ -74,7 +87,7 @@
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Thống kê</div>
-				  <div class="panel-body" style="padding-bottom: 7px;">
+				  <div class="panel-body" style="padding-bottom: 0px;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
 				  		<span>Đang online: 9</span>
 			  		</div>
@@ -93,40 +106,43 @@
 	      	<div class="col-lg-9 col-xs-9 offset-6">
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeInUp" style="/* visibility: visible; animation-name: fadeIn; */ background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
+		            <div class="product pr-img-01 wow fadeInUp" style="/* visibility: visible; animation-name: fadeIn; */ background-image: url({base_url()}media/uploads/images/home01.png);">
 		              <a href="#" class="product_cont">
-		                <h3>Ducting</h3>
-		                <p>This custom fabricated stainless steel ducting was designed for use in the semiconductor industry.</p>
+		                <h3>Trung tâm gia công</h3>
+		                <p>Sử dụng máy gia công tốc độ cao thương hiệu từ Nhật Bản, đem lại độ chính xác gia công.</p>
 		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 		              </a>
 		            </div>
 		          </div>
-		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
+		          <div class="col-lg-6 col-xs-6">
+		            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
 		              <a href="#" class="product_cont">
-		                <h3>Stacks</h3>
-		                <p>Each stack is essential in maintaining air quality emissions regulatory 
-		                compliance for your facility.</p>
+		                <h3>Gia công chi tiết</h3>
+		                <p>
+		                	Sản phẩm được gia công trên công nghệ hiện đại kết hợp công nghệ xử lý bề mặt tạo ra chất lượng sản phẩm có độ chính xác và độ thẩm mỹ cao.
+		                	<br />
+		                	Gia công trên mọi vật liệu như Nhôm, Đồng, Sắt, Nhựa, Kika, ...
+		                </p>
 		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 		              </a>
 		            </div>
 		          </div>
 		        </div>
-		        <div class="row offset"> 
-		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/AluminiumMilling.jpg);">
+		        <div class="row offset">
+		          <div class="col-lg-6 col-xs-6 offset-6">
+		            <div class="product pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home04.jpg);">
 		              <a href="#" class="product_cont">
-		                <h3>Tanks</h3>
-		                <p>We specialize in the fabrication of custom industrial tanks of all kinds, including stainless steel tanks.</p>
+		                <h3>Trang thiết bị</h3>
+		                <p>Sử dụng trang thiết bị hiện đại, có độ chính xác cao.</p>
 		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 		              </a>
 		            </div>
 		          </div>
-		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/SUS304Milling.png);">
+		          <div class="col-lg-6 col-xs-6">
+		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home05.jpg);">
 		              <a href="#" class="product_cont">
-		                <h3>Structural</h3>
-		                <p>Our primary business is providing design, fabrication, and erection of structural steel for commercial needs...</p>
+		                <h3>Gia công khuôn</h3>
+		                <p>Thiết kế và gia công khuôn nhựa, khuôn thổi, khuôn hút chân không.</p>
 		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 		              </a>
 		            </div>
@@ -134,20 +150,19 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/CNCMachining1.jpg);">
+		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home05.jpg);">
 		              <a href="#" class="product_cont">
-		                <h3>Ducting</h3>
-		                <p>This custom fabricated stainless steel ducting was designed for use in the semiconductor industry.</p>
+		                <h3>Nghiên cứu và chế tạo</h3>
+		                <p>Nghiên cứu, thiết kế và chế tạo máy móc công nghiệp, máy tự động hóa và bán tự động.</p>
 		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 		              </a>
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/MoldCNCMilling.jpg);">
+		            <div class="product pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home06.jpg);">
 		              <a href="#" class="product_cont">
-		                <h3>Stacks</h3>
-		                <p>Each stack is essential in maintaining air quality emissions regulatory 
-		                compliance for your facility.</p>
+		                <h3>Thiết kế và gia công khuôn</h3>
+		                <p>Nghiên cứu, thiết kế và gia công khuôn ép nhựa, khuôn thổi, khuôn đùn, khuôn hút chân không, ...</p>
 		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 		              </a>
 		            </div>

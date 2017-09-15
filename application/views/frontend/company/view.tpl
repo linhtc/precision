@@ -21,7 +21,7 @@
               <img style="height:251px;" src="{base_url()}media/uploads/images/CNCMilling4axis.png" alt="">
             </a> -->
               <div class="img" style="background-image: url({base_url()}media/uploads/images/companymold.jpg);">
-              	<a href="{base_url()}media/uploads/images/CNCMilling4axis.png" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              	<a href="{base_url()}media/uploads/images/companymold.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
               <p>Our adaptability, skill, and experience are
               proven by our past results. We are ideally suited to handle any project, worldwide. 
@@ -35,7 +35,7 @@
               <img style="height:251px;" src="{base_url()}media/uploads/images/SUS304Milling.png" alt="">
             </a> -->
               <div class="img" style="background-image: url({base_url()}media/uploads/images/companyrd.jpg);">
-              	<a href="{base_url()}media/uploads/images/SUS304Milling.png" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              	<a href="{base_url()}media/uploads/images/companyrd.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
               <p>Our completed projects stand as proof of 
               the quality of our work; the fact that 
