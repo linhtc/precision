@@ -365,6 +365,12 @@ table.listjob td {
     text-align: center;
 }
 
+.national-flag {
+	width: 26px;
+	height: 18px;
+    margin-top: 2px;
+    border: thin solid silver;
+}
 
 
 

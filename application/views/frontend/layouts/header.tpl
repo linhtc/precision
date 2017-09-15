@@ -40,6 +40,9 @@
                 <li>
                   <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </li>
+                <li>
+                  <a href="#"><img class="national-flag" key="vn" src="{base_url()}media/images/vn.svg" /></a>
+                </li>
                 <!--
                 <li>
                   <a href="{base_url()}company">{lang('company')}</a>

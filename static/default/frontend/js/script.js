@@ -176,3 +176,16 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
     include('static/default/frontend/js/mailform/jquery.form.min.js');
     include('static/default/frontend/js/mailform/jquery.rd-mailform.min.js');
 })(jQuery);
+(function($) {
+	$('.national-flag').click(function(){
+		var key = $('.national-flag').attr('key');
+		console.log(key);
+		if(key == 'vn'){
+			$('.national-flag').attr('src', rootBaseUrl+'media/images/eng.svg');
+			$('.national-flag').attr('key', 'eng');
+		} else {
+			$('.national-flag').attr('src', rootBaseUrl+'media/images/vn.svg');
+			$('.national-flag').attr('key', 'vn');
+		}
+	});
+})(jQuery);;
