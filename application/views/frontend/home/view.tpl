@@ -115,7 +115,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
+		            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home02.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Gia công chi tiết</h3>
 		                <p>
@@ -130,7 +130,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home04.jpg);">
+		            <div class="product pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Trang thiết bị</h3>
 		                <p>Sử dụng trang thiết bị hiện đại, có độ chính xác cao.</p>
@@ -139,7 +139,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home05.jpg);">
+		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home04.jpg);">
 		              <a href="#" class="product_cont">
 		                <h3>Gia công khuôn</h3>
 		                <p>Thiết kế và gia công khuôn nhựa, khuôn thổi, khuôn hút chân không.</p>
