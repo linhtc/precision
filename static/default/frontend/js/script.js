@@ -198,14 +198,21 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 		if(pathname.indexOf('/en') >= 0){
 			pathname = pathname.replace('/en', '');
 		}
+		var newPath = rootBaseUrl.substring(0, rootBaseUrl.length-1);
 		var pathKey = key;
 		if(key == 'vn'){
 			pathKey = '';
+			newPath += pathname;
 		} else{
-			pathKey = '/'+key;
+			pathKey = key;
+			newPath += '/'+pathKey+pathname;
 		}
-		var newPath = window.location.origin+pathKey+pathname;
-		history.pushState({}, null, newPath);
+		try{
+			console.log(newPath);
+			history.pushState({}, null, newPath);
+		} catch(exx){
+			console.log(exx.message);
+		}
 		$('a[lang-key]').each(function(index) {
 			  var ilang = key+'_'+$(this).attr('lang-key');
 			  if (typeof(Storage) !== "undefined") {

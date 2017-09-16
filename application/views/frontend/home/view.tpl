@@ -174,7 +174,66 @@
     </section>
 <!--======================End well=========================-->
 <!--======================well_1=========================-->
-    <section class="well-2 center_text">
+    <section class="well-3">
+      <div class="container center_text">
+        <h2 class="secondary_color">Our products</h2>
+        <div class="row offset">
+          <div class="col-lg-4 col-xs-4">
+            <div class="product pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_1.jpg);">
+              <a href="#" class="product_cont product_cont_mode">
+                <h3>SKD11</h3>
+                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xs-4">
+            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_2.jpg);">
+              <a href="#" class="product_cont product_cont_mode">
+                <h3>SUS 304</h3>
+                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xs-4">
+            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_3.jpg);">
+              <a href="#" class="product_cont product_cont_mode">
+                <h3>Aluminium Anodize</h3>
+                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row offset">
+          <div class="col-lg-4 col-xs-4">
+            <div class="product pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_4.jpg);">
+              <a href="#" class="product_cont product_cont_mode">
+                <h3>Robot</h3>
+                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xs-4">
+            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_5.jpg);">
+              <a href="#" class="product_cont product_cont_mode">
+                <h3>Milling Plastic Molds</h3>
+                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xs-4">
+            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_6.jpg);">
+              <a href="#" class="product_cont product_cont_mode">
+                <h3>Vaccum</h3>
+                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--======================End well_1=========================-->
+<!--======================well_1=========================-->
+    <section class="well-2 bg-primary center_text">
     <h2 class="secondary_color wow fadeInRight">We'll handle any</h2>
     <h3 class="primary_color wow fadeInLeft">intricate custom design</h3>
     <div class="container text-left offset-1">
@@ -224,37 +283,6 @@
       </div>
     </section>
 <!--======================End parallax=========================-->
-<!--======================well_1=========================-->
-    <section class="well-3 bg-primary">
-      <div class="container center_text">
-        <h2 class="secondary_color">Our products</h2>
-        <div class="row">
-          <div class="col-lg-4 col-xs-12">
-            <ul class="marked-list text-left">
-              <li class="wow fadeInLeft"><a href="#">Platforms, Stairways</a></li>
-              <li class="wow fadeInRight"><a href="#">Motor & Fan Bases</a></li>
-              <li class="wow fadeInLeft"><a href="#">Tanks</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-xs-12">
-            <ul class="marked-list text-left">
-              <li class="wow fadeInLeft"><a href="#">Pressure Vessels</a></li>
-              <li class="wow fadeInRight"><a href="#">Cyclones</a></li>
-              <li class="wow fadeInLeft"><a href="#">Scrubbers</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-xs-12">
-            <ul class="marked-list text-left">
-              <li class="wow fadeInLeft"><a href="#">Fan Housings</a></li>
-              <li class="wow fadeInRight"><a href="#">Hoppers</a></li>
-              <li class="wow fadeInLeft"><a href="#">Stacks</a></li>
-            </ul>
-          </div>
-        </div>
-        <a href="#" class="btn btn-default btn-lg wow fadeIn">View all</a>
-      </div>
-    </section>
-<!--======================End well_1=========================-->
 <!--======================End well=========================-->
     <section class="well-4">
       <div class="container">
