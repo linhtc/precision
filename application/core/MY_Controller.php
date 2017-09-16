@@ -21,7 +21,7 @@ class MY_Controller extends CI_Controller {
         $config = & $CFG->config;
         $lang_uri_abbr = $config['lang_uri_abbr'];
 //         $langKey = $URI->segment(1); // dang dung tam domain /cnc nen chu thich lai
-        $langKey = $URI->segment(2);
+        $langKey = $URI->segment(1);
         $langPrefix = ($langKey == 'vn' || empty($langKey)) ? '' : (isset($lang_uri_abbr[$langKey]) ? $langKey.'/' : '');
         $this->session->set_userdata('lang_prefix', $langPrefix);
         $langFolder = isset($lang_uri_abbr[$langKey]) ? $lang_uri_abbr[$langKey] : $lang_uri_abbr[$config['language_abbr']];
