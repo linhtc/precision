@@ -1,4 +1,7 @@
 function include(scriptUrl) {
+    document.write('<script src="' + rootBaseUrl+scriptUrl + '"></script>');
+}
+function include2(scriptUrl) {
     document.write('<script src="' + scriptUrl + '"></script>');
 }
 
@@ -53,7 +56,7 @@ include('static/default/frontend/js/jquery.easing.1.3.js');;
 (function($) {
     var o = document.getElementById("google-map");
     if (o) {
-        include('//maps.google.com/maps/api/js?key=AIzaSyB5z32jqH-C7gxnIwak042HEObgIUAU04E');
+        include2('//maps.google.com/maps/api/js?key=AIzaSyB5z32jqH-C7gxnIwak042HEObgIUAU04E');
         include('static/default/frontend/js/jquery.rd-google-map.js');
         $(document).ready(function() {
             var o = $('#google-map');
@@ -179,13 +182,49 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 (function($) {
 	$('.national-flag').click(function(){
 		var key = $('.national-flag').attr('key');
-		console.log(key);
 		if(key == 'vn'){
+			key = 'en';
 			$('.national-flag').attr('src', rootBaseUrl+'media/images/eng.svg');
-			$('.national-flag').attr('key', 'eng');
+			$('.national-flag').attr('key', key);
 		} else {
+			key = 'vn';
 			$('.national-flag').attr('src', rootBaseUrl+'media/images/vn.svg');
-			$('.national-flag').attr('key', 'vn');
+			$('.national-flag').attr('key', key);
 		}
+		var pathname = window.location.pathname;
+		if(pathname.indexOf('/vn') >= 0){
+			pathname = pathname.replace('/vn', '');
+		}
+		if(pathname.indexOf('/en') >= 0){
+			pathname = pathname.replace('/en', '');
+		}
+		var pathKey = key;
+		if(key == 'vn'){
+			pathKey = '';
+		} else{
+			pathKey = '/'+key;
+		}
+		var newPath = window.location.origin+pathKey+pathname;
+		history.pushState({}, null, newPath);
+		$('a[lang-key]').each(function(index) {
+			  var ilang = key+'_'+$(this).attr('lang-key');
+			  if (typeof(Storage) !== "undefined") {
+				  var translate = localStorage.getItem(ilang);
+				  if(typeof translate !== 'undefined' && translate != null){
+					  $(this).text(translate);
+					  var href = $(this).attr('href');
+					  if(key == 'en' && href.indexOf('/en') < 0){
+						  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
+						  $(this).attr('href', href);
+					  }
+				  }
+			  }
+		});
+		/*$.cookie("test", 1, {
+		   expires : 10,
+		   path    : '/',
+		   domain  : rootBaseUrl,
+		   secure  : true
+		});*/
 	});
 })(jQuery);;

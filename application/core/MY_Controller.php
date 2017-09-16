@@ -23,6 +23,7 @@ class MY_Controller extends CI_Controller {
         $lang_uri_abbr = $config['lang_uri_abbr'];
         $langFolder = isset($lang_uri_abbr[$langKey]) ? $lang_uri_abbr[$langKey] : $lang_uri_abbr[$config['language_abbr']];
         $this->lang->load('aio', $langFolder);
+        $this->session->set_userdata('lang_folder', $langFolder);
         $this->load->helper('language');
         $langKey = isset($lang_uri_abbr[$langKey]) ? $langKey : $config['language_abbr'];
         $this->session->set_userdata('lang_key', $langKey);
@@ -49,6 +50,9 @@ class MY_Controller extends CI_Controller {
         ->result()
         ;
         $this->session->set_userdata('subject_menu', $subjects);
+    }
+    public function loadLangFolder($langFolder='vietnam'){
+    	$this->lang->load('aio', $langFolder);
     }
     public function checkPermission($permission = 'r') {
         $is_sign_in = $this->checkSignIn();

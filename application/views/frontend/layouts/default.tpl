@@ -21,8 +21,9 @@
   <script src="{base_url()}static/default/frontend/js/jquery-migrate-1.2.1.js"></script> 
   <script src='{base_url()}static/default/frontend/js/device.min.js'></script>
   <script type="text/javascript">
-	var rootBaseUrl = '{base_url()}';
+  	var rootBaseUrl = '{base_url()}';
   </script>
+  {include file='frontend/layouts/language.tpl'}
 </head>
 <body>
 <div class="page">
