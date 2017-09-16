@@ -213,8 +213,16 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 				  if(typeof translate !== 'undefined' && translate != null){
 					  $(this).text(translate);
 					  var href = $(this).attr('href');
+					  if(key == 'en' && href == rootBaseUrl){
+						  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
+						  $(this).attr('href', href);
+					  }
 					  if(key == 'en' && href.indexOf('/en') < 0){
 						  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
+						  $(this).attr('href', href);
+					  }
+					  if(key != 'en' && href.indexOf('/en') >= 0){
+						  href = href.replace(rootBaseUrl+'en/', rootBaseUrl);
 						  $(this).attr('href', href);
 					  }
 				  }

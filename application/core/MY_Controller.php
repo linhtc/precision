@@ -17,10 +17,12 @@ class MY_Controller extends CI_Controller {
         parent::__construct();
 
         global $URI, $CFG;
-
-        $langKey = $URI->segment(1);
+        
         $config = & $CFG->config;
         $lang_uri_abbr = $config['lang_uri_abbr'];
+        $langKey = $URI->segment(1);
+        $langPrefix = ($langKey == 'vn' || empty($langKey)) ? '' : (isset($lang_uri_abbr[$langKey]) ? $langKey.'/' : '');
+        $this->session->set_userdata('lang_prefix', $langPrefix);
         $langFolder = isset($lang_uri_abbr[$langKey]) ? $lang_uri_abbr[$langKey] : $lang_uri_abbr[$config['language_abbr']];
         $this->lang->load('aio', $langFolder);
         $this->session->set_userdata('lang_folder', $langFolder);
@@ -28,30 +30,12 @@ class MY_Controller extends CI_Controller {
         $langKey = isset($lang_uri_abbr[$langKey]) ? $langKey : $config['language_abbr'];
         $this->session->set_userdata('lang_key', $langKey);
         $langKey = ($langKey == $config['language_abbr']) ? '' : $langKey.'/';
-        $this->session->set_userdata('lang_prefix', $langKey);
         $this->session->set_userdata('user_menu', $this->gen_menu($this->session->userdata('user_mn_text'), $langKey));
-        
-        
-        // gen contact session
-        $contact = $this->db->select('id, phone, email, address, maps')
-        ->from('e_contacts')
-        ->get()
-        ->row()
-        ;
-        $this->session->set_userdata('contact', $contact);
-        
-        // gen menu session
-        $subjects = $this->db->select('id, subject, friendly')
-        ->from('e_subjects')
-        ->where('deleted', 0)
-        ->where('parent', 0)
-        ->order_by('sort', 'asc')
-        ->get()
-        ->result()
-        ;
-        $this->session->set_userdata('subject_menu', $subjects);
     }
-    public function loadLangFolder($langFolder='vietnam'){
+    public function loadLangFolder($langFolder=null){
+    	if(empty($langFolder)){
+    		$langFolder = $this->session->userdata('lang_folder');
+    	}
     	$this->lang->load('aio', $langFolder);
     }
     public function checkPermission($permission = 'r') {

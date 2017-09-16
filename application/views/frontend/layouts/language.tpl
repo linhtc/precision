@@ -1,10 +1,11 @@
-{$this->lang->load('aio', 'vietnamese')}
+{$this->loadLangFolder('vietnamese')}
 <script type="text/javascript">
 	var rootBaseUrl = '{base_url()}';
 	if (typeof(Storage) !== "undefined") {
 	    /* Code for localStorage/sessionStorage. */
 		localStorage.vn_home = "{lang('home')}";
 		localStorage.vn_company = "{lang('company')}";
+		localStorage.vn_r_and_d = "{lang('r_and_d')}";
 		localStorage.vn_product_and_service = "{lang('product_and_service')}";
 		localStorage.vn_project = "{lang('project')}";
 		localStorage.vn_recruit = "{lang('recruit')}";
@@ -13,12 +14,13 @@
 		console.log('Not support localStorage');
 	}
 </script>
-{$this->lang->load('aio', 'english')}
+{$this->loadLangFolder('english')}
 <script type="text/javascript">
 	var rootBaseUrl = '{base_url()}';
 	if (typeof(Storage) !== "undefined") {
 		localStorage.en_home = "{lang('home')}";
 		localStorage.en_company = "{lang('company')}";
+		localStorage.en_r_and_d = "{lang('r_and_d')}";
 		localStorage.en_product_and_service = "{lang('product_and_service')}";
 		localStorage.en_project = "{lang('project')}";
 		localStorage.en_recruit = "{lang('recruit')}";
@@ -27,4 +29,4 @@
 		console.log('Not support localStorage');
 	}
 </script>
-{$this->lang->load('aio', $smarty.session.lang_folder)}
+{$this->loadLangFolder()}

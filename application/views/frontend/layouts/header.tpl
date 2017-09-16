@@ -17,31 +17,35 @@
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
                 <li class="{if $uuid eq 'home'}active{/if}">
-                  <a href="{base_url()}" lang-key="home">{lang('home')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}" lang-key="home">{lang('home')}</a>
                 </li>
                 <li class="{if $uuid eq 'company'}active{/if}">
-                  <a href="{base_url()}company" lang-key="company">{lang('company')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}company" lang-key="company">{lang('company')}</a>
                 </li>
                 <li class="{if $uuid eq 'technology'}active{/if}">
-                  <a href="{base_url()}design-technology-transfer" lang-key="r_and_d">{lang('r_and_d')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}design-technology-transfer" lang-key="r_and_d">{lang('r_and_d')}</a>
                 </li>
                 <li class="{if $uuid eq 'product'}active{/if}">
-                  <a href="{base_url()}products-services" lang-key="product_and_service">{lang('product_and_service')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}products-services" lang-key="product_and_service">{lang('product_and_service')}</a>
                 </li>
                 <li class="{if $uuid eq 'gallery'}active{/if}">
-                  <a href="{base_url()}gallery" lang-key="project">{lang('project')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}gallery" lang-key="project">{lang('project')}</a>
                 </li>
                 <li class="{if $uuid eq 'career'}active{/if}">
-                  <a href="{base_url()}career" lang-key="recruit">{lang('recruit')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}career" lang-key="recruit">{lang('recruit')}</a>
                 </li>
                 <li class="{if $uuid eq 'contact'}active{/if}">
-                  <a href="{base_url()}contacts" lang-key="contact">{lang('contact')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}contacts" lang-key="contact">{lang('contact')}</a>
                 </li>
                 <li>
                   <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                  <a href="#"><img class="national-flag" key="vn" src="{base_url()}media/images/vn.svg" /></a>
+                {if empty($smarty.session.lang_prefix)}
+                  <a href="javascript:void(0);"><img class="national-flag" key="vn" src="{base_url()}media/images/vn.svg" /></a>
+                {else}
+                  <a href="javascript:void(0);"><img class="national-flag" key="en" src="{base_url()}media/images/eng.svg" /></a>
+                {/if}  
                 </li>
                 <!--
                 <li>
