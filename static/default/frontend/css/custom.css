@@ -113,6 +113,10 @@
 	background-size: cover;
 }
 
+.bg-contain{
+	background-size: contain;
+}
+
 .no-padding {
 	padding-left: 0px;
 	padding-right: 0px;	
@@ -372,7 +376,9 @@ table.listjob td {
     border: thin solid silver;
 }
 
-
+.no-all-padding {
+	padding: 0px;
+}
 
 
 
