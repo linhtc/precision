@@ -352,16 +352,16 @@ table.listjob {
 table.listjob th {
     text-align: center;
     padding: 2px 25px 2px 25px;
-    border: 1px solid #00b7f1;
+    border: 1px solid rgb(31, 73, 125);
     font-size: 1.2em;
     font-weight: 400;
-    background: #00b7f1;
+    background: rgb(31, 73, 125);
     color: #FFFFFF;
 }
 
 table.listjob td {
     padding: 5px 18px;
-    border: 1px solid #00b7f1;
+    border: 1px solid rgb(31, 73, 125);
     text-align: center;
 }
 
