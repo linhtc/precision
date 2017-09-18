@@ -23,7 +23,7 @@
       </div>
     </div>
     <section class="map">
-    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7835.292095563145!2d106.74764670062788!3d10.914481504147462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d84b4148ff51%3A0x14fbe01f763034f4!2zNjggTmd1eeG7hW4gVGjhu4sgTWluaCBLaGFpLCBwaMaw4budbmcgVMOibiDEkMO0bmcgSGnhu4dwLCBI4buTIENow60gTWluaCwgQsOsbmggRMawxqFuZywgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1505235671396" frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen></iframe>
+    	<iframe id="google-map-iframe" src="" frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen></iframe>
       <div id="google-map" class="map_model" style="display: none;"></div>
       <ul class="map_locations" style="display: none;">
             <li data-x="-73.9874068" data-y="40.643180">
