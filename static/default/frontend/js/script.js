@@ -192,6 +192,9 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 			$('.national-flag').attr('key', key);
 		}
 		var pathname = window.location.pathname;
+		if(pathname.indexOf('/cnc') >= 0){
+			pathname = pathname.replace('/cnc', '');
+		}
 		if(pathname.indexOf('/vn') >= 0){
 			pathname = pathname.replace('/vn', '');
 		}
