@@ -133,7 +133,7 @@
 		            <div class="product bg-cover pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Trang thiết bị</h3>
-		                <p>Sử dụng trang thiết bị hiện đại, có độ chính xác cao.</p>
+		                <p>Sử dụng trang thiết bị hiện đại, có độ chính xác cao. <br /> &nbsp;</p>
 		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 		              </a>
 		            </div>
