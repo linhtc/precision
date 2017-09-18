@@ -4,7 +4,65 @@ function include(scriptUrl) {
 function include2(scriptUrl) {
     document.write('<script src="' + scriptUrl + '"></script>');
 }
-
+function changeMyLanguage(){
+	var key = $('.national-flag').attr('key');
+	if(key == 'vn'){
+		key = 'en';
+		$('.national-flag').attr('src', rootBaseUrl+'media/images/eng.svg');
+		$('.national-flag').attr('key', key);
+	} else {
+		key = 'vn';
+		$('.national-flag').attr('src', rootBaseUrl+'media/images/vn.svg');
+		$('.national-flag').attr('key', key);
+	}
+	var pathname = window.location.pathname;
+	if(pathname.indexOf('/cnc') >= 0){
+		pathname = pathname.replace('/cnc', '');
+	}
+	if(pathname.indexOf('/vn') >= 0){
+		pathname = pathname.replace('/vn', '');
+	}
+	if(pathname.indexOf('/en') >= 0){
+		pathname = pathname.replace('/en', '');
+	}
+	var newPath = rootBaseUrl.substring(0, rootBaseUrl.length-1);
+	var pathKey = key;
+	if(key == 'vn'){
+		pathKey = '';
+		newPath += pathname;
+	} else{
+		pathKey = key;
+		newPath += '/'+pathKey+pathname;
+	}
+	try{
+		console.log(newPath);
+		history.pushState({}, null, newPath);
+	} catch(exx){
+		console.log(exx.message);
+	}
+	$('a[lang-key]').each(function(index) {
+		  var ilang = key+'_'+$(this).attr('lang-key');
+		  if (typeof(Storage) !== "undefined") {
+			  var translate = localStorage.getItem(ilang);
+			  if(typeof translate !== 'undefined' && translate != null){
+				  $(this).text(translate);
+				  var href = $(this).attr('href');
+				  if(key == 'en' && href == rootBaseUrl){
+					  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
+					  $(this).attr('href', href);
+				  }
+				  if(key == 'en' && href.indexOf('/en') < 0){
+					  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
+					  $(this).attr('href', href);
+				  }
+				  if(key != 'en' && href.indexOf('/en') >= 0){
+					  href = href.replace(rootBaseUrl+'en/', rootBaseUrl);
+					  $(this).attr('href', href);
+				  }
+			  }
+		  }
+	});
+}
 function isIE() {
     var myNav = navigator.userAgent.toLowerCase();
     return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
@@ -179,70 +237,3 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
     include('static/default/frontend/js/mailform/jquery.form.min.js');
     include('static/default/frontend/js/mailform/jquery.rd-mailform.min.js');
 })(jQuery);
-(function($) {
-	$('.national-flag').click(function(){
-		var key = $('.national-flag').attr('key');
-		if(key == 'vn'){
-			key = 'en';
-			$('.national-flag').attr('src', rootBaseUrl+'media/images/eng.svg');
-			$('.national-flag').attr('key', key);
-		} else {
-			key = 'vn';
-			$('.national-flag').attr('src', rootBaseUrl+'media/images/vn.svg');
-			$('.national-flag').attr('key', key);
-		}
-		var pathname = window.location.pathname;
-		if(pathname.indexOf('/cnc') >= 0){
-			pathname = pathname.replace('/cnc', '');
-		}
-		if(pathname.indexOf('/vn') >= 0){
-			pathname = pathname.replace('/vn', '');
-		}
-		if(pathname.indexOf('/en') >= 0){
-			pathname = pathname.replace('/en', '');
-		}
-		var newPath = rootBaseUrl.substring(0, rootBaseUrl.length-1);
-		var pathKey = key;
-		if(key == 'vn'){
-			pathKey = '';
-			newPath += pathname;
-		} else{
-			pathKey = key;
-			newPath += '/'+pathKey+pathname;
-		}
-		try{
-			console.log(newPath);
-			history.pushState({}, null, newPath);
-		} catch(exx){
-			console.log(exx.message);
-		}
-		$('a[lang-key]').each(function(index) {
-			  var ilang = key+'_'+$(this).attr('lang-key');
-			  if (typeof(Storage) !== "undefined") {
-				  var translate = localStorage.getItem(ilang);
-				  if(typeof translate !== 'undefined' && translate != null){
-					  $(this).text(translate);
-					  var href = $(this).attr('href');
-					  if(key == 'en' && href == rootBaseUrl){
-						  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
-						  $(this).attr('href', href);
-					  }
-					  if(key == 'en' && href.indexOf('/en') < 0){
-						  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
-						  $(this).attr('href', href);
-					  }
-					  if(key != 'en' && href.indexOf('/en') >= 0){
-						  href = href.replace(rootBaseUrl+'en/', rootBaseUrl);
-						  $(this).attr('href', href);
-					  }
-				  }
-			  }
-		});
-		/*$.cookie("test", 1, {
-		   expires : 10,
-		   path    : '/',
-		   domain  : rootBaseUrl,
-		   secure  : true
-		});*/
-	});
-})(jQuery);;

@@ -42,9 +42,13 @@
                 </li>
                 <li>
                 {if empty($smarty.session.lang_prefix)}
-                  <a href="javascript:void(0);"><img class="national-flag" key="vn" src="{base_url()}media/images/vn.svg" /></a>
+                  <a onclick="changeMyLanguage();return false;" style="cursor: pointer;">
+                  	<img class="national-flag" key="vn" src="{base_url()}media/images/vn.svg" />
+                  </a>
                 {else}
-                  <a href="javascript:void(0);"><img class="national-flag" key="en" src="{base_url()}media/images/eng.svg" /></a>
+                  <a onclick="changeMyLanguage();return false;" style="cursor: pointer;">
+                  	<img class="national-flag" key="en" src="{base_url()}media/images/eng.svg" />
+                  </a>
                 {/if}  
                 </li>
                 <!--
