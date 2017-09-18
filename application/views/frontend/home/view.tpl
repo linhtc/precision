@@ -66,7 +66,7 @@
 					</iframe>
 				  </div>
 				</div>
-	      		<div class="panel panel-default wow fadeInUp">
+	      		<div class="panel panel-default wow fadeInUp" style="min-height: 216px;">
 				  <div class="panel-heading" style="display:none;">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<div id="fb-root"></div>
@@ -90,7 +90,7 @@
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Thống kê</div>
-				  <div class="panel-body" style="padding-bottom: 0px;padding-top: 6px;">
+				  <div class="panel-body" style="padding-bottom: 8px;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
 				  		<span>Đang online: 9</span>
 			  		</div>
@@ -107,7 +107,7 @@
 				</div>
 	      	</div>
 	      	<div class="col-lg-9 col-xs-9 offset-6">
-		        <div class="row offset wow fadeInUp">
+		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
 		            <div class="product bg-cover pr-img-01" style="/* visibility: visible; animation-name: fadeIn; */ background-image: url({base_url()}media/uploads/images/home01.png);">
 		              <a href="#" class="product_cont product_cont_mode">
@@ -133,7 +133,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product bg-cover pr-img-04" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
+		            <div class="product bg-cover pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Trang thiết bị</h3>
 		                <p>Sử dụng trang thiết bị hiện đại, có độ chính xác cao. <br /> &nbsp;</p>
@@ -142,7 +142,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-0" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home04.jpg);">
+		            <div class="product bg-cover pr-img-0 wow fadeInUp" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home04.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Gia công khuôn</h3>
 		                <p>Thiết kế và gia công khuôn nhựa, khuôn thổi, khuôn hút chân không.</p>
@@ -153,7 +153,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-01" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home05.jpg);">
+		            <div class="product bg-cover pr-img-01 wow fadeInUp" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home05.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Nghiên cứu & chế tạo</h3>
 		                <p>Nghiên cứu, thiết kế và chế tạo máy móc công nghiệp, máy tự động hóa và bán tự động.</p>
@@ -162,7 +162,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product bg-cover pr-img-02" style="background-image: url({base_url()}media/uploads/images/home06.jpg);">
+		            <div class="product bg-cover pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home06.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Thiết kế & gia công khuôn</h3>
 		                <p>Nghiên cứu, thiết kế và gia công khuôn ép nhựa, khuôn thổi, khuôn đùn, khuôn hút chân không, ...</p>
