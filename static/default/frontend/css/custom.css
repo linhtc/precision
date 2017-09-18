@@ -109,12 +109,24 @@
 }
 
 .product {
-	background-position: center;	
+	background-position: center center;
+}
+
+.bg-cover {
 	background-size: cover;
 }
 
-.bg-contain{
+.bg-contain {
 	background-size: contain;
+}
+
+.bg-100p{
+    transition:all 1000ms ease;
+    background-size: 100% auto;
+}
+
+.bg-100p:hover{
+	background-size: 160% auto;
 }
 
 .no-padding {
@@ -123,7 +135,7 @@
 }
 
 .search-input {
-	    position: absolute;
+	position: absolute;
     border-bottom: 1px solid black;
     width: 300px;
     right: 0;
@@ -380,6 +392,18 @@ table.listjob td {
 	padding: 0px;
 }
 
+.bg-shadow {
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.bg-shadow a {
+	background: none;
+}
+
+.bg-shadow a h3 {
+	color: rgb(31, 73, 125);
+}
 
 
 

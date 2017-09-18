@@ -99,7 +99,7 @@
           <div data-src="{base_url()}media/uploads/images/2.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
-                <div class="camera_cont cam_ins_3">
+                <div class="camera_cont cam_ins_2">
                   <h2>Công nghệ hiện đại</h2>
                   <h3 style="display:none;">Trang bị máy móc, thiết bị</h3>
                   <p>Trang bị máy móc, thiết bị hiện đại, áp dụng công nghệ hiện đại vào sản xuất.</p>
@@ -123,7 +123,7 @@
           <div data-src="{base_url()}media/uploads/images/4.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
-                <div class="camera_cont cam_ins_3">
+                <div class="camera_cont cam_ins_2">
                   <h2>Liên tục cải tiến</h2>
                   <h3 style="display:none;">Không ngừng nâng cao</h3>
                   <p>Không ngừng nâng cao chất lượng sản phẩm nhằm tạo ra sản phẩm đáp ứng nhu cầu phát triển thị trường.</p>

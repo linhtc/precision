@@ -200,6 +200,11 @@ input[type='number'] {
         width: 1200px;
     }
 }
+@media (min-width: 1400px) {
+    .container {
+        width: 1400px;
+    }
+}
 .container-fluid {
     margin-right: auto;
     margin-left: auto;

@@ -106,7 +106,7 @@
 	      	<div class="col-lg-9 col-xs-9 offset-6">
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeInUp" style="/* visibility: visible; animation-name: fadeIn; */ background-image: url({base_url()}media/uploads/images/home01.png);">
+		            <div class="product bg-cover pr-img-01 wow fadeInUp" style="/* visibility: visible; animation-name: fadeIn; */ background-image: url({base_url()}media/uploads/images/home01.png);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Trung tâm gia công</h3>
 		                <p>Sử dụng máy gia công tốc độ cao thương hiệu từ Nhật Bản, đem lại độ chính xác gia công.</p>
@@ -115,7 +115,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home02.jpg);">
+		            <div class="product bg-cover pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home02.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Gia công chi tiết</h3>
 		                <p>
@@ -130,7 +130,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
+		            <div class="product bg-cover pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Trang thiết bị</h3>
 		                <p>Sử dụng trang thiết bị hiện đại, có độ chính xác cao.</p>
@@ -139,7 +139,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home04.jpg);">
+		            <div class="product bg-cover pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home04.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Gia công khuôn</h3>
 		                <p>Thiết kế và gia công khuôn nhựa, khuôn thổi, khuôn hút chân không.</p>
@@ -150,7 +150,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home05.jpg);">
+		            <div class="product bg-cover pr-img-01 wow fadeInUp animated" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home05.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Nghiên cứu & chế tạo</h3>
 		                <p>Nghiên cứu, thiết kế và chế tạo máy móc công nghiệp, máy tự động hóa và bán tự động.</p>
@@ -159,7 +159,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home06.jpg);">
+		            <div class="product bg-cover pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home06.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Thiết kế & gia công khuôn</h3>
 		                <p>Nghiên cứu, thiết kế và gia công khuôn ép nhựa, khuôn thổi, khuôn đùn, khuôn hút chân không, ...</p>
@@ -179,7 +179,7 @@
         <h2 class="secondary_color">Our products</h2>
         <div class="row offset">
           <div class="col-lg-4 col-xs-4">
-            <div class="product bg-contain pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_1.jpg);">
+            <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_1.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
                 <h3>SKD11</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -187,7 +187,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-xs-4">
-            <div class="product bg-contain pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_2.jpg);">
+            <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_2.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
                 <h3>SUS 304</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -195,7 +195,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-xs-4">
-            <div class="product bg-contain pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_3.jpg);">
+            <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_3.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
                 <h3>Aluminium Anodize</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -205,7 +205,7 @@
         </div>
         <div class="row offset">
           <div class="col-lg-4 col-xs-4">
-            <div class="product bg-contain pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_4.jpg);">
+            <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_4.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
                 <h3>Robot</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -213,7 +213,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-xs-4">
-            <div class="product bg-contain pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_5.jpg);">
+            <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_5.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
                 <h3>Milling Plastic Molds</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -221,7 +221,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-xs-4">
-            <div class="product bg-contain pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_6.jpg);">
+            <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_6.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
                 <h3>Vaccum</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
@@ -234,28 +234,27 @@
 <!--======================End well_1=========================-->
 <!--======================well_1=========================-->
     <section class="well-2 bg-primary center_text">
-    <h2 class="secondary_color wow fadeInRight">We'll handle any</h2>
-    <h3 class="primary_color wow fadeInLeft">intricate custom design</h3>
+    <h2 class="secondary_color wow fadeInRight">Chúng tôi sẽ giải quyết</h2>
+    <h3 class="primary_color wow fadeInLeft">các yêu cầu của khách hàng</h3>
     <div class="container text-left offset-1">
       <div class="row icon-hover_2 flow-offset-1">
         <div class="col-lg-4 col-xs-12 wow fadeInUp">
           <i class="icon primary-icon icon-md material-icons-toys"></i>
-          <h4 class="secondary_color">Steel and Fabrication Industry</h4>
-          <p class="primary_color inset-3">We take great pride in our industry-leading custom metal fabrication services. This is the core of our business, and is a process we take seriously. We work on small, large, and heavy components. Our team of experts provides over a dozen metal fabrication services. </p>
+          <h4 class="secondary_color">Gia công chính xác</h4>
+          <p class="primary_color inset-3">Chúng tôi chuyên gia công chính xác chi tiết máy, gia công chi tiết khuôn, linh kiện-phụ tùng cơ khí ô tô-điện tử và các ngành công nghiệp khác. <br />
+          Bên cạnh đó chúng tôi áp dụng công nghệ xử lý bề mặt không những mang lại sản phẩm đạt yêu cầu kỹ thuật mà còn đáp ứng về mặt ngoại quan sản phẩm. </p>
         </div>
         <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="0.2s">
           <i class="icon primary-icon icon-md material-icons-access_alarm"></i>
-          <h4 class="secondary_color">We work with leading companies</h4>
-          <p class="primary_color inset-3">We cooperate with lots of renowned companies. Our loyal customers come to us from a
-          diverse array of industries. Their 
-          applications and products are numerous, which include sheet metal, complex 
-          assemblies, music equipment, fuel tanks, fixtures, and much more. </p>
+          <h4 class="secondary_color">Thiết kế, chế tạo máy</h4>
+          <p class="primary_color inset-3">Với đội ngũ kỹ sư nhiều kinh nghiệm làm việc trong nhiều lĩnh vực, chúng tôi đưa ra các giải pháp công nghệ kỹ thuật từ đó thiết kế chế tạo máy theo nhu cầu của khách hàng. <br />
+          Những sản phẩm tưởng như không thể, phức tạp khi đến với chúng tôi sẽ đơn giản và tối ưu nhất.</p>
         </div>
         <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="0.4s">
           <i class="icon primary-icon icon-md material-icons-tonality"></i>
-          <h4 class="secondary_color">The range of  <br> our services</h4>
-          <p class="primary_color inset-3">Our services are the result of environmentally-friendly, superior-quality work. Steel and 
-          Fabrication Industry offers the most cost-effective, high-quality engineering and design services around, as well as consulting, designing, prototyping.</p>
+          <h4 class="secondary_color">Dịch vụ của chúng tôi</h4>
+          <p class="primary_color inset-3">Với phương châm mang lại sự hài lòng cho khách hàng. <br />
+          Sản phẩm của chúng tôi được kiểm tra nghiêm ngặt từ khâu đầu vào, quá trình sản xuất cho tới khâu kiểm định, đóng gói và vận chuyển để mang lại sản phẩm đạt chất lượng và đáp ứng nhanh tiến độ.</p>
         </div>
       </div>
     </div>
