@@ -234,8 +234,8 @@
 <!--======================End well_1=========================-->
 <!--======================well_1=========================-->
     <section class="well-2 bg-primary center_text">
-    <h2 class="secondary_color wow fadeInRight">Chúng tôi sẽ giải quyết</h2>
-    <h3 class="primary_color wow fadeInLeft">các yêu cầu của khách hàng</h3>
+    <h3 class="secondary_color wow fadeInRight">Chúng tôi sẽ giải quyết</h3>
+    <h4 class="primary_color wow fadeInLeft">các yêu cầu của khách hàng</h4>
     <div class="container text-left offset-1">
       <div class="row icon-hover_2 flow-offset-1">
         <div class="col-lg-4 col-xs-12 wow fadeInUp">

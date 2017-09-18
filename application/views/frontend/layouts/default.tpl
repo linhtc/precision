@@ -14,8 +14,16 @@
   <link rel="stylesheet" href="{base_url()}static/default/frontend/css/custom.css"/>
   {$listCss}
 
+<!-- 
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:700,400'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:700,400'>
+-->
+<!-- 	
+<link rel='stylesheet' href='{base_url()}static/default/frontend/css/montserrat_alternates.css'>
+<link rel='stylesheet' href='{base_url()}static/default/frontend/css/montserrat.css'>
+-->
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates" rel="stylesheet">
 
   <script src="{base_url()}static/default/frontend/js/jquery.js"></script>
   <script src="{base_url()}static/default/frontend/js/jquery-migrate-1.2.1.js"></script> 
