@@ -3,7 +3,7 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 body {
     color: #fff;
-    font: 400 16px/26px "Montserrat", sans-serif;
+    font: 400 16px/26px "Open Sans", sans-serif;
     -webkit-text-size-adjust: none;
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -23,21 +23,21 @@ img {
     height: auto;
 }
 h1 {
-    font: 700 57px/57px "Montserrat", sans-serif;
+    font: 700 57px/57px "Open Sans", sans-serif;
     color: rgb(31, 73, 125);
 }
 h2 {
-    font: 400 50px/78px "Montserrat", sans-serif;
+    font: 400 50px/78px "Open Sans", sans-serif;
     letter-spacing: -0.02em;
 }
 h3 {
-    font: 400 28px/48px "Montserrat", sans-serif;
+    font: 400 28px/48px "Open Sans", sans-serif;
 }
 h4 {
-    font: 400 24px/32px "Montserrat", sans-serif;
+    font: 400 24px/32px "Open Sans", sans-serif;
 }
 h5 {
-    font: 300 16px/16px "Montserrat", sans-serif;
+    font: 300 16px/16px "Open Sans", sans-serif;
 }
 @media (min-width: 320px) and (max-width: 767px) {
     h1,
@@ -233,7 +233,7 @@ dd {
 }
 .marked-list li a,
 .marked-list-1 li a {
-    font: 400 24px/48px "Montserrat", sans-serif;
+    font: 400 24px/48px "Open Sans", sans-serif;
     color: rgb(31, 73, 125);
 }
 .marked-list li a:hover,
@@ -377,7 +377,7 @@ dd {
     margin-bottom: 29px;
 }
 *+.terms-list dt {
-    font: 400 24px/40px "Montserrat", sans-serif;
+    font: 400 24px/40px "Open Sans", sans-serif;
 }
 *+.terms-list dt+dd {
     margin-top: 18px;
@@ -625,7 +625,7 @@ br.br-lg {
 .btn {
     display: inline-block;
     text-align: center;
-    font: 400 16px/16px "Montserrat", sans-serif;
+    font: 400 16px/16px "Open Sans", sans-serif;
     overflow: hidden;
     text-transform: uppercase;
     -webkit-border-radius: 50px;
@@ -651,7 +651,7 @@ br.br-lg {
     -moz-border-radius: 50px;
     border-radius: 50px;
     text-align: center;
-    font: 400 16px/16px "Montserrat", sans-serif;
+    font: 400 16px/16px "Open Sans", sans-serif;
 }
 .btn-default {
     color: #fff;
@@ -822,7 +822,7 @@ br.br-lg {
     }
 }
 .sf-menu {
-    font: 100 16px/24px "Montserrat", sans-serif;
+    font: 100 16px/24px "Open Sans", sans-serif;
     text-transform: uppercase;
     display: inline-block;
 }
@@ -1319,7 +1319,7 @@ br.br-lg {
     margin: 0;
     -webkit-appearance: none;
     outline: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     line-height: 25px;
     color: #272d33;
@@ -1420,7 +1420,7 @@ br.br-lg {
     position: absolute;
     left: 0;
     top: -3px;
-    font: 400 16px/24px "Montserrat", sans-serif;
+    font: 400 16px/24px "Open Sans", sans-serif;
     padding: 15px 15px 15px 22px;
     line-height: 25px;
     color: #272d33;
