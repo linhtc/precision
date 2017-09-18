@@ -62,7 +62,7 @@
 				  <div class="panel-heading" style="border-bottom: 0px;">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<iframe style="width: 100%; height: 215px;"
-						src="https://www.youtube.com/embed/NwOtZnjqKGA?autoplay=1">
+						src="https://www.youtube.com/embed/NwOtZnjqKGA?autoplay=0">
 					</iframe>
 				  </div>
 				</div>
@@ -70,13 +70,16 @@
 				  <div class="panel-heading" style="display:none;">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<div id="fb-root"></div>
-						<script>(function(d, s, id) {
-						  var js, fjs = d.getElementsByTagName(s)[0];
-						  if (d.getElementById(id)) return;
-						  js = d.createElement(s); js.id = id;
-						  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1701436310107866";
-						  fjs.parentNode.insertBefore(js, fjs);
-						}(document, 'script', 'facebook-jssdk'));</script>
+						<script>
+						setTimeout(function(){
+							(function(d, s, id) {
+								  var js, fjs = d.getElementsByTagName(s)[0];
+								  if (d.getElementById(id)) return;
+								  js = d.createElement(s); js.id = id;
+								  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1701436310107866";
+								  fjs.parentNode.insertBefore(js, fjs);
+								}(document, 'script', 'facebook-jssdk'));
+						}, 3000);</script>
 						
 						<div class="fb-page"
   data-href="https://www.facebook.com/imdb" 

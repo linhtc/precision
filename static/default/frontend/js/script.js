@@ -53,7 +53,7 @@ include('static/default/frontend/js/jquery.easing.1.3.js');;
         $("#copyright-year").text((new Date).getFullYear());
     });
 })(jQuery);;
-(function($) {
+/*(function($) {
     var o = document.getElementById("google-map");
     if (o) {
         include2('//maps.google.com/maps/api/js?key=AIzaSyB5z32jqH-C7gxnIwak042HEObgIUAU04E');
@@ -86,7 +86,7 @@ include('static/default/frontend/js/jquery.easing.1.3.js');;
         });
     }
 })
-(jQuery);;
+(jQuery);;*/
 (function($) {
     include('static/default/frontend/js/superfish.js');
 })(jQuery);;
