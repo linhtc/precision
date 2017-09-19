@@ -19,8 +19,29 @@ class Errors extends MY_Controller {
         parent::__construct();
     }
     
+    public function show_404bk() {
+    	debug('show_404');
+    }
+    
     public function show_404() {
-        debug('show_404');
+    	
+//     	$this->layout->set_layout_dir('views/frontend/layouts/');
+//     	$this->layout->set_layout('default');
+    	$this->layout->disable_layout(); // disable layout
+    	
+    	$listCss = array(
+    			'static/default/template/lightbox/css/lightbox.css',
+    	);
+    	$listJs = array(
+    			'static/default/template/lightbox/js/lightbox.js',
+    	);
+    	
+    	$data = array(
+    			'listJs' => add_Js($listJs),
+    			'listCss' => add_css($listCss)
+    	);
+    	
+    	$this->parser->parse("frontend/error/view404", $data);
     }
 
 }
