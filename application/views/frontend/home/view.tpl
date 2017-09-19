@@ -61,17 +61,14 @@
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading" style="border-bottom: 0px;">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
-				  	<iframe style="width: 100%; height: 215px;"
-						src="https://www.youtube.com/embed/NwOtZnjqKGA?autoplay=0">
-					</iframe>
+				  	<iframe id="youtube-iframe" style="width: 100%; height: 215px;" src=""></iframe>
 				  </div>
 				</div>
 	      		<div class="panel panel-default wow fadeInUp" style="min-height: 216px;">
 				  <div class="panel-heading" style="display:none;">Video Clip</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<div id="fb-root"></div>
-						<script>
-						setTimeout(function(){
+						<script>setTimeout(function(){
 							(function(d, s, id) {
 								  var js, fjs = d.getElementsByTagName(s)[0];
 								  if (d.getElementById(id)) return;
@@ -79,13 +76,8 @@
 								  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1701436310107866";
 								  fjs.parentNode.insertBefore(js, fjs);
 								}(document, 'script', 'facebook-jssdk'));
-						}, 3000);</script>
-						
-						<div class="fb-page"
-  data-href="https://www.facebook.com/imdb" 
-  data-width="340"
-  data-hide-cover="false"
-  data-show-facepile="true"></div>
+						}, 2000);</script>
+						<div class="fb-page" data-href="https://www.facebook.com/imdb" data-width="340" data-hide-cover="false" data-show-facepile="true"></div>
 				  </div>
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
@@ -142,7 +134,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-0 wow fadeInUp" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home04.jpg);">
+		            <div class="product bg-cover pr-img-0 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home04.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Gia công khuôn</h3>
 		                <p>Thiết kế và gia công khuôn nhựa, khuôn thổi, khuôn hút chân không.</p>
@@ -153,7 +145,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-01 wow fadeInUp" style="visibility: visible; animation-name: fadeIn; background-image: url({base_url()}media/uploads/images/home05.jpg);">
+		            <div class="product bg-cover pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home05.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Nghiên cứu & chế tạo</h3>
 		                <p>Nghiên cứu, thiết kế và chế tạo máy móc công nghiệp, máy tự động hóa và bán tự động.</p>

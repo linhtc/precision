@@ -24,7 +24,7 @@ setTimeout(function(){
 
 		olark.configure('system.hb_primary_color', '#1F497D');
 /*]]>*/
-}, 9000);
+}, 6000);
 </script>
 
 <script type="text/javascript">
