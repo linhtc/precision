@@ -18,10 +18,11 @@
 	          
 	          	<div class="row"><div class="moto-cell col-xs-2" data-container="container"><div data-widget-id="wid__image__59c26d3cefa92" class="moto-widget moto-widget-image moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto " data-widget="image">
                         <div class="moto-widget-image-link">
-                <img data-src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon1.png" class="moto-widget-image-picture lazyloaded" data-id="1104" title="" alt="" draggable="false" src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon1.png">
+                <img style="margin-top: 12px;" class="moto-widget-image-picture lazyloaded" data-id="1104" title="" alt="" draggable="false" src="{base_url()}media/images/phone-call.png">
             </div>
             </div></div><div class="moto-cell col-xs-10" data-container="container"><div class="moto-widget moto-widget-text moto-preset-default                               moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="sasa">
-    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_11">Phone:<br><a class="moto-link" data-action="url" target="_self" href="callto:#">+84 98 44 99 008</a><br></p></div>
+    <div class="moto-widget-text-content moto-widget-text-editable">
+    <p class="moto-text_system_11" style="padding-top: 12px;">Điện thoại:<br><a class="moto-link" data-action="url" target="_self" href="callto:#">+84 98 44 99 008</a><br></p></div>
 </div></div></div>
 	          
 	          </div>
@@ -29,19 +30,19 @@
 	          		
 	          		<div class="row"><div class="moto-cell col-xs-2" data-container="container"><div data-widget-id="wid__image__59c26d3cefd6d" class="moto-widget moto-widget-image moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto " data-widget="image">
                                         <a class="moto-widget-image-link moto-link" href="/contact-us/" data-action="page">
-                    <img style="margin-top: 10px;" data-src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon2.png" class="moto-widget-image-picture lazyloaded" data-id="1103" title="" alt="" draggable="false" src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon2.png">
+                    <img style="margin-top: 12px;" class="moto-widget-image-picture lazyloaded" data-id="1103" title="" alt="" draggable="false" src="{base_url()}media/images/placeholder.png">
                 </a>
                         </div></div><div class="moto-cell col-xs-10" data-container="container"><div class="moto-widget moto-widget-text moto-preset-default                              moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa">
-    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_11">Location:<br>Nguyễn Thị Minh Khai, Đông Chiêu, Tân Đông Hiệp, Dĩ An, Bình Dương, Việt Nam</p></div>
+    <div class="moto-widget-text-content moto-widget-text-editable">
+    <p class="moto-text_system_11" style="padding-top: 6px;">Địa chỉ:<br>Nguyễn Thị Minh Khai, Đông Chiêu, Tân Đông Hiệp, Dĩ An, Bình Dương, Việt Nam</p></div>
 </div></div></div>
 	          		
 	          </div>
 	          
-	          <div class="col-lg-1 col-sm-1">
+	          <div class="col-lg-1 col-sm-1 text-right">
 	            <input type="radio" name="language" value="EN"> EN<br>
   				<input type="radio" name="language" value="VN"> VN<br>
 	          </div>
-	          
   			</div>
   		</div>
   	</div>
@@ -50,10 +51,7 @@
     <div id="stuck_container" class="stuck_container">
       <div class="container no-padding">
         <div class="row"> 
-        <div class="col-lg-1 col-sm-1">
-        
-	    </div>
-          <div class="col-lg-10 col-sm-10 no-padding text-center">
+          <div class="col-lg-10 col-sm-10 no-padding">
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
                 <li class="{if $uuid eq 'home'}active{/if}">
@@ -77,11 +75,6 @@
                 <li class="{if $uuid eq 'contact'}active{/if}">
                   <a href="{base_url()}{$smarty.session.lang_prefix}contacts" lang-key="contact">{lang('contact')}</a>
                 </li>
-                <li class="nav-search">
-                  <!-- <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a> -->
-                  <input type="text" placeholder="Nhập từ khóa..." />
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </li>
                 <li style="display: none;">
                 {if empty($smarty.session.lang_prefix)}
                   <a onclick="changeMyLanguage();return false;" style="cursor: pointer;">
@@ -93,37 +86,18 @@
                   </a>
                 {/if}  
                 </li>
-                <!--
-                <li>
-                  <a href="{base_url()}company">{lang('company')}</a>
-                  <ul>
-                    <li>
-                      <a href="#">What We Do</a>
-                    </li>
-                    <li>
-                      <a href="#">What We Offer</a>
-                      <ul>
-                        <li>
-                          <a href="#">News</a>
-                        </li>
-                        <li>
-                          <a href="#">Our Standards</a>
-                        </li>
-                        <li>
-                          <a href="#">Useful Links</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Forum</a>
-                    </li>
-                  </ul>
-                </li>
-                -->
               </ul>
             </nav>
           </div>
-        <div class="col-lg-1 col-sm-1">
+        <div class="col-lg-2 col-sm-2">
+            <nav class="nav">
+              <ul class="sf-menu" data-type="navbar">
+                <li class="nav-search">
+                  <input type="text" placeholder="Nhập từ khóa..." />
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </li>
+              </ul>
+            </nav>
         
 	    </div>
         </div>
