@@ -257,16 +257,15 @@
     </section>
 <!--======================End well_1=========================-->
 <!--======================parallax=========================-->
-    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/servicehome.png" data-mobile="true" data-speed="0.6">
+    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/page-01_bg-01.jpg" data-mobile="true" data-speed="0.6">
       <div class="container">
         <div class="row"> 
           <div class="col-lg-6">
-            <h3 class="wow fadeInLeft ls-1">Chúng tôi phục vụ các nhau cầu chế tạo</h3>
+            <h2 class="wow fadeInLeft ls-1">Chúng tôi phục vụ các nhau cầu chế tạo</h2>
             <!-- <h3 class="wow fadeInLeft">các nhau cầu chế tạo</h3> -->
-            <br />
             <h4 class="wow fadeIn offset-8">Các dịch vu gia công cơ khí chính xác, 
             thiết kế chế tạo của chúng tôi đáp ứng nhu cầu của nhiều ngành công nghiệp với quy mô lớn và nhỏ.</h4>
-            <br /><br />
+            <br />
             <h4>Ngoài ra chúng tôi còn đáp ứng nhu cầu nhanh tiến độ theo từng yêu cầu của khách hàng.</h4>
           </div>
           <div class="col-lg-6">
