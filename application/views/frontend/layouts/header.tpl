@@ -114,7 +114,7 @@
 {if $uuid eq 'home'}
       <div class="camera_container">
         <div id="camera" class="camera_wrap">
-          <div data-src="{base_url()}media/uploads/images/1.jpg">
+          <div data-src="{base_url()}media/uploads/images/slider1.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
