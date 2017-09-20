@@ -503,7 +503,7 @@ br.br-lg {
 }
 .brand {
     display: inline-block;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: rgb(31, 73, 125);
 }
 .brand_name {
@@ -1266,8 +1266,8 @@ br.br-lg {
     z-index: 20;
 }
 .toTop:hover {
-    color: #fff;
-    background: #272d33;
+    color: rgb(31, 73, 125);
+    background: rgb(255, 255, 102);
     text-decoration: none;
     -webkit-box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -2012,7 +2012,7 @@ br.br-lg {
     }
 }
 header .nav {
-    float: right;
+    float: left;
     padding: 17px 0px;
 }
 @media (min-width: 320px) and (max-width: 767px) {

@@ -171,7 +171,7 @@
 <!--======================well_1=========================-->
     <section class="well-3">
       <div class="container center_text">
-        <h2 class="secondary_color">Our products</h2>
+        <h2 class="secondary_color">Sản phẩm của chúng tôi</h2>
         <div class="row offset">
           <div class="col-lg-4 col-xs-4">
             <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_1.jpg);">
@@ -257,20 +257,26 @@
     </section>
 <!--======================End well_1=========================-->
 <!--======================parallax=========================-->
-    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/page-01_bg-02.jpg" data-mobile="true" data-speed="0.6">
+    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/servicehome.jpg" data-mobile="true" data-speed="0.6">
       <div class="container">
         <div class="row"> 
           <div class="col-lg-6">
-            <h2 class="wow fadeInLeft ls-1">We serve to meet</h2>
-            <h3 class="wow fadeInLeft">your fabrication needs</h3>
-            <p class="wow fadeIn offset-8">Our industrial coating services, suited to meet the needs of numerous industries, are available for any size production run, from prototypes through large volume.</p>
-            <p>Additionally, we are committed to providing service suited to each customer's ideal turnaround time. Our rush services can be performed in a matter of hours, if necessary.</p>
+            <h2 class="wow fadeInLeft ls-1">Chúng tôi phục vụ</h2>
+            <h3 class="wow fadeInLeft">các nhau cầu chế tạo</h3>
+            <p class="wow fadeIn offset-8">Các dịch vu gia công cơ khí chính xác, thiết kế chế tạo của chúng tôi đáp ứng nhu cầu của nhiều ngành công nghiệp với quy mô lớn và nhỏ.</p>
+            <p>Ngoài ra chúng tôi còn đáp ứng nhu cầu nhanh tiến độ theo từng yêu cầu của khách hàng.</p>
           </div>
           <div class="col-lg-6">
             <ul class="index-list icon-hover_3">
-              <li class="wow fadeInRight"><h4>We are professional, experienced and dedicated to your satisfaction.</h4></li>
-              <li class="wow fadeInRight" data-wow-delay="0.2s"><h4>We are proud to offer the highest quality coating services to clients.</h4></li>
-              <li class="wow fadeInRight" data-wow-delay="0.4s"><h4>Please contact us with any questions you might have.</h4></li>
+              <li class="wow fadeInRight">
+              	<h4 style="color: rgb(31, 73, 125);">Với sự chuyên nghiệp, giàu kinh nghiệm và tận tâm sẽ mang lại sự hài lòng cho khách hàng.</h4>
+              </li>
+              <li class="wow fadeInRight" data-wow-delay="0.2s">
+              	<h4 style="color: rgb(31, 73, 125);">Chúng tôi tự hào mang lại chất lượng sản phẩm và dịch vụ cao nhất cho khách hàng.</h4>
+              </li>
+              <li class="wow fadeInRight" data-wow-delay="0.4s">
+              	<h4 style="color: rgb(31, 73, 125);">Hãy liên hệ với chúng tôi nếu như bạn có nhu cầu cũng như bất kỳ câu hỏi nào.</h4>
+              </li>
             </ul>
           </div>
         </div>
@@ -282,16 +288,21 @@
       <div class="container">
         <div class="row flow-offset-1 text-center text-lg-left">
           <div class="col-lg-5">
-            <img src="{base_url()}static/default/frontend/images/page-01_img_05.jpg" alt="" class="wow fadeInLeft">
+            <img src="{base_url()}static/default/frontend/images/introduce.jpg" alt="" class="wow fadeInLeft">
           </div>
           <div class="col-lg-7">
-            <h2 class="secondary_color wow fadeInRight">A few words about our company</h2>
+            <h2 class="secondary_color wow fadeInRight">Một vài lời về công ty chúng tôi</h2>
             <h3 class="primary_color wow fadeInRight"></h3>
-            <p class="primary_color offset-1 inset-3">Steel and Fabrication Industry was incorporated in April of 1989 with the
-            objective of offering the market a higher level of excellence in steel 
-            Fabrication.  Its organizers, with a combined sixty years of experience in steel fabrication, machining, manufacturing, and design could see that many large 
-            manufacturers were scaling back their own company’s to reduce costs. To achieve their objectives Steel and Fabrication Industry assembled a team of experienced and certified craftsmen, engineers, and designers with a 
-            commitment to quality and efficiency.</p>
+            <p class="primary_color offset-1 inset-3">
+            Công ty TNHH cơ khí chính xác Toàn Thắng được thành lập với mục tiêu cung cấp 
+            cho thị trường sản phẩm cơ khí chính xác, kết hợp với chuyển giao công nghệ trong lĩnh vực thiết kế chế tạo máy.
+            <br /> <br />
+            Với đội ngũ kỹ sư chuyên nghiệp qua nhiều năm kinh nghiệm và có tay nghề kỹ thuật giỏi. 
+            Chúng tôi khẳng định sẽ mang đến sự hài lòng tuyệt đối nếu bạn lựa chọn chúng tôi.
+            <br /> <br />
+            Với phương châm mang lại sự hài lòng cho khách hàng. Công ty chúng tôi luôn nỗ lực cải tiến, liên tục phát triển không ngừng 
+            để đáp ứng yêu cầu ngày càng cao của Quý khách.
+            </p>
           </div>
         </div>
       </div>

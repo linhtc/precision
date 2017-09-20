@@ -405,5 +405,50 @@ table.listjob td {
 	color: rgb(31, 73, 125);
 }
 
+.nav-search {
+	position: relative;
+}
+
+.nav-search input {
+	padding: 0px 5px;
+    border: thin solid grey !important;
+    line-height: 24px;
+    border-radius: 10px !important;
+    margin-top: 10px;
+}
+
+.nav-search i {
+	position: absolute;
+    color: silver;
+    right: 6px;
+    top: 10px;
+}
+
+.top-header {
+	background-color: #1f292e;
+}
+
+.top-header .brand_name {
+    color: #ff9800;
+    font: 700 37px/57px "Open Sans", sans-serif;
+}
+
+.moto-text_system_11 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    color: #7a96a3;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.moto-widget-text-editable {
+	padding: 12px 0px;
+}
+
+
+
+
 
 

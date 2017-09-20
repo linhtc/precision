@@ -2,18 +2,58 @@
                             HEADER
   =========================================================-->
   <header>
+  	
+  	<div class="top-header">
+  		<div class="container no-padding">
+  			<div class="row">
+	          <div class="col-lg-5 col-sm-5">
+	            <div class="brand">
+	              <h1 class="brand_name">
+	                <a href="./">Toàn Thắng Precision</a>
+	              </h1>
+	              <h5 style="display: none;">Leading Quality</h5>
+	            </div>
+	          </div>
+	          <div class="col-lg-3 col-sm-3">
+	          
+	          	<div class="row"><div class="moto-cell col-xs-2" data-container="container"><div data-widget-id="wid__image__59c26d3cefa92" class="moto-widget moto-widget-image moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto " data-widget="image">
+                        <div class="moto-widget-image-link">
+                <img data-src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon1.png" class="moto-widget-image-picture lazyloaded" data-id="1104" title="" alt="" draggable="false" src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon1.png">
+            </div>
+            </div></div><div class="moto-cell col-xs-10" data-container="container"><div class="moto-widget moto-widget-text moto-preset-default                               moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="sasa">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_11">Phone:<br><a class="moto-link" data-action="url" target="_self" href="callto:#">+1 959 603 6035 (585-SUPPORT)</a><br></p></div>
+</div></div></div>
+	          
+	          </div>
+	          <div class="col-lg-3 col-sm-3">
+	          		
+	          		<div class="row"><div class="moto-cell col-xs-2" data-container="container"><div data-widget-id="wid__image__59c26d3cefd6d" class="moto-widget moto-widget-image moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto " data-widget="image">
+                                        <a class="moto-widget-image-link moto-link" href="/contact-us/" data-action="page">
+                    <img data-src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon2.png" class="moto-widget-image-picture lazyloaded" data-id="1103" title="" alt="" draggable="false" src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon2.png">
+                </a>
+                        </div></div><div class="moto-cell col-xs-10" data-container="container"><div class="moto-widget moto-widget-text moto-preset-default                              moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa">
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_11">Location:<br>Nguyễn Thị Minh Khai, Đông Chiêu, Tân Đông Hiệp, Dĩ An</p></div>
+</div></div></div>
+	          		
+	          </div>
+	          
+	          <div class="col-lg-1 col-sm-1">
+	            <input type="radio" name="language" value="EN"> EN<br>
+  				<input type="radio" name="language" value="VN"> VN<br>
+	          </div>
+	          
+  			</div>
+  		</div>
+  	</div>
+  	
+  	
     <div id="stuck_container" class="stuck_container">
       <div class="container no-padding">
         <div class="row"> 
-          <div class="col-lg-3 col-sm-3 no-padding">
-            <div class="brand">
-              <h1 class="brand_name">
-                <a href="./">TTP</a>
-              </h1>
-              <h5>Leading Quality</h5>
-            </div>
-          </div>
-          <div class="col-lg-9 col-sm-9 no-padding">
+        <div class="col-lg-1 col-sm-1">
+        
+	    </div>
+          <div class="col-lg-10 col-sm-10 no-padding">
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
                 <li class="{if $uuid eq 'home'}active{/if}">
@@ -37,8 +77,10 @@
                 <li class="{if $uuid eq 'contact'}active{/if}">
                   <a href="{base_url()}{$smarty.session.lang_prefix}contacts" lang-key="contact">{lang('contact')}</a>
                 </li>
-                <li>
-                  <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <li class="nav-search">
+                  <!-- <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a> -->
+                  <input type="text" placeholder="Nhập từ khóa..." />
+                  <i class="fa fa-search" aria-hidden="true"></i>
                 </li>
                 <li>
                 {if empty($smarty.session.lang_prefix)}
@@ -81,6 +123,9 @@
               </ul>
             </nav>
           </div>
+        <div class="col-lg-1 col-sm-1">
+        
+	    </div>
         </div>
       </div>
     </div>
