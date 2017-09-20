@@ -2012,8 +2012,9 @@ br.br-lg {
     }
 }
 header .nav {
-    float: left;
+    /* float: left; */
     padding: 17px 0px;
+    display: inline-block;
 }
 @media (min-width: 320px) and (max-width: 767px) {
     header {

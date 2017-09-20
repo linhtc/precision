@@ -257,25 +257,28 @@
     </section>
 <!--======================End well_1=========================-->
 <!--======================parallax=========================-->
-    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/servicehome.jpg" data-mobile="true" data-speed="0.6">
+    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/servicehome.png" data-mobile="true" data-speed="0.6">
       <div class="container">
         <div class="row"> 
           <div class="col-lg-6">
-            <h2 class="wow fadeInLeft ls-1">Chúng tôi phục vụ</h2>
-            <h3 class="wow fadeInLeft">các nhau cầu chế tạo</h3>
-            <p class="wow fadeIn offset-8">Các dịch vu gia công cơ khí chính xác, thiết kế chế tạo của chúng tôi đáp ứng nhu cầu của nhiều ngành công nghiệp với quy mô lớn và nhỏ.</p>
-            <p>Ngoài ra chúng tôi còn đáp ứng nhu cầu nhanh tiến độ theo từng yêu cầu của khách hàng.</p>
+            <h3 class="wow fadeInLeft ls-1">Chúng tôi phục vụ các nhau cầu chế tạo</h3>
+            <!-- <h3 class="wow fadeInLeft">các nhau cầu chế tạo</h3> -->
+            <br />
+            <h4 class="wow fadeIn offset-8">Các dịch vu gia công cơ khí chính xác, 
+            thiết kế chế tạo của chúng tôi đáp ứng nhu cầu của nhiều ngành công nghiệp với quy mô lớn và nhỏ.</h4>
+            <br /><br />
+            <h4>Ngoài ra chúng tôi còn đáp ứng nhu cầu nhanh tiến độ theo từng yêu cầu của khách hàng.</h4>
           </div>
           <div class="col-lg-6">
             <ul class="index-list icon-hover_3">
               <li class="wow fadeInRight">
-              	<h4 style="color: rgb(31, 73, 125);">Với sự chuyên nghiệp, giàu kinh nghiệm và tận tâm sẽ mang lại sự hài lòng cho khách hàng.</h4>
+              	<h4>Với sự chuyên nghiệp, giàu kinh nghiệm và tận tâm sẽ mang lại sự hài lòng cho khách hàng.</h4>
               </li>
               <li class="wow fadeInRight" data-wow-delay="0.2s">
-              	<h4 style="color: rgb(31, 73, 125);">Chúng tôi tự hào mang lại chất lượng sản phẩm và dịch vụ cao nhất cho khách hàng.</h4>
+              	<h4>Chúng tôi tự hào mang lại chất lượng sản phẩm và dịch vụ cao nhất cho khách hàng.</h4>
               </li>
               <li class="wow fadeInRight" data-wow-delay="0.4s">
-              	<h4 style="color: rgb(31, 73, 125);">Hãy liên hệ với chúng tôi nếu như bạn có nhu cầu cũng như bất kỳ câu hỏi nào.</h4>
+              	<h4>Hãy liên hệ với chúng tôi nếu như bạn có nhu cầu cũng như bất kỳ câu hỏi nào.</h4>
               </li>
             </ul>
           </div>
@@ -293,16 +296,16 @@
           <div class="col-lg-7">
             <h2 class="secondary_color wow fadeInRight">Một vài lời về công ty chúng tôi</h2>
             <h3 class="primary_color wow fadeInRight"></h3>
-            <p class="primary_color offset-1 inset-3">
+            <h4 class="primary_color offset-1 inset-3">
             Công ty TNHH cơ khí chính xác Toàn Thắng được thành lập với mục tiêu cung cấp 
             cho thị trường sản phẩm cơ khí chính xác, kết hợp với chuyển giao công nghệ trong lĩnh vực thiết kế chế tạo máy.
-            <br /> <br />
+            <br />
             Với đội ngũ kỹ sư chuyên nghiệp qua nhiều năm kinh nghiệm và có tay nghề kỹ thuật giỏi. 
             Chúng tôi khẳng định sẽ mang đến sự hài lòng tuyệt đối nếu bạn lựa chọn chúng tôi.
-            <br /> <br />
+            <br />
             Với phương châm mang lại sự hài lòng cho khách hàng. Công ty chúng tôi luôn nỗ lực cải tiến, liên tục phát triển không ngừng 
             để đáp ứng yêu cầu ngày càng cao của Quý khách.
-            </p>
+            </h4>
           </div>
         </div>
       </div>

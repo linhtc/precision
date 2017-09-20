@@ -9,7 +9,7 @@
 	          <div class="col-lg-5 col-sm-5">
 	            <div class="brand">
 	              <h1 class="brand_name">
-	                <a href="./">Toàn Thắng Precision</a>
+	                <a href="./">TTP&nbsp;&nbsp;&nbsp;Toàn Thắng Precision</a>
 	              </h1>
 	              <h5 style="display: none;">Leading Quality</h5>
 	            </div>
@@ -21,7 +21,7 @@
                 <img data-src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon1.png" class="moto-widget-image-picture lazyloaded" data-id="1104" title="" alt="" draggable="false" src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon1.png">
             </div>
             </div></div><div class="moto-cell col-xs-10" data-container="container"><div class="moto-widget moto-widget-text moto-preset-default                               moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="sasa">
-    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_11">Phone:<br><a class="moto-link" data-action="url" target="_self" href="callto:#">+1 959 603 6035 (585-SUPPORT)</a><br></p></div>
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_11">Phone:<br><a class="moto-link" data-action="url" target="_self" href="callto:#">+84 98 44 99 008</a><br></p></div>
 </div></div></div>
 	          
 	          </div>
@@ -29,10 +29,10 @@
 	          		
 	          		<div class="row"><div class="moto-cell col-xs-2" data-container="container"><div data-widget-id="wid__image__59c26d3cefd6d" class="moto-widget moto-widget-image moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto " data-widget="image">
                                         <a class="moto-widget-image-link moto-link" href="/contact-us/" data-action="page">
-                    <img data-src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon2.png" class="moto-widget-image-picture lazyloaded" data-id="1103" title="" alt="" draggable="false" src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon2.png">
+                    <img style="margin-top: 10px;" data-src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon2.png" class="moto-widget-image-picture lazyloaded" data-id="1103" title="" alt="" draggable="false" src="https://template58608.motopreview.com/mt-demo/58600/58608/mt-content/uploads/2016/03/mt-0368-icon2.png">
                 </a>
                         </div></div><div class="moto-cell col-xs-10" data-container="container"><div class="moto-widget moto-widget-text moto-preset-default                              moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa">
-    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_11">Location:<br>Nguyễn Thị Minh Khai, Đông Chiêu, Tân Đông Hiệp, Dĩ An</p></div>
+    <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_11">Location:<br>Nguyễn Thị Minh Khai, Đông Chiêu, Tân Đông Hiệp, Dĩ An, Bình Dương, Việt Nam</p></div>
 </div></div></div>
 	          		
 	          </div>
@@ -53,7 +53,7 @@
         <div class="col-lg-1 col-sm-1">
         
 	    </div>
-          <div class="col-lg-10 col-sm-10 no-padding">
+          <div class="col-lg-10 col-sm-10 no-padding text-center">
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
                 <li class="{if $uuid eq 'home'}active{/if}">
@@ -82,7 +82,7 @@
                   <input type="text" placeholder="Nhập từ khóa..." />
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </li>
-                <li>
+                <li style="display: none;">
                 {if empty($smarty.session.lang_prefix)}
                   <a onclick="changeMyLanguage();return false;" style="cursor: pointer;">
                   	<img class="national-flag" key="vn" src="{base_url()}media/images/vn.svg" />
