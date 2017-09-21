@@ -1,6 +1,6 @@
 <footer>
     {if $uuid eq 'home' or $uuid eq 'contact'}
-    <div class="container">
+    <div class="container no-padding">
       <div class="row inset-2 flow-offset-1">
         <div class="col-lg-3 col-xs-12 icon-hover" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-location_on"></i>
