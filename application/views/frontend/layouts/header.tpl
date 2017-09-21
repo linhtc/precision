@@ -6,38 +6,38 @@
   	<div class="top-header">
   		<div style="padding: 5px 5px 0px 70px;overflow: hidden;">
   			<div class="row">
-	          <div class="col-lg-2 col-sm-2" style="position: relative;">
+	          <div class="col-lg-2 col-sm-2 text-center" style="position: relative;">
 	            <div class="brand">
 	              <h1 class="brand_name" style="margin: 0; padding: 0; margin-top: -10px; margin-left: 20px;">
 	                <a href="./">TTP</a>
 	              </h1>
 	              <h5 style="margin: 0; padding: 0; margin-top: -10px; margin-left: 20px;">Leading Quality</h5>
 	            </div>
-	            <div class="header-slash-line"></div>
-	            <div class="header-slash-line2"></div>
+	            <!-- <div class="header-slash-line"></div>
+	            <div class="header-slash-line2"></div> -->
 	          </div>
-	          <div class="col-lg-4 col-sm-4 header-border-bt">
+	          <div class="col-lg-4 col-sm-4 header-border-bt2">
 	            <div class="brand">
 	              <h1 class="brand_name">
 	                <a href="./">Toàn Thắng Precision</a>
 	              </h1>
 	            </div>
 	          </div>
-	          <div class="col-lg-2 col-sm-2 header-border-bt">
+	          <div class="col-lg-2 col-sm-2 header-border-bt2">
 	          	<div class="quick-intro" style="background-image:url({base_url()}media/images/phone-call.png);">
 		          	<p class="moto-text_system_11" style="padding-top: 12px;">
 		          		Điện thoại:<br><a class="moto-link" data-action="url" target="_self" href="callto:#">+84 98 44 99 008</a><br>
 	          		</p>
 	          	</div>
 	          </div>
-	          <div class="col-lg-3 col-sm-3 header-border-bt">
+	          <div class="col-lg-3 col-sm-3 header-border-bt2">
 	          	<div class="quick-intro" style="background-image:url({base_url()}media/images/placeholder.png);">
 		          	<p class="moto-text_system_11" style="padding-top: 12px;">
 		          		Địa chỉ: Nguyễn Thị Minh Khai, khu phố Đông Chiêu, phường Tân Đông Hiệp, Tx. Dĩ An, Bình Dương, Việt Nam
 	          		</p>
 	          	</div>
 	          </div>
-	          <div class="col-lg-1 col-sm-1 header-border-bt">
+	          <div class="col-lg-1 col-sm-1 header-border-bt2">
 	            <input type="radio" name="language" value="EN"> EN<br>
   				<input type="radio" name="language" value="VN"> VN<br>
 	          </div>
@@ -49,7 +49,7 @@
     <div id="stuck_container" class="stuck_container">
       <div class="container no-padding">
         <div class="row"> 
-          <div class="col-lg-10 col-sm-10 no-padding">
+          <div class="col-lg-12 col-sm-12 no-padding text-center">
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
                 <li class="{if $uuid eq 'home'}active{/if}">
@@ -84,10 +84,14 @@
                   </a>
                 {/if}  
                 </li>
+                <li class="nav-search">
+                  <input type="text" placeholder="Nhập từ khóa..." />
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </li>
               </ul>
             </nav>
           </div>
-        <div class="col-lg-2 col-sm-2">
+        <!-- <div class="col-lg-2 col-sm-2">
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
                 <li class="nav-search">
@@ -97,7 +101,7 @@
               </ul>
             </nav>
         
-	    </div>
+	    </div> -->
         </div>
       </div>
     </div>
