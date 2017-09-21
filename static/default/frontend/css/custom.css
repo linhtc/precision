@@ -27,7 +27,7 @@
 }
 
 .panel-body {
-	padding: 10px 15px;
+	padding: 6px 15px;
 }
 
 .list-group {
@@ -442,7 +442,7 @@ table.listjob td {
     font-weight: 400;
     font-style: normal;
     font-family: 'Lato', sans-serif;
-    color: #7a96a3;
+    color: #ff9800;
     font-size: 13px;
     line-height: 1.2;
     letter-spacing: 0px;

@@ -19,7 +19,7 @@
 	          <div class="col-lg-4 col-sm-4 header-border-bt2">
 	            <div class="brand">
 	              <h1 class="brand_name">
-	                <a href="./">Toàn Thắng Precision</a>
+	                <a href="./">Toan Thang Precision</a>
 	              </h1>
 	            </div>
 	          </div>

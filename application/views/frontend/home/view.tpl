@@ -13,7 +13,7 @@
 		                </h4>
 			  		</div>
 					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kỹ thuật:</span>
-			  		<p style="position: relative;margin-top: 5px;border-bottom: thin dotted;">
+			  		<p style="position: relative;margin-top: 5px;">
 	                	<span>
 	                		<b>Mr. Thắng: </b><br />
 	                		<b>0963 693 626</b>
@@ -25,7 +25,7 @@
 	                		</a>
 	                	</span>
 	                </p>
-			  		<p style="position: relative; margin-top: 5px;">
+			  		<p style="position: relative; margin-top: 5px; border-bottom: thin dotted;">
 	                	<span>
 	                		<b>Mr. Hùng: </b><br />
 	                		<b>0982 791 717</b>
@@ -82,7 +82,7 @@
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
 				  <div class="panel-heading">Thống kê</div>
-				  <div class="panel-body" style="padding-bottom: 8px;">
+				  <div class="panel-body" style="padding-bottom: 0;padding-top: 0;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
 				  		<span>Đang online: 9</span>
 			  		</div>
@@ -293,7 +293,7 @@
             <img src="{base_url()}static/default/frontend/images/introduce.jpg" alt="" class="wow fadeInLeft">
           </div>
           <div class="col-lg-7">
-            <h2 class="secondary_color wow fadeInRight">Một vài lời về công ty chúng tôi</h2>
+            <h2 class="secondary_color wow fadeInRight" style="margin-top: -20px;">Một vài lời về công ty chúng tôi</h2>
             <h3 class="primary_color wow fadeInRight"></h3>
             <h4 class="primary_color offset-1 inset-3">
             Công ty TNHH cơ khí chính xác Toàn Thắng được thành lập với mục tiêu cung cấp 
