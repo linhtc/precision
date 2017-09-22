@@ -5,7 +5,7 @@
         <div class="col-lg-3 col-xs-12 icon-hover" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-location_on"></i>
           <h3>Địa chỉ:</h3>
-          <p><a href="#">Nguyễn Thị Minh Khai, phường Tân Đông Hiệp, Bình Dương, Vietnam</a>
+          <p><a href="#">Nguyễn Thị Minh Khai, khu phố Đông Chiêu, phường Tân Đông Hiệp, Tx. Dĩ An, Bình Dương, Việt Nam</a>
           </p>
         </div>
         <div class="col-lg-3 col-xs-12 icon-hover offset-6" style="padding-left: 0px; padding-right: 0px;">
