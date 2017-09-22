@@ -2310,7 +2310,8 @@ footer {
     background: #272d33;
 }
 footer h3+p {
-    margin-top: 11px;
+    margin-top: -5px;
+    padding-left: 102px;
 }
 footer .footer-cnt {
     padding-top: 23px;
