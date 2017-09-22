@@ -11,7 +11,7 @@
         <div class="col-lg-3 col-xs-12 icon-hover offset-6" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-phone"></i>
           <h3>Điện thoại:</h3>
-          <p><a href="callto:#">0984 499 008</a><br>
+          <p>
           <a href="callto:#">0963 693 626</a><br>
           <a href="callto:#">0982 791 717</a></p>
         </div>
@@ -19,7 +19,8 @@
           <i class="icon secondary-icon icon-xs material-icons-email"></i>
           <h3>Liên hệ:</h3>
           <p style="white-space: pre;">
-          <a href="#">info@toanthangprecision.com</a></p>
+          <a href="#">info@toanthangprecision.com</a><br>
+          <a href="callto:#">Hotline: 0984 499 008</a></p>
         </div>
         <div class="col-lg-3 col-xs-12 icon-hover offset-6">
           <i class="icon secondary-icon icon-xs material-icons-schedule"></i>
