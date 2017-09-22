@@ -822,7 +822,7 @@ br.br-lg {
     }
 }
 .sf-menu {
-    font: 100 16px/24px "Open Sans", sans-serif;
+    font: 100 20px/24px "Open Sans", sans-serif;
     text-transform: uppercase;
     display: inline-block;
 }
@@ -877,7 +877,7 @@ br.br-lg {
 .sf-menu>li.active>a {
     /* color: rgb(31, 73, 125); */
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     background: rgb(31, 73, 125);
     padding: 10px;
 }
