@@ -8,11 +8,10 @@
             <!-- <a href="{base_url()}media/uploads/images/AluminiumMilling.jpg" data-lightbox="image-1" data-title="Về chúng tôi">
               <img style="height:251px;" src="{base_url()}media/uploads/images/AluminiumMilling.jpg" alt="">
             </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/AluminiumMilling.jpg);">
-              	<a href="{base_url()}media/uploads/images/AluminiumMilling.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_1.jpg);">
+              	<a href="{base_url()}media/uploads/images/company_1.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
-              buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
+              <p>Công ty chúng tôi chuyên gia công chính xác chi tiết máy trên mọi vật liệu như Nhôm, Sắt, Đồng, Nhựa Teflon, ... </p>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
@@ -20,13 +19,10 @@
             <!-- <a href="{base_url()}media/uploads/images/CNCMilling4axis.png" data-lightbox="image-1" data-title="Về chúng tôi">
               <img style="height:251px;" src="{base_url()}media/uploads/images/CNCMilling4axis.png" alt="">
             </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/companymold.jpg);">
-              	<a href="{base_url()}media/uploads/images/companymold.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_schematic.jpg);">
+              	<a href="{base_url()}media/uploads/images/company_schematic.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our adaptability, skill, and experience are
-              proven by our past results. We are ideally suited to handle any project, worldwide. 
-              Utilizing the latest in cutting edge new 
-              millenium technology, we blend Old World experience with the newest in fabrication equipment and techniques.</p>
+              <p>Chúng tôi thiết kế, gia công các loại khuôn ép nhựa, khuôn thổi, khuôn đùn, ...</p>
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
@@ -34,15 +30,11 @@
             <!-- <a href="{base_url()}media/uploads/images/SUS304Milling.png" data-lightbox="image-1" data-title="Về chúng tôi">
               <img style="height:251px;" src="{base_url()}media/uploads/images/SUS304Milling.png" alt="">
             </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/companyrd.jpg);">
-              	<a href="{base_url()}media/uploads/images/companyrd.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_machine.jpg);">
+              	<a href="{base_url()}media/uploads/images/company_machine.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our completed projects stand as proof of 
-              the quality of our work; the fact that 
-              most of our clients retain enduring 
-              relationships with us is further proof that 
-              not only our work is excellent, but also that our concern for our clients is of paramount 
-              importance.</p>
+              <p>Với đội ngũ kỹ sư nhiều kinh nghiệm công ty chúng tôi thiết kế chế tạo các máy phục vụ trong lĩnh vực công nghiệp 
+              chế tạo máy, điện-điện tử, ...</p>
             </div>
           </div>
         </div>
@@ -50,26 +42,25 @@
      </section> 
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-  <section class="parallax well-6" data-url="{base_url()}media/uploads/images/page-02_bg-01.jpg" data-mobile="true" data-speed="0.6">
+  <section class="parallax well-6 center_text" data-url="{base_url()}media/uploads/images/slider1.jpg" data-mobile="true" data-speed="0.6">
     <div class="container">
+    <h2 class="wow fadeInRight">Tại sao chọn chúng tôi?</h2>
       <div class="row"> 
-        <div class="col-lg-6">
-          <h2 class="wow fadeInLeft">Why choose us</h2>
-          <h3 class="wow fadeInLeft">Our advantages</h3>
-          <p class="wow fadeIn offset-8">Not only do we offer quality products, but quality products at
-          competitive prices. We aim to always provide excellent customer 
-          service, without any attitude. </p>
-          <p>Your projects are our projects, and we treat partners and clients as equals. These markets involve structural steel fabrication, metal 
-          deck forming, as well as structural stud forming. We aim for better performance, and have by far accomplished this goal by creating a better business environment in our region, and beyond. </p>
-        </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-5">
           <ul class="marked-list-1 text-left">
-                <li class="wow fadeInRight"><a href="#">Extensive product line</a></li>
-                <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Our tradition of quality</a></li>
-                <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Industry leader</a></li>
-                <li class="wow fadeInRight" data-wow-delay="0.6s"><a href="#">On-time deliveries</a></li>
+                <li class="wow fadeInRight"><a href="#">Đội ngũ tư vấn kỹ thuật</a></li>
+                <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Chuyên nghiệp giàu kinh nghiệm</a></li>
+                <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Đối tác tin cậy</a></li>
           </ul>
+        </div>
+        <div class="col-lg-5">
+          <ul class="marked-list-1 text-left">
+                <li class="wow fadeInRight"><a href="#">Sản phẩm và dịch vụ cao</a></li>
+                <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Giá trị khách hàng cốt lõi</a></li>
+                <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Giao hàng đúng tiến độ</a></li>
+          </ul>
+        <div class="col-lg-1"></div>
         </div>
       </div>
     </div>
@@ -115,24 +106,19 @@
 <!--======================parallax=========================-->
   <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/uploads/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6">
     <div class="container">
-      <h2>Our philosophy</h2>
-      <h3>Our goal is your satisfaction and success</h3>
+      <h2>Triết lý của chúng tôi</h2>
+      <h3>Mục tiêu của chúng tôi là sự hài lòng và thành công của bạn</h3>
       <div class="row  offset-9">
         <ul class="index-list_1 icon-hover_3 flow-offset-1">
-          <li class="wow fadeInUp col-lg-4 col-md-4"><h4>Our mission</h4>
-          <p>We aim to be as 
-          efficient and productive as
-          possible, maintaining the 
-          highest standards all the 
-          while.</p>
+          <li class="wow fadeInUp col-lg-4 col-md-4"><h4>Sứ mệnh</h4>
+          <p>Chúng tôi mong muốn là nhà cung cấp dịch vụ đáng tin cậy, mang lại sự hài lòng cho khách hàng.</p>
           </li>
-          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.2s"><h4>Our experience</h4>
-          <p>Our professionalism and experience allow us to deliver quality products, on-time, and at a competitive price.</p>
+          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.2s"><h4>Kinh nghiệm</h4>
+          <p>Với sự chuyên nghiệp và kinh nghiệm của chúng tôi đảm bảo cung cấp sản phẩm đến khách hàng chất lượng cao, 
+          đúng tiến độ và giá cả cạnh tranh.</p>
           </li>
-          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.4s"><h4>Our approach</h4>
-          <p>As our customer, you can expect great attention 
-          to detail and proactive 
-          problem solving. </p>
+          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.4s"><h4>Dịch vụ</h4>
+          <p>&nbsp;<br />&nbsp;</p>
           </li>
         </ul>
       </div>
