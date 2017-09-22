@@ -852,6 +852,7 @@ br.br-lg {
     color: #272d33;
     display: block;
     padding: 10px 0px;
+    font-weight: 600;
 }
 .sf-menu>li>a:before {
     content: "";

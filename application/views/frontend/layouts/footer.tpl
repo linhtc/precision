@@ -5,13 +5,14 @@
         <div class="col-lg-3 col-xs-12 icon-hover" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-location_on"></i>
           <h3>Địa chỉ:</h3>
-          <p><a href="#">Nguyễn Thị Minh Khai, khu phố Đông Chiêu, phường Tân Đông Hiệp, Tx. Dĩ An, Bình Dương, Vietnam</a>
+          <p><a href="#">53 Nguyễn Thị Minh Khai, phường Tân Đông Hiệp, Hồ Chí Minh, Bình Dương, Vietnam</a>
           </p>
         </div>
         <div class="col-lg-3 col-xs-12 icon-hover offset-6" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-phone"></i>
           <h3>Điện thoại:</h3>
-          <p><a href="callto:#">0963 693 626</a><br>
+          <p><a href="callto:#">0984 499 008</a><br>
+          <a href="callto:#">0963 693 626</a><br>
           <a href="callto:#">0982 791 717</a></p>
         </div>
         <div class="col-lg-3 col-xs-12 icon-hover offset-6" style="padding-left: 0px; padding-right: 0px;">

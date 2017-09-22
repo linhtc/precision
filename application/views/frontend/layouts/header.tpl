@@ -25,14 +25,14 @@
 	          </div>
 	          <div class="col-lg-2 col-sm-2 header-border-bt2">
 	          	<div class="quick-intro" style="background-image:url({base_url()}media/images/phone-call.png);">
-		          	<p class="moto-text_system_11" style="padding-top: 12px;">
+		          	<p class="moto-text_system_11">
 		          		Điện thoại:<br><a class="moto-link" data-action="url" target="_self" href="callto:#">+84 98 44 99 008</a><br>
 	          		</p>
 	          	</div>
 	          </div>
 	          <div class="col-lg-3 col-sm-3 header-border-bt2">
 	          	<div class="quick-intro" style="background-image:url({base_url()}media/images/placeholder.png);">
-		          	<p class="moto-text_system_11" style="padding-top: 12px;">
+		          	<p class="moto-text_system_11">
 		          		Địa chỉ: Nguyễn Thị Minh Khai, khu phố Đông Chiêu, phường Tân Đông Hiệp, Tx. Dĩ An, Bình Dương, Việt Nam
 	          		</p>
 	          	</div>

@@ -116,7 +116,7 @@
 		                <p>
 		                	Sản phẩm được gia công trên công nghệ hiện đại kết hợp công nghệ xử lý bề mặt tạo ra chất lượng sản phẩm có độ chính xác và độ thẩm mỹ cao.
 		                	<br />
-		                	Gia công trên mọi vật liệu như Nhôm, Đồng, Sắt, Nhựa, Kika, ...
+		                	Gia công trên mọi vật liệu như Nhôm, Đồng, Sắt, Nhựa, Teflon, Mika, ...
 		                </p>
 		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 		              </a>
@@ -261,12 +261,12 @@
       <div class="container">
         <div class="row"> 
           <div class="col-lg-6">
-            <h2 class="wow fadeInLeft ls-1">Chúng tôi phục vụ các nhau cầu chế tạo</h2>
+            <h2 class="wow fadeInLeft ls-1">Chúng tôi phục vụ các nhu cầu chế tạo</h2>
             <!-- <h3 class="wow fadeInLeft">các nhau cầu chế tạo</h3> -->
             <h4 class="wow fadeIn offset-8">Các dịch vu gia công cơ khí chính xác, 
             thiết kế chế tạo của chúng tôi đáp ứng nhu cầu của nhiều ngành công nghiệp với quy mô lớn và nhỏ.</h4>
             <br />
-            <h4>Ngoài ra chúng tôi còn đáp ứng nhu cầu nhanh tiến độ theo từng yêu cầu của khách hàng.</h4>
+            <h4>Ngoài ra chúng tôi còn đáp ứng nhanh tiến độ theo từng yêu cầu của khách hàng.</h4>
           </div>
           <div class="col-lg-6">
             <ul class="index-list icon-hover_3">
@@ -297,9 +297,9 @@
             <h3 class="primary_color wow fadeInRight"></h3>
             <h4 class="primary_color offset-1 inset-3">
             Công ty TNHH cơ khí chính xác Toàn Thắng được thành lập với mục tiêu cung cấp 
-            cho thị trường sản phẩm cơ khí chính xác, kết hợp với chuyển giao công nghệ trong lĩnh vực thiết kế chế tạo máy.
+            cho thị trường sản phẩm cơ khí chính xác, kết hợp chuyển giao công nghệ trong lĩnh vực thiết kế chế tạo máy.
             <br />
-            Với đội ngũ kỹ sư chuyên nghiệp qua nhiều năm kinh nghiệm và có tay nghề kỹ thuật giỏi. 
+            Với đội ngũ kỹ sư chuyên nghiệp qua nhiều năm kinh nghiệm và có tay nghề kỹ thuật cao. 
             Chúng tôi khẳng định sẽ mang đến sự hài lòng tuyệt đối nếu bạn lựa chọn chúng tôi.
             <br />
             Với phương châm mang lại sự hài lòng cho khách hàng. Công ty chúng tôi luôn nỗ lực cải tiến, liên tục phát triển không ngừng 

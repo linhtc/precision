@@ -438,19 +438,22 @@ table.listjob td {
 }
 
 .moto-text_system_11 {
-	padding: 12px 40px;
+	padding-left: 40px;
     font-weight: 400;
     font-style: normal;
     font-family: 'Lato', sans-serif;
     color: #ff9800;
     font-size: 13px;
-    line-height: 1.2;
     letter-spacing: 0px;
+    line-height: 1.2;
 }
 
 .quick-intro {
 	background-repeat: no-repeat;
-    background-position: 0px 10px;
+	background-position: 0px center;
+	vertical-align: middle;
+    display: table-cell;
+    height: 62px;
 }
 
 .moto-widget-text-editable {

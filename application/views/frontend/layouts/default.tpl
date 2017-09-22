@@ -12,13 +12,13 @@
   <link rel="stylesheet" href="{base_url()}static/default/frontend/css/camera.css"/>
   <link rel="stylesheet" href="{base_url()}static/default/frontend/css/custom.css"/>
   {$listCss}
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
   <script src="{base_url()}static/default/frontend/js/jquery.js"></script>
   <script src="{base_url()}static/default/frontend/js/jquery-migrate-1.2.1.js"></script> 
   <script src='{base_url()}static/default/frontend/js/device.min.js'></script>
   <script type="text/javascript">
   	var rootBaseUrl = '{base_url()}';
-  	var googleMapIframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7835.292095563145!2d106.74764670062788!3d10.914481504147462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d84b4148ff51%3A0x14fbe01f763034f4!2zNjggTmd1eeG7hW4gVGjhu4sgTWluaCBLaGFpLCBwaMaw4budbmcgVMOibiDEkMO0bmcgSGnhu4dwLCBI4buTIENow60gTWluaCwgQsOsbmggRMawxqFuZywgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1505235671396';
+  	var googleMapIframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.634472770275!2d106.74844775089228!3d10.915359359559217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d84b1a3e0b57%3A0x6bcd00c26e6cb1f1!2zNTMgTmd1eeG7hW4gVGjhu4sgTWluaCBLaGFpLCBwaMaw4budbmcgVMOibiDEkMO0bmcgSGnhu4dwLCBI4buTIENow60gTWluaCwgQsOsbmggRMawxqFuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1506068171164';
   	var youtubeIframe = 'https://www.youtube.com/embed/NwOtZnjqKGA?autoplay=0';
   </script>
   {include file='frontend/layouts/language.tpl'}
