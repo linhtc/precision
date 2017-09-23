@@ -109,61 +109,61 @@
 {if $uuid eq 'home'}
       <div class="camera_container">
         <div id="camera" class="camera_wrap">
-          <div data-src="{base_url()}media/uploads/images/1.jpg">
+          <div data-src="{base_url()}media/uploads/images/s01.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
                   <h2>Chất lượng sản phẩm</h2>
                   <h3 style="display:none;">Chúng tôi cam kết</h3>
-                  <p>Chúng tôi cam kết tạo ra sản phẩm chất lượng cao, đáp ứng nhanh tiến độ và độ tin cậy cao.</p>
+                  <h4>Chúng tôi cam kết tạo ra sản phẩm chất lượng cao, đáp ứng nhanh tiến độ và độ tin cậy cao. <br /> &nbsp;</h4>
                   <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}media/uploads/images/2.jpg">
+          <div data-src="{base_url()}media/uploads/images/s02.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
                   <h2>Công nghệ hiện đại</h2>
                   <h3 style="display:none;">Trang bị máy móc, thiết bị</h3>
-                  <p>Trang bị máy móc, thiết bị hiện đại, áp dụng công nghệ hiện đại vào sản xuất.</p>
+                  <h4>Trang bị máy móc, thiết bị hiện đại, áp dụng công nghệ hiện đại vào sản xuất. <br /> &nbsp;</h4>
                   <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}media/uploads/images/3.jpg">
+          <div data-src="{base_url()}media/uploads/images/s03.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
                   <h2>Máy phay tốc độ cao</h2>
                   <h3 style="display:none;">tốc độ cao</h3>
-                  <p>Trang bị máy tốc độ cao, độ chính xác cao. <br /> <br /> &nbsp;</p>
+                  <h4>Trang bị máy tốc độ cao, độ chính xác cao. <br /> <br /> &nbsp;</h4>
                   <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}media/uploads/images/4.jpg">
+          <div data-src="{base_url()}media/uploads/images/s04.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
                   <h2>Liên tục cải tiến</h2>
                   <h3 style="display:none;">Không ngừng nâng cao</h3>
-                  <p>Không ngừng nâng cao chất lượng sản phẩm nhằm tạo ra sản phẩm đáp ứng nhu cầu phát triển thị trường.</p>
+                  <h4>Không ngừng nâng cao chất lượng sản phẩm nhằm tạo ra sản phẩm đáp ứng nhu cầu phát triển thị trường. <br /> &nbsp;</h4>
                   <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
             </div>
           </div>
-          <div data-src="{base_url()}media/uploads/images/5.jpg">
+          <div data-src="{base_url()}media/uploads/images/s05.jpg">
             <div class="camera_caption fadeIn">
               <div class="container">
                 <div class="camera_cont cam_ins_2">
                   <h2>Quy trình chuẩn hóa</h2>
                   <h3 style="display:none;">Các sản phẩm được</h3>
-                  <p>Các sản phẩm được kiểm soát chặt chẽ từ khâu chuẩn bị, gia công, đóng gói.</p>
+                  <h4>Các sản phẩm được kiểm soát chặt chẽ từ khâu chuẩn bị, gia công, đóng gói. <br /> &nbsp;</h4>
                   <a href="#" class="btn btn-default btn-sm">xem thêm</a>
                 </div>
               </div>
