@@ -235,19 +235,19 @@
       <div class="row icon-hover_2 flow-offset-1">
         <div class="col-lg-4 col-xs-12 wow fadeInUp">
           <i class="icon primary-icon icon-md material-icons-toys"></i>
-          <h4 class="secondary_color">Gia công chính xác</h4>
+          <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Gia công chính xác</h3>
           <h4 class="primary_color inset-3">Chúng tôi chuyên gia công chính xác chi tiết máy, gia công chi tiết khuôn, linh kiện-phụ tùng cơ khí ô tô-điện tử và các ngành công nghiệp khác. <br />
           Bên cạnh đó chúng tôi áp dụng công nghệ xử lý bề mặt không những mang lại sản phẩm đạt yêu cầu kỹ thuật mà còn đáp ứng về mặt ngoại quan sản phẩm. </h4>
         </div>
         <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="0.2s">
           <i class="icon primary-icon icon-md material-icons-access_alarm"></i>
-          <h4 class="secondary_color">Thiết kế, chế tạo máy</h4>
+          <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Thiết kế, chế tạo máy</h3>
           <h4 class="primary_color inset-3">Với đội ngũ kỹ sư nhiều kinh nghiệm làm việc trong nhiều lĩnh vực, chúng tôi đưa ra các giải pháp công nghệ kỹ thuật từ đó thiết kế chế tạo máy theo nhu cầu của khách hàng. <br />
           Những sản phẩm tưởng như không thể, phức tạp khi đến với chúng tôi sẽ đơn giản và tối ưu nhất.</h4>
         </div>
         <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="0.4s">
           <i class="icon primary-icon icon-md material-icons-tonality"></i>
-          <h4 class="secondary_color">Dịch vụ của chúng tôi</h4>
+          <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Dịch vụ của chúng tôi</h3>
           <h4 class="primary_color inset-3">Với phương châm mang lại sự hài lòng cho khách hàng. <br />
           Sản phẩm của chúng tôi được kiểm tra nghiêm ngặt từ khâu đầu vào, quá trình sản xuất cho tới khâu kiểm định, 
           đóng gói và vận chuyển để mang lại sản phẩm đạt chất lượng và đáp ứng nhanh tiến độ.</h4>
