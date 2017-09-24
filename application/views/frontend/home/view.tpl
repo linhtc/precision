@@ -101,7 +101,7 @@
 	      	<div class="col-lg-9 col-xs-9 offset-6">
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-01" style="/* visibility: visible; animation-name: fadeIn; */ background-image: url({base_url()}media/uploads/images/home01.png);">
+		            <div class="product bg-cover pr-img-01" style="background-image: url({base_url()}media/uploads/images/home_hl_01.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Trung tâm gia công</h3>
 		                <p>Sử dụng máy gia công tốc độ cao thương hiệu từ Nhật Bản, đem lại độ chính xác gia công.</p>
@@ -110,7 +110,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-03" style="background-image: url({base_url()}media/uploads/images/home02.jpg);">
+		            <div class="product bg-cover pr-img-03" style="background-image: url({base_url()}media/uploads/images/home_hl_02.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Gia công chi tiết</h3>
 		                <p>
@@ -125,7 +125,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product bg-cover pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home03.jpg);">
+		            <div class="product bg-cover pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_hl_03.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Trang thiết bị</h3>
 		                <p>Sử dụng trang thiết bị hiện đại, có độ chính xác cao. <br /> &nbsp;</p>
@@ -134,7 +134,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-0 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home04.jpg);">
+		            <div class="product bg-cover pr-img-0 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_hl_04.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Gia công khuôn</h3>
 		                <p>Thiết kế và gia công khuôn nhựa, khuôn thổi, khuôn hút chân không.</p>
@@ -145,7 +145,7 @@
 		        </div>
 		        <div class="row offset">
 		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home05.jpg);">
+		            <div class="product bg-cover pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_hl_05.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Nghiên cứu & chế tạo</h3>
 		                <p>Nghiên cứu, thiết kế và chế tạo máy móc công nghiệp, máy tự động hóa và bán tự động.</p>
@@ -154,7 +154,7 @@
 		            </div>
 		          </div>
 		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product bg-cover pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home06.jpg);">
+		            <div class="product bg-cover pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_hl_06.jpg);">
 		              <a href="#" class="product_cont product_cont_mode">
 		                <h3>Thiết kế & gia công khuôn</h3>
 		                <p>Nghiên cứu, thiết kế và gia công khuôn ép nhựa, khuôn thổi, khuôn đùn, khuôn hút chân không, ...</p>
@@ -171,7 +171,7 @@
 <!--======================well_1=========================-->
     <section class="well-3">
       <div class="container center_text">
-        <h2 class="secondary_color">Sản phẩm của chúng tôi</h2>
+        <h2 class="secondary_color">Sản phẩm</h2>
         <div class="row offset">
           <div class="col-lg-4 col-xs-4">
             <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_1.jpg);">
@@ -236,18 +236,21 @@
         <div class="col-lg-4 col-xs-12 wow fadeInUp">
           <i class="icon primary-icon icon-md material-icons-toys"></i>
           <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Gia công chính xác</h3>
+          <p>&nbsp;</p>
           <h4 class="primary_color inset-3">Chúng tôi chuyên gia công chính xác chi tiết máy, gia công chi tiết khuôn, linh kiện-phụ tùng cơ khí ô tô-điện tử và các ngành công nghiệp khác. <br />
           Bên cạnh đó chúng tôi áp dụng công nghệ xử lý bề mặt không những mang lại sản phẩm đạt yêu cầu kỹ thuật mà còn đáp ứng về mặt ngoại quan sản phẩm. </h4>
         </div>
         <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="0.2s">
           <i class="icon primary-icon icon-md material-icons-access_alarm"></i>
           <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Thiết kế, chế tạo máy</h3>
+          <p>&nbsp;</p>
           <h4 class="primary_color inset-3">Với đội ngũ kỹ sư nhiều kinh nghiệm làm việc trong nhiều lĩnh vực, chúng tôi đưa ra các giải pháp công nghệ kỹ thuật từ đó thiết kế chế tạo máy theo nhu cầu của khách hàng. <br />
           Những sản phẩm tưởng như không thể, phức tạp khi đến với chúng tôi sẽ đơn giản và tối ưu nhất.</h4>
         </div>
         <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="0.4s">
           <i class="icon primary-icon icon-md material-icons-tonality"></i>
           <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Dịch vụ của chúng tôi</h3>
+          <p>&nbsp;</p>
           <h4 class="primary_color inset-3">Với phương châm mang lại sự hài lòng cho khách hàng. <br />
           Sản phẩm của chúng tôi được kiểm tra nghiêm ngặt từ khâu đầu vào, quá trình sản xuất cho tới khâu kiểm định, 
           đóng gói và vận chuyển để mang lại sản phẩm đạt chất lượng và đáp ứng nhanh tiến độ.</h4>

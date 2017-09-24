@@ -8,80 +8,94 @@
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/BondingLCD.jpg" alt=""> -->
               <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/BondingLCD.jpg);"></div> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/BondingLCD.jpg);">
-              	<a href="{base_url()}media/uploads/images/BondingLCD.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_01.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_01.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
-              buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
+              <p>Bonding LCD Machine</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/SandblastingMachine.jpg" alt=""> -->
               <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/SandblastingMachine.jpg);"></div> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/SandblastingMachine.jpg);">
-              	<a href="{base_url()}media/uploads/images/SandblastingMachine.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_02.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_02.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our adaptability, skill, and experience are
-              proven by our past results. We are ideally suited to handle any project, worldwide. 
-              Utilizing the latest in cutting edge new 
-              millenium technology, we blend Old World experience with the newest in fabrication equipment and techniques.</p>
+              <p>iValuate Machine</p>
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/uploads/images/SandpaperMachine.jpg" alt=""> -->
               <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.jpg);"></div> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.jpg);">
-              	<a href="{base_url()}media/uploads/images/SandpaperMachine.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_03.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_03.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our completed projects stand as proof of 
-              the quality of our work; the fact that 
-              most of our clients retain enduring 
-              relationships with us is further proof that 
-              not only our work is excellent, but also that our concern for our clients is of paramount 
-              importance.</p>
+              <p>Sandblasting Machine</p>
             </div>
           </div>
         </div>
         <div class="row primary_color flow-offset-1 text-center">
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
-              <!-- <img src="{base_url()}media/uploads/images/iValuate.jpg" alt=""> -->
-              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/iValuate.jpg);"></div> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/iValuate.jpg);">
-              	<a href="{base_url()}media/uploads/images/iValuate.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <!-- <img src="{base_url()}media/uploads/images/BondingLCD.jpg" alt=""> -->
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/BondingLCD.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_04.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_04.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our Company has successfully completed a wide range of high quality structural steel projects. We are qualified to take on even the largest of projects in the international steel industry, for applications such as steel 
-              buildings, steel bridges, superstructures, and commercial, as well as residential projects. </p>
+              <p>Robot-Machine</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
-              <!-- <img src="{base_url()}media/uploads/images/PolishedGlassMachine.jpg" alt=""> -->
-              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/PolishedGlassMachine.jpg);"></div> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/PolishedGlassMachine.jpg);">
-              	<a href="{base_url()}media/uploads/images/PolishedGlassMachine.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <!-- <img src="{base_url()}media/uploads/images/SandblastingMachine.jpg" alt=""> -->
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/SandblastingMachine.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_05.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_05.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our adaptability, skill, and experience are
-              proven by our past results. We are ideally suited to handle any project, worldwide. 
-              Utilizing the latest in cutting edge new 
-              millenium technology, we blend Old World experience with the newest in fabrication equipment and techniques.</p>
+              <p>Polish-Finish Machine</p>
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
             <div class="box wow fadeInUp">
-              <!-- <img src="{base_url()}media/uploads/images/GamePlay.jpg" alt=""> -->
-              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/GamePlay.jpg);"></div> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/GamePlay.jpg);">
-              	<a href="{base_url()}media/uploads/images/GamePlay.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <!-- <img src="{base_url()}media/uploads/images/SandpaperMachine.jpg" alt=""> -->
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_06.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_06.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Our completed projects stand as proof of 
-              the quality of our work; the fact that 
-              most of our clients retain enduring 
-              relationships with us is further proof that 
-              not only our work is excellent, but also that our concern for our clients is of paramount 
-              importance.</p>
+              <p>SandPaper Machine</p>
+            </div>
+          </div>
+        </div>
+        <div class="row primary_color flow-offset-1 text-center">
+          <div class="col-sm-6 col-md-4">
+            <div class="box wow fadeInUp">
+              <!-- <img src="{base_url()}media/uploads/images/BondingLCD.jpg" alt=""> -->
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/BondingLCD.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_07.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_07.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
+              <p>Atom'x Machine</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="box wow fadeInUp">
+              <!-- <img src="{base_url()}media/uploads/images/SandblastingMachine.jpg" alt=""> -->
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/SandblastingMachine.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_08.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_08.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
+              <p>Polished Glass Machine</p>
+            </div>
+          </div>
+          <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
+            <div class="box wow fadeInUp">
+              <!-- <img src="{base_url()}media/uploads/images/SandpaperMachine.jpg" alt=""> -->
+              <!-- <div class="img" style="background-image: url({base_url()}media/uploads/images/SandpaperMachine.jpg);"></div> -->
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_09.jpg);">
+              	<a href="{base_url()}media/uploads/images/rd_09.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              </div>
+              <p>GamePlay</p>
             </div>
           </div>
         </div>
@@ -89,9 +103,9 @@
      </section> 
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-  <section class="parallax well-6" data-url="{base_url()}media/uploads/images/page-02_bg-01.jpg" data-mobile="true" data-speed="0.6">
+  <section class="parallax well-6" data-url="{base_url()}media/uploads/images/rd_workteam.png" data-mobile="true" data-speed="0.6">
     <div class="container">
-      <div class="row"> 
+      <div class="row" style="opacity: 0;"> 
         <div class="col-lg-6">
           <h2 class="wow fadeInLeft">Why choose us</h2>
           <h3 class="wow fadeInLeft">Our advantages</h3>
@@ -110,70 +124,6 @@
                 <li class="wow fadeInRight" data-wow-delay="0.6s"><a href="#">On-time deliveries</a></li>
           </ul>
         </div>
-      </div>
-    </div>
-  </section>
-<!--======================End parallax=========================-->
-<!--======================well-1=========================-->
-  <section class="well-2">
-  <div class="container">
-    <h2 class="secondary_color center_text wow fadeInLeft">Work team</h2>
-      <div class="row offset-3 text-center text-lg-left flow-offset-1">
-        <div class="col-lg-3 col-sm-6">
-          <div class="blog-post wow fadeIn">
-            <img src="{base_url()}media/uploads/images/page-02_img-04.jpg" alt="">
-            <h4 class="secondary_color">Mark Johnson</h4>
-            <p class="primary_color">Owner</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 offset-6">
-          <div class="blog-post wow fadeIn">
-            <img src="{base_url()}media/uploads/images/page-02_img-05.jpg" alt="">
-            <h4 class="secondary_color">Patrick Pool</h4>
-            <p class="primary_color">Head Engineer</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 offset-6">
-          <div class="blog-post wow fadeIn">
-            <img src="{base_url()}media/uploads/images/page-02_img-06.jpg" alt="">
-            <h4 class="secondary_color">Sam Kromstain</h4>
-            <p class="primary_color">Engineer</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 offset-6">
-          <div class="blog-post">
-            <img src="{base_url()}media/uploads/images/page-02_img-07.jpg" alt="">
-            <h4 class="secondary_color">Alan Smith</h4>
-            <p class="primary_color">Junior Engineer</p>
-          </div>
-        </div>
-      </div>
-  </div>
-  </section>
-<!--======================End well-1=========================-->
-<!--======================parallax=========================-->
-  <section class="parallax well-2" data-url="{base_url()}media/uploads/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6">
-    <div class="container">
-      <h2>Our philosophy</h2>
-      <h3>Our goal is your satisfaction and success</h3>
-      <div class="row  offset-9">
-        <ul class="index-list_1 icon-hover_3 flow-offset-1">
-          <li class="wow fadeInUp col-lg-4 col-md-4"><h4>Our mission</h4>
-          <p>We aim to be as 
-          efficient and productive as
-          possible, maintaining the 
-          highest standards all the 
-          while.</p>
-          </li>
-          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.2s"><h4>Our experience</h4>
-          <p>Our professionalism and experience allow us to deliver quality products, on-time, and at a competitive price.</p>
-          </li>
-          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.4s"><h4>Our approach</h4>
-          <p>As our customer, you can expect great attention 
-          to detail and proactive 
-          problem solving. </p>
-          </li>
-        </ul>
       </div>
     </div>
   </section>

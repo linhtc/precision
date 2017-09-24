@@ -19,8 +19,8 @@
             <!-- <a href="{base_url()}media/uploads/images/CNCMilling4axis.png" data-lightbox="image-1" data-title="Về chúng tôi">
               <img style="height:251px;" src="{base_url()}media/uploads/images/CNCMilling4axis.png" alt="">
             </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_schematic.jpg);">
-              	<a href="{base_url()}media/uploads/images/company_schematic.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_2.jpg);">
+              	<a href="{base_url()}media/uploads/images/company_2.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
               <p>Chúng tôi thiết kế, gia công các loại khuôn ép nhựa, khuôn thổi, khuôn đùn, ...</p>
             </div>
@@ -30,8 +30,8 @@
             <!-- <a href="{base_url()}media/uploads/images/SUS304Milling.png" data-lightbox="image-1" data-title="Về chúng tôi">
               <img style="height:251px;" src="{base_url()}media/uploads/images/SUS304Milling.png" alt="">
             </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_machine.jpg);">
-              	<a href="{base_url()}media/uploads/images/company_machine.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_3.jpg);">
+              	<a href="{base_url()}media/uploads/images/company_3.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
               <p>Với đội ngũ kỹ sư nhiều kinh nghiệm công ty chúng tôi thiết kế chế tạo các máy phục vụ trong lĩnh vực công nghiệp 
               chế tạo máy, điện-điện tử, ...</p>
