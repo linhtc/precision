@@ -9,7 +9,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_01.jpg);">
               	<a href="{base_url()}media/uploads/products/product_01.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 01</h3>
+              <h3 class="mtop-minus-60">Chi tiết 01</h3>
               <p></p>
             </div>
           </div>
@@ -19,7 +19,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_02.jpg);">
               	<a href="{base_url()}media/uploads/products/product_02.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 02</h3>
+              <h3 class="mtop-minus-60">Chi tiết 02</h3>
               <p></p>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_03.jpg);">
               	<a href="{base_url()}media/uploads/products/product_03.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 03</h3>
+              <h3 class="mtop-minus-60">Chi tiết 03</h3>
               <p></p>
             </div>
           </div>
@@ -41,7 +41,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_04.jpg);">
               	<a href="{base_url()}media/uploads/products/product_04.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 04</h3>
+              <h3 class="mtop-minus-60">Chi tiết 04</h3>
               <p></p>
             </div>
           </div>
@@ -51,7 +51,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_05.jpg);">
               	<a href="{base_url()}media/uploads/products/product_05.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 05</h3>
+              <h3 class="mtop-minus-60">Chi tiết 05</h3>
               <p></p>
             </div>
           </div>
@@ -61,7 +61,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_06.jpg);">
               	<a href="{base_url()}media/uploads/products/product_06.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 06</h3>
+              <h3 class="mtop-minus-60">Chi tiết 06</h3>
               <p></p>
             </div>
           </div>
@@ -73,7 +73,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_07.jpg);">
               	<a href="{base_url()}media/uploads/products/product_07.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 07</h3>
+              <h3 class="mtop-minus-60">Chi tiết 07</h3>
               <p></p>
             </div>
           </div>
@@ -83,7 +83,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_08.jpg);">
               	<a href="{base_url()}media/uploads/products/product_08.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 08</h3>
+              <h3 class="mtop-minus-60">Chi tiết 08</h3>
               <p></p>
             </div>
           </div>
@@ -93,7 +93,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_09.jpg);">
               	<a href="{base_url()}media/uploads/products/product_09.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Chi tiết 09</h3>
+              <h3 class="mtop-minus-60">Chi tiết 09</h3>
               <p></p>
             </div>
           </div>
@@ -112,7 +112,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_01.jpg);">
               	<a href="{base_url()}media/uploads/products/product_01.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>SandPaper Machine</h3>
+              <h3 class="mtop-minus-60">SandPaper Machine</h3>
               <p></p>
             </div>
           </div>
@@ -122,7 +122,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_02.jpg);">
               	<a href="{base_url()}media/uploads/products/product_02.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Polish Finish Machine</h3>
+              <h3 class="mtop-minus-60">Polish Finish Machine</h3>
               <p></p>
             </div>
           </div>
@@ -132,7 +132,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_03.jpg);">
               	<a href="{base_url()}media/uploads/products/product_03.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Robot Machine</h3>
+              <h3 class="mtop-minus-60">Robot Machine</h3>
               <p></p>
             </div>
           </div>
@@ -144,7 +144,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_04.jpg);">
               	<a href="{base_url()}media/uploads/products/product_04.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>iValuate Machine</h3>
+              <h3 class="mtop-minus-60">iValuate Machine</h3>
               <p></p>
             </div>
           </div>
@@ -154,7 +154,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_05.jpg);">
               	<a href="{base_url()}media/uploads/products/product_05.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Bonding LCD Machine</h3>
+              <h3 class="mtop-minus-60">Bonding LCD Machine</h3>
               <p></p>
             </div>
           </div>
@@ -164,7 +164,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_06.jpg);">
               	<a href="{base_url()}media/uploads/products/product_06.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Sandblasting Machine</h3>
+              <h3 class="mtop-minus-60">Sandblasting Machine</h3>
               <p></p>
             </div>
           </div>
@@ -176,7 +176,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_07.jpg);">
               	<a href="{base_url()}media/uploads/products/product_07.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Atom'x Machine</h3>
+              <h3 class="mtop-minus-60">Atom'x Machine</h3>
               <p></p>
             </div>
           </div>
@@ -186,7 +186,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_08.jpg);">
               	<a href="{base_url()}media/uploads/products/product_08.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Polished Glass Machine</h3>
+              <h3 class="mtop-minus-60">Polished Glass Machine</h3>
               <p></p>
             </div>
           </div>
@@ -196,7 +196,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/products/product_s2_09.jpg);">
               	<a href="{base_url()}media/uploads/products/product_09.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>GamePlay</h3>
+              <h3 class="mtop-minus-60">GamePlay</h3>
               <p></p>
             </div>
           </div>
