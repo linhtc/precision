@@ -176,7 +176,7 @@
           <div class="col-lg-4 col-xs-4">
             <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_1.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>SKD11</h3>
+                <h3>Aluminium Anodize</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
               </a>
             </div>
@@ -184,7 +184,7 @@
           <div class="col-lg-4 col-xs-4">
             <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_2.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>SUS 304</h3>
+                <h3>SKD11</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
               </a>
             </div>
@@ -192,7 +192,7 @@
           <div class="col-lg-4 col-xs-4">
             <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_3.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>Aluminium Anodize</h3>
+                <h3>SUS 304</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
               </a>
             </div>
@@ -202,7 +202,7 @@
           <div class="col-lg-4 col-xs-4">
             <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_4.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>Robot</h3>
+                <h3>Robot Machine</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
               </a>
             </div>
@@ -218,7 +218,7 @@
           <div class="col-lg-4 col-xs-4">
             <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_6.jpg);">
               <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>Vaccum</h3>
+                <h3>Vaccum Mold</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
               </a>
             </div>
