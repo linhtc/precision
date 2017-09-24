@@ -11,7 +11,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_01.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_01.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Bonding LCD Machine</p>
+              <h3>Bonding LCD Machine</h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
@@ -21,7 +21,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_02.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_02.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>iValuate Machine</p>
+              <h3>iValuate Machine</h3>
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
@@ -31,7 +31,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_03.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_03.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Sandblasting Machine</p>
+              <h3>Sandblasting Machine</h3>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_04.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_04.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Robot-Machine</p>
+              <h3>Robot-Machine</h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
@@ -53,7 +53,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_05.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_05.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Polish-Finish Machine</p>
+              <h3>Polish-Finish Machine</h3>
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
@@ -63,7 +63,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_06.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_06.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>SandPaper Machine</p>
+              <h3>SandPaper Machine</h3>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_07.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_07.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Atom'x Machine</p>
+              <h3>Atom'x Machine</h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
@@ -85,7 +85,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_08.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_08.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>Polished Glass Machine</p>
+              <h3>Polished Glass Machine</h3>
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
@@ -95,7 +95,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_09.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_09.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <p>GamePlay</p>
+              <h3>GamePlay</h3>
             </div>
           </div>
         </div>
