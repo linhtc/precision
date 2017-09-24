@@ -103,6 +103,11 @@
      </section> 
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
+  <section class="parallax well-6">
+    <div class="container">
+    <h2 class="secondary_color center_text">Team work</h2>
+    </div>
+  </section>
   <section class="parallax well-6" data-url="{base_url()}media/uploads/images/rd_workteam.png" data-mobile="true" data-speed="0.6">
     <div class="container">
       <div class="row" style="opacity: 0;"> 
