@@ -43,7 +43,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_04.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_04.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Robot-Machine</h3>
+              <h3>Robot Machine</h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
@@ -53,7 +53,7 @@
               <div class="img" style="background-image: url({base_url()}media/uploads/images/rd_05.jpg);">
               	<a href="{base_url()}media/uploads/images/rd_05.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
-              <h3>Polish-Finish Machine</h3>
+              <h3>Polish Finish Machine</h3>
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
