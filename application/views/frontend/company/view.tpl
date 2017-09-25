@@ -111,14 +111,14 @@
       <div class="row  offset-9">
         <ul class="index-list_1 icon-hover_3 flow-offset-1">
           <li class="wow fadeInUp col-lg-4 col-md-4"><h4>Sứ mệnh</h4>
-          <p>Chúng tôi mong muốn là nhà cung cấp dịch vụ đáng tin cậy, mang lại sự hài lòng cho khách hàng.</p>
+          <p>Chúng tôi mong muốn tạo ra những sản phẩm hội tụ tất cả những tinh hoa công nghệ, chất lượng và độ chính xác cao, mang lại sự hài lòng cho khách hàng.</p>
           </li>
           <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.2s"><h4>Kinh nghiệm</h4>
-          <p>Với sự chuyên nghiệp và kinh nghiệm của chúng tôi đảm bảo cung cấp sản phẩm đến khách hàng chất lượng cao, 
-          đúng tiến độ và giá cả cạnh tranh.</p>
+          <p>Với sự chuyên nghiệp, kinh nghiệm được đúc kết và tích lũy trong nhiều năm chúng tôi đảm bảo cung cấp sản phẩm đến khách hàng sản phẩm chất lượng cao, 
+          đúng tiến độ, giá cả cạnh tranh.</p>
           </li>
           <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.4s"><h4>Dịch vụ</h4>
-          <p>&nbsp;<br />&nbsp;</p>
+          <p>Với phương châm mang lại sự hài lòng cho khách hàng, chúng tôi hỗ trợ và tư vấn mọi lúc mọi nơi, mang lại những dịch vụ tốt nhất hiện nay cho khách hàng.</p>
           </li>
         </ul>
       </div>
