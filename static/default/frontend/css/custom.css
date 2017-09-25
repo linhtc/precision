@@ -120,12 +120,17 @@
 	background-size: contain;
 }
 
-.bg-100p{
+.bg-100p-pr {
     transition:all 1000ms ease;
     background-size: 100% auto;
 }
 
-.bg-100p:hover{
+.bg-100p {
+    transition:all 1000ms ease;
+    background-size: 100% auto;
+}
+
+.bg-100p:hover {
 	background-size: 160% auto;
 }
 
