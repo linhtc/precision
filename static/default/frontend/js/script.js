@@ -76,6 +76,11 @@ function initLoading(dom){
             background: 'none',
             opacity: '0.1',
             color: '#ffffff'
+        },
+        overlayCSS:  { 
+            backgroundColor: '#000', 
+            opacity:         0.1, 
+            cursor:          'wait' 
         }
     });
 }
