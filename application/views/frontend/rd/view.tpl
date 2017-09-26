@@ -1,7 +1,7 @@
 <!--======================well-1=========================-->
     <section class="well-2 bg-primary border">
       <div class="container">
-        <h2 class="secondary_color center_text">Nghiên cứu & Phát triển</h2>
+        <h2 class="secondary_color center_text">Nghiên cứu <small style="font-size: 75%; vertical-align: baseline;">&</small> Phát triển</h2>
         <h3 class="secondary_color center_text">Chuyển giao Công nghệ</h3>
         <div class="row primary_color flow-offset-1 text-center">
           <div class="col-sm-6 col-md-4">
@@ -99,11 +99,15 @@
           <h2 class="wow fadeInLeft">Why choose us</h2>
           <h3 class="wow fadeInLeft">Our advantages</h3>
           <p class="wow fadeIn offset-8"></p>
-          <p></p>
+          <p>&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br /></p>
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-5">
           <ul class="marked-list-1 text-left">
+                <li class="wow fadeInRight"><a href="#">Extensive product line</a></li>
+                <li class="wow fadeInRight"><a href="#">Extensive product line</a></li>
+                <li class="wow fadeInRight"><a href="#">Extensive product line</a></li>
+                <li class="wow fadeInRight"><a href="#">Extensive product line</a></li>
                 <li class="wow fadeInRight"><a href="#">Extensive product line</a></li>
           </ul>
         </div>

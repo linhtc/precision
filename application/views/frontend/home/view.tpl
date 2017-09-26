@@ -9,7 +9,7 @@
 				  <div class="panel-body">
 			  		<div class="online-support" style="background-image:url({base_url()}media/uploads/images/phone2.png);">
 				  		<h4 class="blink_me">
-		                	<span>Hotline: <br />098 44 99 008</span>
+		                	<span><small style="font-size: 80%;">Hotline:</small> <br>098 44 99 008</span>
 		                </h4>
 			  		</div>
 					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kỹ thuật:</span>
@@ -20,7 +20,7 @@
 	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
-	                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+	                		<a style="padding-left: 20px;" href="skype:thangloi229_dtnd?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/skype.png" />
 	                		</a>
 	                	</span>
@@ -32,7 +32,7 @@
 	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
-	                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+	                		<a style="padding-left: 20px;" href="skype:hungdau2002?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/skype.png" />
 	                		</a>
 	                	</span>
@@ -45,7 +45,7 @@
 	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
-	                		<a style="padding-left: 20px;" href="skype:?chat" class="anchor-contact">
+	                		<a style="padding-left: 20px;" href="skype:thangloi229_dtnd?chat" class="anchor-contact">
 	                			<img src="{base_url()}media/images/skype.png" />
 	                		</a>
 	                	</span>

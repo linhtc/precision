@@ -1,10 +1,10 @@
 <!--======================well-3=========================-->
     <section class="well-3 bg-primary border">
       <div class="container">
-        <h2 class="center_text secondary_color">Dự án đã thực hiện</h2>
+        <h2 class="center_text secondary_color">Dự án</h2>
         <div class="row offset-1 ">
           <div class="col-lg-5 col-xs-5">
-            <div class="product pr-img-05 bg-100p-prbg-shadow-white wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_01.jpg);">
+            <div class="product pr-img-05 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_01.jpg);">
               <a href="#" class="product_cont">
                 <h3>Dự án #1</h3>
                 <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>

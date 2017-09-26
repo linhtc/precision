@@ -1,7 +1,7 @@
 <!--======================well-1=========================-->
     <section class="well-2 bg-primary border">
       <div class="container">
-        <h2 class="secondary_color center_text">Về chúng tôi</h2>
+        <h2 class="secondary_color center_text">Công ty chúng tôi</h2>
         <div class="row primary_color flow-offset-1 text-center">
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
@@ -46,8 +46,9 @@
     <div class="container">
     <h2 class="wow fadeInRight">Tại sao chọn chúng tôi?</h2>
       <div class="row"> 
-        <div class="col-lg-1"></div>
-        <div class="col-lg-5">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-6">
           <ul class="marked-list-1 text-left">
                 <li class="wow fadeInRight"><a href="#">Đội ngũ tư vấn kỹ thuật</a></li>
                 <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Chuyên nghiệp giàu kinh nghiệm</a></li>
@@ -60,14 +61,13 @@
                 <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Giá trị khách hàng cốt lõi</a></li>
                 <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Giao hàng đúng tiến độ</a></li>
           </ul>
-        <div class="col-lg-1"></div>
         </div>
       </div>
     </div>
   </section>
 <!--======================End parallax=========================-->
 <!--======================parallax=========================-->
-  <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/uploads/company/company_gear.jpg" data-mobile="true" data-speed="0.6">
+  <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/uploads/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6">
     <div class="container">
       <h2>Triết lý của chúng tôi</h2>
       <h3>Mục tiêu của chúng tôi là sự hài lòng và thành công của bạn</h3>

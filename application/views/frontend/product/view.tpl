@@ -194,18 +194,18 @@
       <div class="row"> 
         <div class="col-lg-6 col-xs-6">
           <ul class="marked-list text-left">
-            <li><a href="#">Gia công chi tiết máy</a></li>
-            <li><a href="#">Gia công khuôn mẫu</a></li>
-            <li><a href="#">Sản xuất, lắp đặt</a></li>
-            <li><a href="#">Cho thuê máy công cụ</a></li>
+            <li class="wow fadeInRight"><a href="#">Gia công chi tiết máy</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Gia công khuôn mẫu</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Sản xuất, lắp đặt</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.5s"><a href="#">Cho thuê máy công cụ</a></li>
           </ul>
         </div>
         <div class="col-lg-6 col-xs-6">
           <ul class="marked-list text-left">
-            <li><a href="#">Thiết kế và chế tạo máy tự động hóa</a></li>
-            <li><a href="#">Thiết kế khuôn mẫu</a></li>
-            <li><a href="#">Tư vấn và Chuyển giao công nghệ</a></li>
-            <li><a href="#">Tư vấn kỹ thuật</a></li>
+            <li class="wow fadeInRight"><a href="#">Thiết kế và chế tạo máy tự động hóa</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Thiết kế khuôn mẫu</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Tư vấn và Chuyển giao công nghệ</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.6s"><a href="#">Tư vấn kỹ thuật</a></li>
           </ul>          
         </div>
       </div>
