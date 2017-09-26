@@ -32,6 +32,8 @@
   </main>
   {include file='frontend/layouts/footer.tpl'}
 </div>
+<!-- <div class="loading">Loading&#8230;</div> -->
+<script src="{base_url()}static/default/admin/template/plugins/blockui/jquery.blockUI.js"></script>
 <script src="{base_url()}static/default/frontend/js/script.js"></script>
 	{$listJs}
 	

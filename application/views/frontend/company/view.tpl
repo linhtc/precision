@@ -5,33 +5,33 @@
         <div class="row primary_color flow-offset-1 text-center">
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
-            <!-- <a href="{base_url()}media/uploads/images/AluminiumMilling.jpg" data-lightbox="image-1" data-title="Về chúng tôi">
-              <img style="height:251px;" src="{base_url()}media/uploads/images/AluminiumMilling.jpg" alt="">
+            <!-- <a href="{base_url()}media/uploads/company/AluminiumMilling.jpg" data-lightbox="image-1" data-title="Về chúng tôi">
+              <img style="height:251px;" src="{base_url()}media/uploads/company/AluminiumMilling.jpg" alt="">
             </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_1.jpg);">
-              	<a href="{base_url()}media/uploads/images/company_1.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/company/fit_company_01.jpg);">
+              	<a href="{base_url()}media/uploads/company/company_01.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
               <p>Công ty chúng tôi chuyên gia công chính xác chi tiết máy trên mọi vật liệu như Nhôm, Sắt, Đồng, Nhựa Teflon, ... </p>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
             <div class="box wow fadeInUp">
-            <!-- <a href="{base_url()}media/uploads/images/CNCMilling4axis.png" data-lightbox="image-1" data-title="Về chúng tôi">
-              <img style="height:251px;" src="{base_url()}media/uploads/images/CNCMilling4axis.png" alt="">
+            <!-- <a href="{base_url()}media/uploads/company/CNCMilling4axis.png" data-lightbox="image-1" data-title="Về chúng tôi">
+              <img style="height:251px;" src="{base_url()}media/uploads/company/CNCMilling4axis.png" alt="">
             </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_2.jpg);">
-              	<a href="{base_url()}media/uploads/images/company_2.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/company/fit_company_02.jpg);">
+              	<a href="{base_url()}media/uploads/company/company_02.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
               <p>Chúng tôi thiết kế, gia công các loại khuôn ép nhựa, khuôn thổi, khuôn đùn, ...</p>
             </div>
           </div>
           <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
             <div class="box wow fadeInUp">
-            <!-- <a href="{base_url()}media/uploads/images/SUS304Milling.png" data-lightbox="image-1" data-title="Về chúng tôi">
-              <img style="height:251px;" src="{base_url()}media/uploads/images/SUS304Milling.png" alt="">
+            <!-- <a href="{base_url()}media/uploads/company/SUS304Milling.png" data-lightbox="image-1" data-title="Về chúng tôi">
+              <img style="height:251px;" src="{base_url()}media/uploads/company/SUS304Milling.png" alt="">
             </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/images/company_3.jpg);">
-              	<a href="{base_url()}media/uploads/images/company_3.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
+              <div class="img" style="background-image: url({base_url()}media/uploads/company/fit_company_03.jpg);">
+              	<a href="{base_url()}media/uploads/company/company_03.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
               </div>
               <p>Với đội ngũ kỹ sư nhiều kinh nghiệm công ty chúng tôi thiết kế chế tạo các máy phục vụ trong lĩnh vực công nghiệp 
               chế tạo máy, điện-điện tử, ...</p>
@@ -66,45 +66,8 @@
     </div>
   </section>
 <!--======================End parallax=========================-->
-<!--======================well-1=========================-->
-  <section class="well-2" style="display: none;">
-  <div class="container">
-    <h2 class="secondary_color center_text wow fadeInLeft">Work team</h2>
-      <div class="row offset-3 text-center text-lg-left flow-offset-1">
-        <div class="col-lg-3 col-sm-6">
-          <div class="blog-post wow fadeIn">
-            <img src="{base_url()}media/uploads/images/page-02_img-04.jpg" alt="">
-            <h4 class="secondary_color">Mark Johnson</h4>
-            <p class="primary_color">Owner</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 offset-6">
-          <div class="blog-post wow fadeIn">
-            <img src="{base_url()}media/uploads/images/page-02_img-05.jpg" alt="">
-            <h4 class="secondary_color">Patrick Pool</h4>
-            <p class="primary_color">Head Engineer</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 offset-6">
-          <div class="blog-post wow fadeIn">
-            <img src="{base_url()}media/uploads/images/page-02_img-06.jpg" alt="">
-            <h4 class="secondary_color">Sam Kromstain</h4>
-            <p class="primary_color">Engineer</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 offset-6">
-          <div class="blog-post">
-            <img src="{base_url()}media/uploads/images/page-02_img-07.jpg" alt="">
-            <h4 class="secondary_color">Alan Smith</h4>
-            <p class="primary_color">Junior Engineer</p>
-          </div>
-        </div>
-      </div>
-  </div>
-  </section>
-<!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-  <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/uploads/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6">
+  <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/uploads/company/company_gear.jpg" data-mobile="true" data-speed="0.6">
     <div class="container">
       <h2>Triết lý của chúng tôi</h2>
       <h3>Mục tiêu của chúng tôi là sự hài lòng và thành công của bạn</h3>

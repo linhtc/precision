@@ -58,17 +58,17 @@
                 <li class="{if $uuid eq 'company'}active{/if}">
                   <a href="{base_url()}{$smarty.session.lang_prefix}company" lang-key="company">{lang('company')}</a>
                 </li>
-                <li class="{if $uuid eq 'technology'}active{/if}">
-                  <a href="{base_url()}{$smarty.session.lang_prefix}design-technology-transfer" lang-key="r_and_d">{lang('r_and_d')}</a>
+                <li class="{if $uuid eq 'rd'}active{/if}">
+                  <a href="{base_url()}{$smarty.session.lang_prefix}rd" lang-key="r_and_d">{lang('r_and_d')}</a>
                 </li>
                 <li class="{if $uuid eq 'product'}active{/if}">
                   <a href="{base_url()}{$smarty.session.lang_prefix}products-services" lang-key="product_and_service">{lang('product_and_service')}</a>
                 </li>
-                <li class="{if $uuid eq 'gallery'}active{/if}">
-                  <a href="{base_url()}{$smarty.session.lang_prefix}gallery" lang-key="project">{lang('project')}</a>
+                <li class="{if $uuid eq 'project'}active{/if}">
+                  <a href="{base_url()}{$smarty.session.lang_prefix}projects" lang-key="project">{lang('project')}</a>
                 </li>
                 <li class="{if $uuid eq 'career'}active{/if}">
-                  <a href="{base_url()}{$smarty.session.lang_prefix}career" lang-key="recruit">{lang('recruit')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}careers" lang-key="recruit">{lang('recruit')}</a>
                 </li>
                 <li class="{if $uuid eq 'contact'}active{/if}">
                   <a href="{base_url()}{$smarty.session.lang_prefix}contacts" lang-key="contact">{lang('contact')}</a>

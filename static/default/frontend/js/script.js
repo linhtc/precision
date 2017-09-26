@@ -63,6 +63,59 @@ function changeMyLanguage(){
 		  }
 	});
 }
+function initLoading(dom){
+    dom.block({
+        message: '<i class="fa fa-spinner fa-pulse fa-fw"></i>',
+        themedCSS: {
+            width:  '30%',
+            top:    '0%',
+            left:   '0%'
+        },
+        css: {
+            border: 'none',
+            background: 'none',
+            opacity: '0.1',
+            color: '#ffffff'
+        }
+    });
+}
+function destroyLoading(dom){
+    dom.unblock();
+}
+function isScrolledIntoView(elem){
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = elem.offset().top;
+    var elemBottom = elemTop + elem.height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+var poolFinal = [];
+function lazyLoadBackground(){
+	$('div[bg-src]').each(function(index) {
+		var that = $(this);
+		poolFinal.push(that);
+		initLoading(that.parent());
+	});
+	setTimeout(function(){
+		queueLoadBackground(0);
+	}, 10);
+}
+function queueLoadBackground(index){
+	if(index >= poolFinal.length){
+		return true;
+	}
+	var that = poolFinal[index];
+	var backgroundSrc = that.attr('bg-src');
+	that.css('background-image', 'url("'+backgroundSrc+'")');
+	destroyLoading(that.parent());
+	console.log(backgroundSrc);
+	index++;
+	setTimeout(function(){
+		queueLoadBackground(index);
+	}, 10);
+}
 function isIE() {
     var myNav = navigator.userAgent.toLowerCase();
     return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
@@ -236,4 +289,10 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 (function($) {
     include('static/default/frontend/js/mailform/jquery.form.min.js');
     include('static/default/frontend/js/mailform/jquery.rd-mailform.min.js');
+})(jQuery);
+(function($) {
+    setTimeout(function(){
+    	lazyLoadBackground();
+    }, 10);
+//    $('.loading').remove();
 })(jQuery);

@@ -60,18 +60,18 @@ $route['translate_uri_dashes'] = FALSE;
 $route['home'] = 'frontend/home/view';
 $route['company'] = 'frontend/Company/view';
 $route['products-services'] = 'frontend/ProductService/view';
-$route['design-technology-transfer'] = 'frontend/TechnologyTransfer/view';
-$route['career'] = 'frontend/Career/view';
-$route['gallery'] = 'frontend/Gallery/view';
+$route['rd'] = 'frontend/rd/view';
+$route['careers'] = 'frontend/Career/view';
+$route['projects'] = 'frontend/Project/view';
 $route['contacts'] = 'frontend/Contact/view';
 
 $route['en'] = 'frontend/home/view';
 $route['en/home'] = 'frontend/home/view';
 $route['en/company'] = 'frontend/Company/view';
 $route['en/products-services'] = 'frontend/ProductService/view';
-$route['en/design-technology-transfer'] = 'frontend/TechnologyTransfer/view';
-$route['en/career'] = 'frontend/Career/view';
-$route['en/gallery'] = 'frontend/Gallery/view';
+$route['en/rd'] = 'frontend/rd/view';
+$route['en/careers'] = 'frontend/Career/view';
+$route['en/projects'] = 'frontend/Project/view';
 $route['en/contacts'] = 'frontend/Contact/view';
 
 // backend
