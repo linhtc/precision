@@ -2,6 +2,25 @@
 {literal}
 
 <script data-cfasync="false" type='text/javascript'>
+function checkOlartLoaded(){
+	var olarkMessage = $('.olark-form-message').text();
+	if(olarkMessage == undefined || olarkMessage == null || olarkMessage == ''){
+		setTimeout(function(){
+			checkOlartLoaded();
+		}, 1000);
+	} else{
+		$('.olark-form-message').html('Chúng tôi giúp được gì cho bạn? Xem thêm <a href="'+rootBaseUrl+'contacts">Tại đây</a> hoặc liên hệ số Hotline nhé!');
+		$('.olark-form-send-button').bind('click', function(){
+			console.log('hello');
+			var oname = $('#olark-form-input-fname').val();
+			var oemail = $('#olark-form-input-email').val();
+			var omessage = $('#olark-form-input-body').val();
+			$.post(rootBaseUrl+"contacts/message", {name: oname, email: oemail, phone: '_', message: omessage}, function(data, status){
+	    		console.log(data);
+	        }, "json");
+		});
+	}
+}
 setTimeout(function(){
 /*<![CDATA[*/
 	window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
@@ -24,6 +43,7 @@ setTimeout(function(){
 
 		olark.configure('system.hb_primary_color', '#1F497D');
 /*]]>*/
+checkOlartLoaded();
 }, 6000);
 </script>
 

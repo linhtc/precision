@@ -274,7 +274,10 @@ function sendmailmessage($userClass){
 
     $userClass->name = ucwords($userClass->name); // viet hoa cac ky tu dau cua ten
 	$title = '[MailBot] Có lời nhắn từ '.$userClass->name;
-	$content = 'Bạn '.$userClass->name.' có số phone là '.$userClass->phone.' đã để lại lời nhắn sau: <br /> <br />'.$userClass->message;
+	$content = 'Bạn '.$userClass->name.' có thông tin cá nhân như sau: <br />
+	- Số điện thoại: '.$userClass->phone.' <br />
+	- Email: '.$userClass->email.' <br /><br />
+	Đã để lại lời nhắn dưới đây: <br />'.$userClass->message;
 	
 // 	require_once(APPPATH.'third_party/mail/class.phpmailer.php');
 	require_once(APPPATH.'third_party/mail/PHPMailerAutoload.php');
