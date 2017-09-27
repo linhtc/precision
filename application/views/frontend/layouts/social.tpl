@@ -14,12 +14,12 @@ function eventTrackingSocialMenu(action, label) {
 function mailShare()
 {
     eventTrackingSocialMenu('Share', 'Mail');
-    document.location.href = "mailto:?subject=Fanuc.EU&body="  + document.location;
+    document.location.href = "mailto:info@toanthangprecision.com?subject=Fanuc.EU&body="  + document.location;
 }
 </script>
 <ul class="ul-social">
 	<li>
-		<a target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffanuc-europe" onclick="eventTrackingSocialMenu('Share', 'LinkedIn');">
+		<a target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffanuc-europe">
 			<img height="48" alt="LinkedIn" width="48" src="{base_url()}media/uploads/images/ico_in.png">
 		</a>
 	</li>
@@ -34,7 +34,7 @@ function mailShare()
 		</a>
 	</li>
 	<li>
-		<a target="_blank" href="https://www.youtube.com/user/FANUCEurope" onclick="eventTrackingSocialMenu('Follow', 'YouTube');">
+		<a target="_blank" href="https://www.youtube.com/user/FANUCEurope">
 			<img width="48" height="48" alt="YouTube" src="{base_url()}media/uploads/images/ico_yt_share.png">
 		</a>
 	</li>

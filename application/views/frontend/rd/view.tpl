@@ -1,5 +1,5 @@
 <!--======================well-1=========================-->
-    <section class="well-2 bg-primary border">
+    <section class="well-2 bg-primary border" id="rd-s1">
       <div class="container">
         <h2 class="secondary_color center_text">Nghiên cứu <small style="font-size: 75%; vertical-align: baseline;">&</small> Phát triển</h2>
         <h3 class="secondary_color center_text">Chuyển giao Công nghệ</h3>
@@ -87,7 +87,7 @@
      </section> 
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-  <section class="parallax well-6">
+  <section class="parallax well-6" id="rd-s2">
     <div class="container">
     <h2 class="secondary_color center_text">Team work</h2>
     </div>

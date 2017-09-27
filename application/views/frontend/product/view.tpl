@@ -1,5 +1,5 @@
 <!--======================well-1=========================-->
-    <section class="well-2 bg-primary border">
+    <section class="well-2 bg-primary border" id="product-s1">
       <div class="container">
         <h2 class="secondary_color center_text">Gia công chính xác</h2>
         <div class="row primary_color flow-offset-1 text-center">
@@ -94,7 +94,7 @@
      </section> 
 <!--======================End well-1=========================-->
 <!--======================well-1=========================-->
-    <section class="well-2 bg-primary border">
+    <section class="well-2 bg-primary border" id="product-s2">
       <div class="container">
         <h2 class="secondary_color center_text">Thiết kế & Chuyển giao công nghệ</h2>
         <div class="row primary_color flow-offset-1 text-center">
@@ -188,24 +188,26 @@
      </section> 
 <!--======================End well-1=========================-->
 <!--======================well-3=========================-->
-  <section class="well-6 bg-primary border">
+  <section class="well-6 bg-primary border" id="product-s3">
     <div class="container">
       <h2 class="center_text secondary_color">Dịch vụ</h2>
       <div class="row"> 
-        <div class="col-lg-6 col-xs-6">
+        <div class="col-lg-1 col-xs-6">
+        </div>
+        <div class="col-lg-5 col-xs-6">
           <ul class="marked-list text-left">
-            <li class="wow fadeInRight"><a href="#">Gia công chi tiết máy</a></li>
-            <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Gia công khuôn mẫu</a></li>
-            <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Sản xuất, lắp đặt</a></li>
-            <li class="wow fadeInRight" data-wow-delay="0.5s"><a href="#">Cho thuê máy công cụ</a></li>
+            <li class="wow fadeInRight"><a href="#">Gia công chi tiết máy.</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Gia công khuôn mẫu.</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Sản xuất, lắp đặt.</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.5s"><a href="#">Cho thuê máy công cụ.</a></li>
           </ul>
         </div>
         <div class="col-lg-6 col-xs-6">
           <ul class="marked-list text-left">
-            <li class="wow fadeInRight"><a href="#">Thiết kế và chế tạo máy tự động hóa</a></li>
-            <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Thiết kế khuôn mẫu</a></li>
-            <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Tư vấn và Chuyển giao công nghệ</a></li>
-            <li class="wow fadeInRight" data-wow-delay="0.6s"><a href="#">Tư vấn kỹ thuật</a></li>
+            <li class="wow fadeInRight"><a href="#">Thiết kế và chế tạo máy tự động hóa.</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Thiết kế khuôn mẫu.</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Tư vấn và Chuyển giao công nghệ.</a></li>
+            <li class="wow fadeInRight" data-wow-delay="0.6s"><a href="#">Tư vấn kỹ thuật.</a></li>
           </ul>          
         </div>
       </div>

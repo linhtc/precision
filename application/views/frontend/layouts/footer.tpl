@@ -5,22 +5,25 @@
         <div class="col-lg-3 col-xs-12 icon-hover" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-location_on"></i>
           <h3>Địa chỉ:</h3>
-          <p><a href="#">Nguyễn Thị Minh Khai, khu phố Đông Chiêu, phường Tân Đông Hiệp, Tx. Dĩ An, Bình Dương, Việt Nam</a>
+          <p>
+          	<a href="https://www.google.com/maps/dir//10.9226744,106.75508/@10.922674,106.75508,14z?hl=en-US" target="_blank">
+          	Nguyễn Thị Minh Khai, khu phố Đông Chiêu, phường Tân Đông Hiệp, Tx. Dĩ An, Bình Dương, Việt Nam
+         	</a>
           </p>
         </div>
         <div class="col-lg-3 col-xs-12 icon-hover offset-6" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-phone"></i>
           <h3>Điện thoại:</h3>
           <p>
-          <a href="callto:#">0963 693 626</a><br>
-          <a href="callto:#">0982 791 717</a></p>
+          <a href="skype:thangloi229_dtnd?chat">0963 693 626</a><br>
+          <a href="skype:hungdau2002?chat">0982 791 717</a></p>
         </div>
         <div class="col-lg-3 col-xs-12 icon-hover offset-6" style="padding-left: 0px; padding-right: 0px;">
           <i class="icon secondary-icon icon-xs material-icons-email"></i>
           <h3>Liên hệ:</h3>
           <p style="white-space: pre;">
-          <a href="#">info@toanthangprecision.com</a><br>
-          <a href="callto:#">Hotline: 0984 499 008</a></p>
+          <a href="{base_url()}contacts">info@toanthangprecision.com</a><br>
+          <a href="skype:nguyendinhthangckm?chat">Hotline: 0984 499 008</a></p>
         </div>
         <div class="col-lg-3 col-xs-12 icon-hover offset-6">
           <i class="icon secondary-icon icon-xs material-icons-schedule"></i>

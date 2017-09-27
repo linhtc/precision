@@ -300,4 +300,14 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
     	lazyLoadBackground();
     }, 10);
 //    $('.loading').remove();
+    setTimeout(function(){
+    	console.log('counting...');
+    	$.post(rootBaseUrl+"api/crontabs/viewer", function(data, status){
+//            console.log("Data: " + data + "\nStatus: " + status);
+    		console.log(data);
+    		$('#count-yesterday').text(data.yesterday);
+    		$('#count-thisweek').text(data.thisweek);
+    		$('#count-total').text(data.total);
+        }, "json");
+    }, 3000);
 })(jQuery);

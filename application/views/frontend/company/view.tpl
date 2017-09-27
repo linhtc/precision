@@ -1,5 +1,5 @@
 <!--======================well-1=========================-->
-    <section class="well-2 bg-primary border">
+    <section class="well-2 bg-primary border" id="company-s1">
       <div class="container">
         <h2 class="secondary_color center_text">Công ty chúng tôi</h2>
         <div class="row primary_color flow-offset-1 text-center">
@@ -42,7 +42,7 @@
      </section> 
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-  <section class="parallax well-6 center_text" data-url="{base_url()}media/uploads/images/slider1.jpg" data-mobile="true" data-speed="0.6">
+  <section class="parallax well-6 center_text" data-url="{base_url()}media/uploads/images/slider1.jpg" data-mobile="true" data-speed="0.6" id="company-s2">
     <div class="container">
     <h2 class="wow fadeInRight">Tại sao chọn chúng tôi?</h2>
       <div class="row"> 
@@ -67,21 +67,22 @@
   </section>
 <!--======================End parallax=========================-->
 <!--======================parallax=========================-->
-  <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/uploads/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6">
+  <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/uploads/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6" id="company-s3">
     <div class="container">
       <h2>Triết lý của chúng tôi</h2>
       <h3>Mục tiêu của chúng tôi là sự hài lòng và thành công của bạn</h3>
       <div class="row  offset-9">
         <ul class="index-list_1 icon-hover_3 flow-offset-1">
-          <li class="wow fadeInUp col-lg-4 col-md-4"><h4>Sứ mệnh</h4>
-          <p>Chúng tôi mong muốn tạo ra những sản phẩm hội tụ tất cả những tinh hoa công nghệ, chất lượng và độ chính xác cao, mang lại sự hài lòng cho khách hàng.</p>
+          <li class="wow fadeInUp col-lg-4 col-md-4"><h3>Sứ mệnh</h3>
+          <h4>Chúng tôi mong muốn tạo ra những sản phẩm hội tụ tất cả những tinh hoa công nghệ, chất lượng và độ chính xác cao, mang lại sự hài lòng cho khách hàng.</h4>
           </li>
-          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.2s"><h4>Kinh nghiệm</h4>
-          <p>Với sự chuyên nghiệp, kinh nghiệm được đúc kết và tích lũy trong nhiều năm chúng tôi đảm bảo cung cấp sản phẩm đến khách hàng sản phẩm chất lượng cao, 
-          đúng tiến độ, giá cả cạnh tranh.</p>
+          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.2s"><h3>Kinh nghiệm</h3>
+          <h4>Với sự chuyên nghiệp, kinh nghiệm được đúc kết và tích lũy trong nhiều năm chúng tôi đảm bảo cung cấp đến khách hàng sản phẩm chất lượng cao, 
+          đúng tiến độ, giá cả cạnh tranh.</h4>
           </li>
-          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.4s"><h4>Dịch vụ</h4>
-          <p>Với phương châm mang lại sự hài lòng cho khách hàng, chúng tôi hỗ trợ và tư vấn mọi lúc mọi nơi, mang lại những dịch vụ tốt nhất hiện nay cho khách hàng.</p>
+          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.4s"><h3>Dịch vụ</h3>
+          <h4>Với phương châm mang lại sự hài lòng cho khách hàng, chúng tôi hỗ trợ và tư vấn mọi lúc mọi nơi, 
+          mang lại những dịch vụ tốt nhất hiện nay cho khách hàng.</h4>
           </li>
         </ul>
       </div>
@@ -89,7 +90,7 @@
   </section>
 <!--======================End parallax=========================-->
 <!--======================End well=========================-->
-    <section class="well-4">
+    <section class="well-4" id="company-s4">
       <div class="container">
         <div class="row flow-offset-1 text-center text-lg-left">
           <div class="col-lg-5">

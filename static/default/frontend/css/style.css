@@ -296,6 +296,9 @@ dd {
 .marked-list-1 li a:hover {
     color: rgb(31, 73, 125);
 }
+.index-list h3, .index-list_1 h3 {
+	margin-top: 15px;
+}
 .index-list,
 .index-list_1 {
     counter-reset: myCounter;
@@ -939,7 +942,7 @@ br.br-lg {
     top: 90%;
     left: 0;
     width: 235px;
-    margin-top: 60px;
+    margin-top: 30px;
     padding: 10px 0 10px;
     background: #272d33;
     text-transform: none;

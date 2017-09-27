@@ -38,8 +38,10 @@
 	          	</div>
 	          </div>
 	          <div class="col-lg-1 col-sm-1 header-border-bt2">
-	            <input type="radio" name="language" value="EN"> EN<br>
-  				<input type="radio" name="language" value="VN"> VN<br>
+	            <input id="lang_en" onclick="changeMyLanguage();" type="radio" name="language" value="EN" {if !empty($smarty.session.lang_prefix)}checked="checked"{/if}>
+	            <label for="lang_en"> EN</label><br>
+  				<input id="lang_vi" onclick="changeMyLanguage();" type="radio" name="language" value="VN" {if empty($smarty.session.lang_prefix)}checked="checked"{/if}>
+  				 <label for="lang_vi"> VN</label><br>
 	          </div>
   			</div>
   		</div>
@@ -53,17 +55,67 @@
             <nav class="nav">
               <ul class="sf-menu" data-type="navbar">
                 <li class="{if $uuid eq 'home'}active{/if}">
-                  <a href="{base_url()}{$smarty.session.lang_prefix}" lang-key="home">{lang('home')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}" class="sf-with-ul" lang-key="home">{lang('home')}</a>
+				    <ul style="display: none;">
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s1">Giới thiệu</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s2">Sản phẩm</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s3">Chúng tôi giải quyết</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s4">Chúng tôi phục vụ</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s5">Vài lời về chúng tôi</a>
+				        </li>
+				    </ul>
                 </li>
                 <li class="{if $uuid eq 'company'}active{/if}">
-                  <a href="{base_url()}{$smarty.session.lang_prefix}company" lang-key="company">{lang('company')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}company" class="sf-with-ul" lang-key="company">{lang('company')}</a>
+				    <ul style="display: none;">
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s1">Công ty chúng tôi</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s2">Tại sao chọn chúng tôi?</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s3">Triết lý kinh doanh</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s4">Vài lời về chúng tôi</a>
+				        </li>
+				    </ul>
                 </li>
                 <li class="{if $uuid eq 'rd'}active{/if}">
-                  <a href="{base_url()}{$smarty.session.lang_prefix}rd" lang-key="r_and_d">{lang('r_and_d')}</a>
+                  <a href="{base_url()}{$smarty.session.lang_prefix}rd" class="sf-with-ul" lang-key="r_and_d">{lang('r_and_d')}</a>
+				    <ul style="display: none;">
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}rd#rd-s1">RD & CGCN</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}rd#rd-s2">Team work</a>
+				        </li>
+				    </ul>
                 </li>
                 <li class="{if $uuid eq 'product'}active{/if}">
-                  <a href="{base_url()}{$smarty.session.lang_prefix}products-services" lang-key="product_and_service">{lang('product_and_service')}</a>
-                </li>
+				    <a href="{base_url()}{$smarty.session.lang_prefix}products-services" class="sf-with-ul" lang-key="product_and_service">{lang('product_and_service')}</a>
+				    <ul style="display: none;">
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s1">Gia công chính xác</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s2">Thiết kế & CGCN</a>
+				        </li>
+				        <li style="opacity: 0;">
+				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s3">Dịch vụ</a>
+				        </li>
+				    </ul>
+				</li>
                 <li class="{if $uuid eq 'project'}active{/if}">
                   <a href="{base_url()}{$smarty.session.lang_prefix}projects" lang-key="project">{lang('project')}</a>
                 </li>

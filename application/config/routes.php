@@ -64,6 +64,7 @@ $route['rd'] = 'frontend/rd/view';
 $route['careers'] = 'frontend/Career/view';
 $route['projects'] = 'frontend/Project/view';
 $route['contacts'] = 'frontend/Contact/view';
+$route['contacts/message'] = 'frontend/Contact/message';
 
 $route['en'] = 'frontend/home/view';
 $route['en/home'] = 'frontend/home/view';

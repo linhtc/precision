@@ -8,7 +8,7 @@
               <img src="{base_url()}media/images/recruitment.jpg" alt="" style="margin-bottom: 0px;">
             </div>         
             <div class="benefit wow fadeInUp">
-				<div class="item">
+				<div class="item" style="display:none;">
 					<p class="image">
 						<img src="{base_url()}media/images/recruitment4.png" alt="">
 					</p>
@@ -53,22 +53,16 @@
 			    <th>Hạn nộp hồ sơ</th>
 			  </tr>
 			  <tr>
-			    <td>Tuyển dụng Kỹ sư cơ khí</td>
+			    <td>Tuyển dụng Kỹ sư Cơ khí</td>
 			    <td>1</td> 
 			    <td>Kỹ sư cơ khí</td>
-			    <td>19/09/2017</td>
+			    <td>12/12/2017</td>
 			  </tr>
 			  <tr>
-			    <td>Tuyển dụng lập trình viên PHP</td>
+			    <td>Tuyển dụng Kỹ thuật viên Cơ khí</td>
 			    <td>1</td> 
 			    <td>Kỹ sư</td>
-			    <td>19/09/2017</td>
-			  </tr>
-			  <tr>
-			    <td>Tuyển dụng lao động phổ thông</td>
-			    <td>100</td> 
-			    <td>Nhân viên</td>
-			    <td>19/09/2017</td>
+			    <td>12/12/2017</td>
 			  </tr>
 			</table>
           </div>

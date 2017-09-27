@@ -1,6 +1,6 @@
 <!--======================well=========================-->
 
-    <section class="well-1 bg-primary">
+    <section class="well-1 bg-primary" id="home-s1">
       <div class="container">
 	      <div class="row offset">
 	      	<div class="col-lg-3 col-xs-3">
@@ -9,7 +9,7 @@
 				  <div class="panel-body">
 			  		<div class="online-support" style="background-image:url({base_url()}media/uploads/images/phone2.png);">
 				  		<h4 class="blink_me">
-		                	<span><small style="font-size: 80%;">Hotline:</small> <br>098 44 99 008</span>
+		                	<span><small style="font-size: 80%;">Hotline:</small> <br><a href="skype:nguyendinhthangckm?chat">098 44 99 008</a></span>
 		                </h4>
 			  		</div>
 					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kỹ thuật:</span>
@@ -17,7 +17,7 @@
 	                	<span>
 	                		<b>Mr. Thắng: </b><br />
 	                		<b>0963 693 626</b>
-	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+	                		<a style="padding-left: 5px;" href="tel:+84963693626" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
 	                		<a style="padding-left: 20px;" href="skype:thangloi229_dtnd?chat" class="anchor-contact">
@@ -29,7 +29,7 @@
 	                	<span>
 	                		<b>Mr. Hùng: </b><br />
 	                		<b>0982 791 717</b>
-	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+	                		<a style="padding-left: 5px;" href="tel:+84982791717" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
 	                		<a style="padding-left: 20px;" href="skype:hungdau2002?chat" class="anchor-contact">
@@ -42,7 +42,7 @@
 	                	<span>
 	                		<b>Mr. Thắng: </b><br />
 	                		<b>0963 693 626</b>
-	                		<a style="padding-left: 5px;" href="zalo:?chat" class="anchor-contact">
+	                		<a style="padding-left: 5px;" href="tel:+84963693626" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
 	                		<a style="padding-left: 20px;" href="skype:thangloi229_dtnd?chat" class="anchor-contact">
@@ -84,16 +84,16 @@
 				  <div class="panel-heading">Thống kê</div>
 				  <div class="panel-body" style="padding-bottom: 0;padding-top: 0;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
-				  		<span>Đang online: 9</span>
+				  		<span>Đang online: <script type="text/javascript" src="{base_url()}webcounter.php"></script></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/homqua.png);">
-				  		<span>Hôm qua: 99</span>
+				  		<span>Hôm qua: <label id="count-yesterday"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/tuan.png);">
-				  		<span>Tuần này: 999</span>
+				  		<span>Tuần này: <label id="count-thisweek"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/tong.png);">
-				  		<span>Tổng truy cập: 9.999</span>
+				  		<span>Tổng truy cập: <label id="count-total"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 				  </div>
 				</div>
@@ -169,7 +169,7 @@
     </section>
 <!--======================End well=========================-->
 <!--======================well_1=========================-->
-    <section class="well-3">
+    <section class="well-3" id="home-s2">
       <div class="container center_text">
         <h2 class="secondary_color">Sản phẩm</h2>
         <div class="row offset">
@@ -228,7 +228,7 @@
     </section>
 <!--======================End well_1=========================-->
 <!--======================well_1=========================-->
-    <section class="well-2 bg-primary center_text">
+    <section class="well-2 bg-primary center_text" id="home-s3">
     <h2 class="secondary_color wow fadeInRight">Chúng tôi sẽ giải quyết</h2>
     <h3 class="primary_color wow fadeInLeft">các yêu cầu của khách hàng</h3>
     <div class="container text-left offset-1">
@@ -261,7 +261,7 @@
     </section>
 <!--======================End well_1=========================-->
 <!--======================parallax=========================-->
-    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/page-01_bg-01.jpg" data-mobile="true" data-speed="0.6">
+    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/page-01_bg-01.jpg" data-mobile="true" data-speed="0.6" id="home-s4">
       <div class="container">
         <div class="row"> 
           <div class="col-lg-6">
@@ -290,7 +290,7 @@
     </section>
 <!--======================End parallax=========================-->
 <!--======================End well=========================-->
-    <section class="well-4">
+    <section class="well-4" id="home-s5">
       <div class="container">
         <div class="row flow-offset-1 text-center text-lg-left">
           <div class="col-lg-5">

@@ -46,4 +46,27 @@ class Contact extends MY_Controller {
 		
 		$this->parser->parse($this->viewPath."view", $data);
 	}
+	
+	/**
+	 * Send mail
+	 */
+	public function message(){
+		$name = $this->input->post('name', true);
+		$email = $this->input->post('email', true);
+		$phone = $this->input->post('phone', true);
+		$message = $this->input->post('message', true);
+		
+		if(!empty($name) && !empty($email) && !empty($phone) && !empty($message)){
+			$userClass = new stdClass();
+			$userClass->name = $name;
+			$userClass->email = $email;
+			$userClass->phone = $phone;
+			$userClass->message = $message;
+			
+			$this->load->helper('mobiistar_helper');
+			$rs = sendmailmessage($userClass);
+			echo $rs ? 'MF000' : 'MF255'; exit;
+		}
+		echo 'MF255'; exit;
+	}
 }

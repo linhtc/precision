@@ -14,7 +14,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @version beta.0.1
  */
 class Crontabs extends MY_Controller {
-
+	
+	private $viewerModel;
+	
     function __construct() {
         parent::__construct();
         $this->preceptsModel = 'precepts';
@@ -39,6 +41,7 @@ class Crontabs extends MY_Controller {
         $this->pointModel = 'points';
         $this->langModel = 'sys_languages';
         $this->ticketNum = 3; /* Moi lan share se co 3 luot lucky */
+        $this->viewerModel = 'sys_viewers';
     }
 
     /**
@@ -154,6 +157,53 @@ class Crontabs extends MY_Controller {
                 exit;
             }
         }
+    }
+    
+    /**
+     * Counting viewer
+     * @request: {}
+     * @response: {}
+     **/
+    public function viewer(){
+    	$this->layout->disable_layout(); // disable layout
+    	
+    	$client = $this->getClientIP();
+    	$currtime = date('YmdH', time());
+    	$query = "
+			INSERT INTO sys_viewers (created, modified, ip, currtime)
+			VALUES (NOW(), NOW(), '".addslashes($client)."', '".addslashes($currtime)."')
+			ON DUPLICATE KEY UPDATE modified = VALUES(modified);
+		";
+    	$this->db->query($query);
+    	
+    	
+    	$yesterday = date("Y-m-d", strtotime("-1 day", time()));
+    	$yesterdayViewer = $this->db->select('id')->from($this->viewerModel)
+    	->where('created >= "'.$yesterday.' 00:00:00"', '', false)
+    	->where('created < "'.$yesterday.' 23:59:59"', '', false)
+    	->get()->num_rows();
+    	$thisweek = date("Y-m-d", strtotime("-6 day", time()));
+    	$thisweekViewer = $this->db->select('id')->from($this->viewerModel)
+    	->where('created >= "'.$thisweek.' 00:00:00"', '', false)
+    	->get()->num_rows();
+    	$totalViewer = $this->db->select('id')->from($this->viewerModel)->get()->num_rows();
+    	
+    	$response = new stdClass();
+    	$response->yesterday = $yesterdayViewer;
+    	$response->thisweek = $thisweekViewer;
+    	$response->total = $totalViewer;
+    	
+    	$this->response($response);
+    }
+    
+    /**
+     * Ham tra du lieu ve cho client voi header la json
+     * @input: pointer stdClass
+     * @output: json encode stdClass
+     **/
+    private function response(stdClass &$response) {
+    	header('Content-Type: application/json');
+    	echo json_encode($response, JSON_UNESCAPED_UNICODE); exit;
     }
 
     /**

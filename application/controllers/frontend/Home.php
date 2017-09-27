@@ -18,6 +18,7 @@ class Home extends MY_Controller {
 	private $viewPath;
 	private $pageModel;
 	private $subjectModel;
+	private $viewerModel;
 	private $pageType;
 	
     function __construct() {
@@ -26,6 +27,7 @@ class Home extends MY_Controller {
         $this->viewPath = 'frontend/home/';
         $this->pageModel = 'e_pages';
         $this->subjectModel = 'e_subjects';
+        $this->viewerModel = 'sys_viewers';
         $this->pageType = 'home';
     }
     
@@ -38,10 +40,10 @@ class Home extends MY_Controller {
         $this->layout->set_layout('default');
 
         $listCss = array(
-        		
+        	
         );
         $listJs = array(
-        		
+        	
         );
         
         $item = $this->db->select('id, page_content')
@@ -56,7 +58,7 @@ class Home extends MY_Controller {
             'listJs' => add_Js($listJs),
         		'listCss' => add_css($listCss),
         		'item' => $item,
-        		'uuid' => $this->pageType
+        		'uuid' => $this->pageType,
         );
 
         $this->parser->parse($this->viewPath."view", $data);

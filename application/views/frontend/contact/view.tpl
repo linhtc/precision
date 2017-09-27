@@ -2,7 +2,7 @@
     <div class="container center_text">
       <h2 class="secondary_color">Liên hệ</h2>
     <!-- RD Mailform -->
-          <form class='mailform' method="post" action="bat/rd-mailform.php">
+          <form class='mailform' method="post" action="{base_url()}contacts/message">
             <input type="hidden" name="form-type" value="contact"/>
             <fieldset>
                 <div class="row">
@@ -10,15 +10,15 @@
                     <label data-add-placeholder data-add-icon>
                       <input type="text"
                                name="name"
-                               placeholder="Name:"
-                               data-constraints="@LettersOnly @NotEmpty"/>
+                               placeholder="Họ tên:"
+                               data-constraints="@NotEmpty"/>
                     </label>
                   </div>
                   <div class="col-md-4">
                     <label data-add-placeholder data-add-icon>
                         <input type="text"
                                name="email"
-                               placeholder="E-mail:"
+                               placeholder="Email:"
                                data-constraints="@Email @NotEmpty"/>
                     </label>
                   </div>
@@ -26,19 +26,19 @@
                     <label data-add-placeholder data-add-icon>
                         <input type="text"
                                name="phone"
-                               placeholder="Phone:"
+                               placeholder="Điện thoại:"
                                data-constraints="@Phone"/>
                     </label>
                   </div>
                   <div class="col-md-12">
                     <label data-add-placeholder>
-                        <textarea name="message" placeholder="Message:"
+                        <textarea name="message" placeholder="Lời nhắn:"
                         data-constraints="@NotEmpty"></textarea>
                     </label>
                   </div>
                 </div>
                 <div class="mfControls">
-                    <button class="btn_mf btn-lg btn-default" type="submit">SEND</button>
+                    <button class="btn_mf btn-lg btn-default" type="submit">GỬI</button>
                 </div>
                 <div class="mfInfo"></div>
             </fieldset>
