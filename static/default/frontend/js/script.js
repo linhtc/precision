@@ -295,6 +295,15 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
     include('static/default/frontend/js/mailform/jquery.form.min.js');
     include('static/default/frontend/js/mailform/jquery.rd-mailform.min.js');
 })(jQuery);
+
+function checkScroller(){
+	if (document.location.hash) {
+        setTimeout(function() {
+    	    console.log('aaa');
+            window.scrollTo(window.scrollX, window.scrollY - 100);
+        }, 500);
+    }
+}
 (function($) {
     setTimeout(function(){
     	lazyLoadBackground();
@@ -310,4 +319,14 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
     		$('#count-total').text(data.total);
         }, "json");
     }, 3000);
+
+    checkScroller();
+    setTimeout(function() {
+	    console.log('ccc');
+	    $('.sf-menu ul li a').click(function(event) {
+	    	setTimeout(function() {
+	    		checkScroller();
+	    	}, 10);
+		});
+	}, 1000);
 })(jQuery);

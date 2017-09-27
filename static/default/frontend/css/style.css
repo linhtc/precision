@@ -944,7 +944,7 @@ br.br-lg {
     width: 235px;
     margin-top: 30px;
     padding: 10px 0 10px;
-    background: #272d33;
+    background: rgb(31, 73, 125);
     text-transform: none;
     z-index: 2;
     -moz-box-sizing: border-box;
@@ -957,13 +957,20 @@ br.br-lg {
     }
 }
 .sf-menu ul>li {
-    margin: 9px 0 9px 15px;
+    margin: 10px 0px;
+    padding: 5px;
+    text-align: left;
+}
+.sf-menu ul>li:hover {
+    background: rgb(255, 255, 102);
+    color: rgb(31, 73, 125);
 }
 .sf-menu ul>li>a {
     color: #fff;
 }
 .sf-menu ul>li.sfHover>a,
 .sf-menu ul>li>a:hover {
+    /* color: rgb(31, 73, 125); */
     color: rgb(31, 73, 125);
 }
 .sf-menu ul ul {
@@ -994,6 +1001,9 @@ br.br-lg {
 @media (max-width: 767px) {
     .sf-menu {
         display: none;
+    }
+    .top-header {
+    	display: none;
     }
 }
 .rd-mobilemenu {

@@ -64,13 +64,10 @@
 				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s2">Sản phẩm</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s3">Chúng tôi giải quyết</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s3">Năng lực</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s4">Chúng tôi phục vụ</a>
-				        </li>
-				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s5">Vài lời về chúng tôi</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s4">Dịch vụ</a>
 				        </li>
 				    </ul>
                 </li>
@@ -95,7 +92,7 @@
                   <a href="{base_url()}{$smarty.session.lang_prefix}rd" class="sf-with-ul" lang-key="r_and_d">{lang('r_and_d')}</a>
 				    <ul style="display: none;">
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}rd#rd-s1">RD & CGCN</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}rd#rd-s1">Nghiên cứu & Phát triển</a>
 				        </li>
 				        <li style="opacity: 0;">
 				            <a href="{base_url()}{$smarty.session.lang_prefix}rd#rd-s2">Team work</a>
