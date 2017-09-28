@@ -130,7 +130,7 @@ class ManagePhoto extends MY_Controller {
         $this->layout->set_layout('default');
 
 
-        $item = $this->db->select('id, page_type, page_content, page_content2, sort')
+        $item = $this->db->select('id, page_type, page_content, page_content2, page_content4, sort')
             ->from($this->photoModel)
             ->where('id', $id)
             ->get()
@@ -192,7 +192,7 @@ class ManagePhoto extends MY_Controller {
         $numRows = $this->input->post('auto', true);
         if(!empty($numRows) && $numRows > 10 && $numRows < 101){ $this->numRows = $numRows; }
         $start = ($page-1)*$this->numRows;
-        $query = "select `id`, `modified`, `page_type` p, `page_content` c1, `page_content2` c2  from ".$this->photoModel;
+        $query = "select `id`, `modified`, `page_type` p, `page_content` c1, `page_content2` c2, `page_content4` c4  from ".$this->photoModel;
         $query .= $this->criteria();
         $num = $this->db->query($query)->num_rows();
         $query .= " order by `".(empty($sortMaps[$sort]) ? 'id' : $sortMaps[$sort]) ."` ".$type;
@@ -288,8 +288,10 @@ class ManagePhoto extends MY_Controller {
     	$p = $this->input->post('page_type', false);
     	$v = $this->input->post('apply_value', false);
     	$v2 = $this->input->post('apply_value2', false);
+    	$v4 = $this->input->post('apply_value4', false);
     	if(!empty($p)){
     		$v = nl2br("$v");
+    		$v4 = nl2br("$v4");
     		if(strpos($v2, '/') === false){
     			$v3 = 'fit_'.$v2;
     		} else{
@@ -301,11 +303,12 @@ class ManagePhoto extends MY_Controller {
         	$ip = $this->getClientIP();
             $query = "
                 INSERT INTO `".$this->photoModel."` (".(!empty($id) ? '`id`, ' : '')."`created`, `modified`, `ipaddress`, `page_type`, 
-					`page_content`, `page_content2`, `page_content3`, `sort`) 
+					`page_content`, `page_content2`, `page_content3`, `page_content4`, `sort`) 
                 VALUES (".(!empty($id) ? $id.', ' : '')."NOW(), NOW(), '".addslashes($ip)."', '".addslashes($p)."', 
-					'".addslashes($v)."', '".addslashes($v2)."',  '".addslashes($v3)."', '".addslashes($s)."')
+					'".addslashes($v)."', '".addslashes($v2)."', '".addslashes($v3)."', '".addslashes($v4)."', '".addslashes($s)."')
                 ON DUPLICATE KEY UPDATE `ipaddress` = VALUES(ipaddress), 
-					`page_content` = VALUES(page_content), `page_content2` = VALUES(page_content2), `page_content3` = VALUES(page_content3), `sort` = VALUES(sort), 
+					`page_content` = VALUES(page_content), `page_content2` = VALUES(page_content2), 
+					`page_content3` = VALUES(page_content3), `page_content4` = VALUES(page_content4), `sort` = VALUES(sort), 
 					`deleted` = VALUES(deleted), modified = VALUES(modified)
                 ;
             ";

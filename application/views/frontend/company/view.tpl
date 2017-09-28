@@ -12,7 +12,7 @@
           	<div class="col-sm-6 col-md-4">
 	            <div class="box wow fadeInUp">
 	              <div class="img" style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});">
-	              	<a href="{base_url()}media/filemanager/thumbs/{$isub->v2}" data-lightbox="image-1-{$ksub}" data-title="Công ty chúng tôi"></a>
+	              	<a href="{base_url()}media/filemanager/source/{$isub->v2}" data-lightbox="image-1-{$ksub}" data-title="Công ty chúng tôi"></a>
 	              </div>
 	              <p>{$isub->v1}</p>
 	            </div>

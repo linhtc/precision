@@ -90,70 +90,29 @@
 				</div>
 	      	</div>
 	      	<div class="col-lg-9 col-xs-9 offset-6">
-		        <div class="row offset">
-		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-01" style="background-image: url({base_url()}media/uploads/images/home_hl_01.jpg);">
-		              <a href="#" class="product_cont product_cont_mode">
-		                <h3>Trung tâm gia công</h3>
-		                <p>Sử dụng máy gia công tốc độ cao thương hiệu từ Nhật Bản, đem lại độ chính xác gia công.</p>
-		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-		              </a>
-		            </div>
-		          </div>
-		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-03" style="background-image: url({base_url()}media/uploads/images/home_hl_02.jpg);">
-		              <a href="#" class="product_cont product_cont_mode">
-		                <h3>Gia công chi tiết</h3>
-		                <p>
-		                	Sản phẩm được gia công trên công nghệ hiện đại kết hợp công nghệ xử lý bề mặt tạo ra chất lượng sản phẩm có độ chính xác và độ thẩm mỹ cao.
-		                	<br />
-		                	Gia công trên mọi vật liệu như Nhôm, Đồng, Sắt, Nhựa, Teflon, Mika, ...
-		                </p>
-		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-		              </a>
-		            </div>
-		          </div>
-		        </div>
-		        <div class="row offset">
-		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product bg-cover pr-img-04 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_hl_03.jpg);">
-		              <a href="#" class="product_cont product_cont_mode">
-		                <h3>Trang thiết bị</h3>
-		                <p>Sử dụng trang thiết bị hiện đại, có độ chính xác cao. <br /> &nbsp;</p>
-		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-		              </a>
-		            </div>
-		          </div>
-		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-0 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_hl_04.jpg);">
-		              <a href="#" class="product_cont product_cont_mode">
-		                <h3>Gia công khuôn</h3>
-		                <p>Thiết kế và gia công khuôn nhựa, khuôn thổi, khuôn hút chân không.</p>
-		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-		              </a>
-		            </div>
-		          </div>
-		        </div>
-		        <div class="row offset">
-		          <div class="col-lg-6 col-xs-6">
-		            <div class="product bg-cover pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_hl_05.jpg);">
-		              <a href="#" class="product_cont product_cont_mode">
-		                <h3>Nghiên cứu & chế tạo</h3>
-		                <p>Nghiên cứu, thiết kế và chế tạo máy móc công nghiệp, máy tự động hóa và bán tự động.</p>
-		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-		              </a>
-		            </div>
-		          </div>
-		          <div class="col-lg-6 col-xs-6 offset-6">
-		            <div class="product bg-cover pr-img-02 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_hl_06.jpg);">
-		              <a href="#" class="product_cont product_cont_mode">
-		                <h3>Thiết kế & gia công khuôn</h3>
-		                <p>Nghiên cứu, thiết kế và gia công khuôn ép nhựa, khuôn thổi, khuôn đùn, khuôn hút chân không, ...</p>
-		                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-		              </a>
-		            </div>
-		          </div>
-		        </div>
+		        {assign var="curr" value=0}
+		        {foreach from=$finalPhoto->home_section_1 key=ksub item=isub name=foo}
+		        {math assign="curr" equation='x+y' x=$curr y=1}
+		        {math assign="currdevide" equation='x%y' x=$curr y=3}
+		        	{if $curr eq 1}
+		          	<div class="row offset">
+		          	{/if}
+			          <div class="col-lg-6 col-xs-6 offset-6">
+			            <div class="product bg-cover pr-img-04 wow fadeInUp" 
+			            	style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});" 
+			            	bg-src="{base_url()}media/filemanager/source/{$isub->v2}">
+			              <a href="#" class="product_cont product_cont_mode">
+			                <h3>{$isub->v1}</h3>
+			                <p>{$isub->v4}</p>
+			                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+			              </a>
+			            </div>
+			          </div>
+		          	{if $curr gte 2}
+		          	{assign var="curr" value=0}
+		          	</div>
+		          	{/if}
+		        {/foreach}
 	      	</div>
 	      </div>
       </div>
@@ -163,58 +122,28 @@
     <section class="well-3" id="home-s2">
       <div class="container center_text">
         <h2 class="secondary_color">Sản phẩm</h2>
-        <div class="row offset">
-          <div class="col-lg-4 col-xs-4">
-            <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_1.jpg);">
-              <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>Aluminium Anodize</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-xs-4">
-            <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_2.jpg);">
-              <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>SKD11</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-xs-4">
-            <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_3.jpg);">
-              <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>SUS 304</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row offset">
-          <div class="col-lg-4 col-xs-4">
-            <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_4.jpg);">
-              <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>Robot Machine</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-xs-4">
-            <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_5.jpg);">
-              <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>Milling Plastic Molds</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-xs-4">
-            <div class="product bg-100p bg-shadow pr-img-03 wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/home_p_6.jpg);">
-              <a href="#" class="product_cont product_cont_mode no-all-padding">
-                <h3>Vaccum Mold</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+        {assign var="curr" value=0}
+        {foreach from=$finalPhoto->home_section_2 key=ksub item=isub name=foo}
+        {math assign="curr" equation='x+y' x=$curr y=1}
+        {math assign="currdevide" equation='x%y' x=$curr y=3}
+        	{if $curr eq 1}
+          	<div class="row offset">
+          	{/if}
+	          <div class="col-lg-4 col-xs-4">
+	            <div class="product bg-100p bg-shadow pr-img-01 wow fadeInUp" 
+	            style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});" 
+	            bg-src="{base_url()}media/filemanager/source/{$isub->v2}">
+	              <a href="#" class="product_cont product_cont_mode no-all-padding">
+	                <h3>{$isub->v1}</h3>
+	                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+	              </a>
+	            </div>
+	          </div>
+          	{if $curr gte 3}
+          	{assign var="curr" value=0}
+          	</div>
+          	{/if}
+        {/foreach}
       </div>
     </section>
 <!--======================End well_1=========================-->
@@ -252,7 +181,7 @@
     </section>
 <!--======================End well_1=========================-->
 <!--======================parallax=========================-->
-    <section class="parallax well-3" data-url="{base_url()}static/default/frontend/images/page-01_bg-01.jpg" data-mobile="true" data-speed="0.6" id="home-s4">
+    <section class="parallax well-3" data-url="{base_url()}media/filemanager/source/{$finalPhoto->home_section_4[0]->v2}" data-mobile="true" data-speed="0.6" id="home-s4">
       <div class="container">
         <div class="row"> 
           <div class="col-lg-6">
@@ -308,50 +237,3 @@
       </div>
     </section>
 <!--======================End well=========================-->
-<!--======================parallax=========================-->
-    <section style="display:none;" class="parallax well-5 offset-10 inset-1" data-url="{base_url()}static/default/frontend/images/page-01_bg-01.jpg" data-mobile="true" data-speed="0.6">
-      <div class="container">
-      <h2 class="center_text">Testimonials</h2>
-        <div class="row flow-offset-1">
-          <div class="col-lg-4">
-            <blockquote class="wow fadeInUp">
-              <p>
-                <q>
-                  <span class="secondary_color">“</span>I would highly recommend this company for any project consisting of structural steel. When they are working on one of my projects, I can always count on them to complete the job on schedule.
-                </q>
-              </p>
-              <div class="cite">
-                  <h4>Adam Smith</h4>
-                  <p>Client</p>
-              </div>
-            </blockquote>
-          </div>
-          <div class="col-lg-4">
-            <blockquote class="wow fadeInUp" data-wow-delay="0.2s">
-              <p>
-                <q>
-                  <span class="secondary_color">“</span>Your company has been supplying and erecting steel for one of our projects since our inception. Their professional staff, quality of work, and customer service are outstanding! 
-                </q>
-              </p>
-              <div class="cite">
-                  <h4>Robert Johnson</h4>
-                  <p>Client</p>
-              </div>
-            </blockquote>
-          </div>
-          <div class="col-lg-4">
-            <blockquote class="wow fadeInUp" data-wow-delay="0.4s">
-              <p>
-                <q>
-                  <span class="secondary_color">“</span>We have maintained a valuable relationship with Steel and Fabrication Industry for over 10 years due to their commitment to Quality, Detail and Overall Focus on schedule.
-                </q>
-              </p>
-              <div class="cite">
-                  <h4>Tom Cooper</h4>
-                  <p>Client</p>
-              </div>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </section>

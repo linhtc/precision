@@ -69,14 +69,27 @@ class MY_Controller extends CI_Controller {
     }
     public function pageHasPhoto(){
     	return array(
+    			'home' => array(
+    					'home_section_0' => 'section 0 - Slider',
+    					'home_section_1' => 'section 1 - Hỗ trợ trực tuyến',
+    					'home_section_2' => 'section 2 - Sản phẩm',
+    					'home_section_4' => 'section 4 - Năng lực'
+    			),
     			'company' => array(
     					'company_section_1' => 'section 1 - Công ty chúng tôi',
     					'company_section_2' => 'section 2 - Tại sao chọn chúng tôi',
     					'company_section_3' => 'section 3 - Triết lý kinh doanh'
     			),
+    			'rd' => array(
+    					'rd_section_1' => 'section 1 - Nghiên cứu',
+    					'rd_section_2' => 'section 2 - Team work'
+    			),
     			'product' => array(
     					'product_section_1' => 'section 1 - Gia công chính xác',
     					'product_section_2' => 'section 2 - Thiết kế'
+    			),
+    			'project' => array(
+    					'project_section_1' => 'section 1 - Dự án'
     			)
     	);
     }

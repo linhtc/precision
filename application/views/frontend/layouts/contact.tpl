@@ -9,7 +9,7 @@ function checkOlartLoaded(){
 			checkOlartLoaded();
 		}, 1000);
 	} else{
-		$('.olark-form-message').html('Chúng tôi giúp được gì cho bạn? Xem thêm <a href="'+rootBaseUrl+'contacts">Tại đây</a> hoặc liên hệ số Hotline nhé!');
+		$('.olark-form-message').html('<p>Chúng tôi giúp được gì cho bạn?<br>Xem thêm thông tin về chúng tôi <a href="'+rootBaseUrl+'company">Tại đây</a> hoặc liên hệ số Hotline ở phần Liên hệ nhé!</p>');
 		$('.olark-form-send-button').bind('click', function(){
 			console.log('hello');
 			var oname = $('#olark-form-input-fname').val();

@@ -3,7 +3,7 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-        Dạng danh sách
+        Quản lý hình ảnh
         <small>Sửa lại</small>
     </h1>
     <ol class="breadcrumb">
@@ -19,9 +19,8 @@
             <div class="box box-info">
                 <div class="box-header">
                     <h3 class="box-title">Các thành phần</h3>
-                    <div class="pull-right box-tools" style="display: none;">
-                        <button class="btn btn-info btn-sm" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-                        <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
+                    <div class="pull-right box-tools" style="">
+                        <button id="btn-choose-photo" class="btn btn-info btn-xs" data-toggle="modal" data-target="#myModal"><i class="fa fa-folder"></i></button>
                     </div>
                 </div>
 
@@ -54,17 +53,23 @@
                 		<div class="row">
 	                		<div class="col-md-6">
 							    <div class="form-group">
-							        <label for="apply_value">Giá trị</label>
-							        <textarea id="apply_value" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params">
-							        {$thisItem->page_content}
-							        </textarea>
+							        <label for="apply_value">Tên/Mô tả</label>
+							        <input id="apply_value" notnull value="{$thisItem->page_content}" placeholder="Nhập một giá trị..." type="text" class="form-control params">
 							    </div>
 	                		</div>
 	                		<div class="col-md-6">
 							    <div class="form-group">
-							        <label for="apply_value">Giá trị 2</label>
-							        <textarea id="apply_value2" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params">
-							        {$thisItem->page_content2}
+							        <label for="apply_value2">Giá trị 2 (Ảnh)</label>
+							        <input onclick="$('#btn-choose-photo').click();" id="apply_value2" notnull value="{$thisItem->page_content2}" placeholder="Chọn một ảnh..." readonly="readonly" type="text" class="form-control params">
+							    </div>
+	                		</div>
+                		</div>
+                		<div class="row">
+	                		<div class="col-md-12">
+							    <div class="form-group">
+							        <label for="apply_value4">Mô tả thêm</label>
+							        <textarea id="apply_value4" placeholder="Nhập một giá trị..." rows="5" cols="1" class="form-control params">
+							        {$thisItem->page_content4}
 							        </textarea>
 							    </div>
 	                		</div>
@@ -79,31 +84,56 @@
             </div>
         </div>
     </div>
-
-    <div class="example-modal">
-        <div id="my-modal-alert" class="modal modal-primary">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                        <h4 class="modal-title">Thông báo!</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div id="content-alert"></div>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Ok!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
+
+<style>
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+.modal-body {
+    min-height: calc(100vh - 56px);
+    overflow-y: auto; 
+}
+</style>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body" style="position: relative;">
+        <iframe frameborder="0" style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;"
+			src="{base_url()}media/filemanager/filemanager/dialog.php?type=0&field_id=apply_value2&relative_url=1">
+		</iframe>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <script>
     var permissionList = '{json_encode($permissionList)}';
     var pageType = '{$thisItem->page_type}';
+
+    function responsive_filemanager_callback(field_id){
+    	console.log(field_id);
+    	var url=jQuery('#'+field_id).val();
+    	console.log(url);
+    }
+    
     function funcSubmit() {
         var params = getParams();
         if(params === false){

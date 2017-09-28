@@ -2,96 +2,57 @@
     <section class="well-3 bg-primary border">
       <div class="container">
         <h2 class="center_text secondary_color">Dự án</h2>
-        <div class="row offset-1 ">
-          <div class="col-lg-5 col-xs-5">
-            <div class="product pr-img-05 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_01.jpg);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #1</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-7 col-xs-7 offset-7">
-            <div class="product pr-img-06 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_02.JPG);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #2</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row offset"> 
-          <div class="col-lg-6 col-xs-6">
-            <div class="product pr-img-07 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_03.jpg);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #3</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xs-6 offset-7">
-            <div class="product pr-img-08 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_04.JPG);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #4</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row offset"> 
-          <div class="col-lg-7 col-xs-7">
-            <div class="product pr-img-09 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_06.jpg);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #5</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-5 col-xs-5 offset-7">
-            <div class="product pr-img-10 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_05.jpg);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #6</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row offset"> 
-          <div class="col-lg-6 col-xs-6">
-            <div class="product pr-img-07 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_07.jpg);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #7</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xs-6 offset-7">
-            <div class="product pr-img-08 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_08.JPG);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #8</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row offset-1 ">
-          <div class="col-lg-5 col-xs-5">
-            <div class="product pr-img-05 bg-100p-pr wow fadeInUp" style="background-image: url({base_url()}media/uploads/images/project_09.jpg);">
-              <a href="#" class="product_cont">
-                <h3>Dự án #9</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-7 col-xs-7 offset-7">
-            <div class="product pr-img-06 bg-100p-pr wow fadeInUp" style="background-color: silver; background-image: url();">
-              <a href="#" class="product_cont">
-                <h3>Và còn nhiều nữa...</h3>
-                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+        {assign var="reverse" value=0}
+        {assign var="curr" value=0}
+        {assign var="colrand" value=4}
+        {foreach from=$finalPhoto->project_section_1 key=ksub item=isub name=foo}
+        {math assign="curr" equation='x+y' x=$curr y=1}
+        {if $curr eq 1}
+	        {if $reverse eq 0}
+	        {math assign="colrand" equation='x+y' x=$colrand y=1}
+	        {else}
+	        {math assign="colrand" equation='x-y' x=$colrand y=1}
+	        {/if}
+	    {/if}
+        {math assign="colrand2" equation='x-y' x=12 y=$colrand}
+        	{if $curr eq 1}
+          	<div class="row offset-1 ">
+          	{/if}
+	          <div class="col-lg-{if $curr eq 1}{$colrand}{else}{$colrand2}{/if} col-xs-{if $curr eq 1}{$colrand}{else}{$colrand2}{/if}">
+	            <div class="product bg-100p-pr wow fadeInUp" 
+	            	style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});"
+	            	bg-src="{base_url()}media/filemanager/source/{$isub->v2}">
+	              <a href="#" class="product_cont">
+	                <h3>{$isub->v1}</h3>
+	                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+	              </a>
+	            </div>
+	          </div>
+          	{if $colrand gte 7 and  $curr eq 2 and $reverse eq 0}
+          	{assign var="colrand" value=7}
+          	{assign var="reverse" value=1}
+          	{else}
+	          	{if $colrand lte 5 and  $curr eq 2 and $reverse eq 1}
+	          	{assign var="colrand" value=4}
+	          	{assign var="reverse" value=0}
+	          	{/if}
+          	{/if}
+          	{if $curr gte 2}
+          	{assign var="curr" value=0}
+          	</div>
+          	{/if}
+        {/foreach}
+        {if $curr eq 1}
+        {math assign="colrand2" equation='x-y' x=12 y=$colrand}
+          	<div class="col-lg-{$colrand2} col-xs-{$colrand2}">
+	            <div class="product pr-img-06 bg-100p-pr wow fadeInUp" style="background-color: silver; background-image: url();">
+	              <a href="#" class="product_cont">
+	                <h3>Và còn nhiều nữa...</h3>
+	                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
+	              </a>
+	            </div>
+	          </div>
+        {/if}
       </div>
     </section>
 <!--======================End well-3=========================-->

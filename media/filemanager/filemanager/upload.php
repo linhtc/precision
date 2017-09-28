@@ -174,7 +174,7 @@ if ( ! empty($_FILES) || isset($_POST['url']))
 			// them vao
 			if ( $extension != 'svg')
 			{
-				create_img($targetFile, $targetFileOpt, 405, 365, 0);
+				create_img($targetFile, $targetFileOpt, 405, 365, 2);
 			}
 			
 			$memory_error = FALSE;

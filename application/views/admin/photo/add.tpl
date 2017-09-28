@@ -63,6 +63,14 @@
 							    </div>
 	                		</div>
                 		</div>
+                		<div class="row">
+	                		<div class="col-md-12">
+							    <div class="form-group">
+							        <label for="apply_value4">Mô tả thêm</label>
+							        <textarea id="apply_value4" placeholder="Nhập một giá trị..." rows="5" cols="1" class="form-control params"></textarea>
+							    </div>
+	                		</div>
+                		</div>
 					</form>
                 </div>
 

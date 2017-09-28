@@ -12,7 +12,7 @@
 	        <div class="col-sm-6 col-md-4">
 	            <div class="box bg-shadow-white wow fadeInUp">
 	              <div class="img" style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});">
-	              	<a href="{base_url()}media/filemanager/thumbs/{$isub->v2}" data-lightbox="image-1-{$ksub}" data-title="Gia công chính xác"></a>
+	              	<a href="{base_url()}media/filemanager/source/{$isub->v2}" data-lightbox="image-1-{$ksub}" data-title="Gia công chính xác"></a>
 	              </div>
 	              <h3 class="mtop-minus-50">{$isub->v1}</h3>
 	              <p></p>
@@ -30,93 +30,27 @@
     <section class="well-2 bg-primary border" id="product-s2">
       <div class="container">
         <h2 class="secondary_color center_text">Thiết kế & Chuyển giao công nghệ</h2>
-        <div class="row primary_color flow-offset-1 text-center">
-          <div class="col-sm-6 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_01.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_01.jpg" data-lightbox="image-10" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">SandPaper Machine</h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_02.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_02.jpg" data-lightbox="image-11" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">Polish Finish Machine</h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_03.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_03.jpg" data-lightbox="image-12" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">Robot Machine</h3>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="row primary_color flow-offset-1 text-center">
-          <div class="col-sm-6 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_04.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_04.jpg" data-lightbox="image-13" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">iValuate Machine</h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_05.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_05.jpg" data-lightbox="image-14" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">Bonding LCD Machine</h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_06.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_06.jpg" data-lightbox="image-15" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">Sandblasting Machine</h3>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="row primary_color flow-offset-1 text-center">
-          <div class="col-sm-6 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_07.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_07.jpg" data-lightbox="image-16" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">Atom'x Machine</h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_08.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_08.jpg" data-lightbox="image-17" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">Polished Glass Machine</h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
-            <div class="box bg-shadow-white wow fadeInUp">
-              <div class="img" bg-src="{base_url()}media/uploads/products/fit_product_s2_09.jpg">
-              	<a href="{base_url()}media/uploads/products/product_s2_09.jpg" data-lightbox="image-18" data-title="Thiết kế & chuyển giao công nghệ"></a>
-              </div>
-              <h3 class="mtop-minus-60">GamePlay</h3>
-              <p></p>
-            </div>
-          </div>
-        </div>
+        {assign var="curr" value=0}
+        {foreach from=$finalPhoto->product_section_2 key=ksub item=isub name=foo}
+        {math assign="curr" equation='x+y' x=$curr y=1}
+        {math assign="currdevide" equation='x%y' x=$curr y=3}
+        	{if $curr eq 1}
+          	<div class="row primary_color flow-offset-1 text-center">
+          	{/if}
+	        <div class="col-sm-6 col-md-4">
+	            <div class="box bg-shadow-white wow fadeInUp">
+	              <div class="img" style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});">
+	              	<a href="{base_url()}media/filemanager/source/{$isub->v2}" data-lightbox="image-1-{$ksub}" data-title="Gia công chính xác"></a>
+	              </div>
+	              <h3 class="mtop-minus-50">{$isub->v1}</h3>
+	              <p></p>
+	            </div>
+	          </div>
+          	{if $curr gte 3}
+          	{assign var="curr" value=0}
+          	</div>
+          	{/if}
+        {/foreach}
       </div>
      </section> 
 <!--======================End well-1=========================-->

@@ -20,6 +20,7 @@ class Home extends MY_Controller {
 	private $subjectModel;
 	private $viewerModel;
 	private $listModel;
+	private $photoModel;
 	private $pageType;
 	
     function __construct() {
@@ -30,6 +31,7 @@ class Home extends MY_Controller {
         $this->subjectModel = 'e_subjects';
         $this->viewerModel = 'sys_viewers';
         $this->listModel = 'sys_lists';
+        $this->photoModel = 'sys_photos';
         $this->pageType = 'home';
     }
     
@@ -62,12 +64,27 @@ class Home extends MY_Controller {
         	array_push($finalList->{$item->k}, $item);
         }
         
+        $finalPhoto = new stdClass();
+        
+        $listing = $this->db->select('page_type k, page_content v1, page_content2 v2, page_content3 v3, page_content4 v4')
+        ->from($this->photoModel)
+        ->where('deleted', 0)->like('page_type', $this->pageType.'_', 'after')
+        ->order_by('sort', 'asc')
+        ->get()->result();
+        foreach($listing as $item){
+        	if(!isset($finalPhoto->{$item->k})){
+        		$finalPhoto->{$item->k} = array();
+        	}
+        	array_push($finalPhoto->{$item->k}, $item);
+        }
+        
         $data = array(
             'permission' => $permission,
             'listJs' => add_Js($listJs),
         		'listCss' => add_css($listCss),
         		'uuid' => $this->pageType,
-        		'finalList' => $finalList
+        		'finalList' => $finalList,
+        		'finalPhoto' => $finalPhoto
         );
 
         $this->parser->parse($this->viewPath."view", $data);

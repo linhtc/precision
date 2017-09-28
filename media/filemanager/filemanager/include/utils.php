@@ -319,6 +319,7 @@ function create_img($imgfile, $imgthumb, $newwidth, $newheight = null, $option =
 				$magicianObj->resizeImage($newwidth, $newheight, $option);
 				$magicianObj->saveImage($imgthumb, 80);
 			}catch (Exception $e){
+// 				print_r($e->getMessage()); exit;
 				return false;
 			}
 			$result = true;
