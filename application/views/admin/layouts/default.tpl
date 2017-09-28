@@ -96,6 +96,10 @@ Hello you! We're VAS of Mobiistar Corp.
                     font-weight: 400;
                 }
             }
+            
+            .content{
+            	padding: 10px 15px !important;
+            }
         </style>
     </head>
     <body class="skin-blue fixed sidebar-mini">

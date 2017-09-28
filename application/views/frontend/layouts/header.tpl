@@ -26,14 +26,14 @@
 	          <div class="col-lg-2 col-sm-2 header-border-bt2">
 	          	<div class="quick-intro" style="background-image:url({base_url()}media/images/phone-call.png);">
 		          	<p class="moto-text_system_11">
-		          		Điện thoại:<br><a class="moto-link" data-action="url" target="_self" href="callto:#">+84 98 44 99 008</a><br>
+		          		Điện thoại:<br><a class="moto-link" data-action="url" target="_self" href="{$smarty.session.sys_cnf->cnf_hotline->v2}">{$smarty.session.sys_cnf->cnf_hotline->v1}</a><br>
 	          		</p>
 	          	</div>
 	          </div>
 	          <div class="col-lg-3 col-sm-3 header-border-bt2">
 	          	<div class="quick-intro" style="background-image:url({base_url()}media/images/placeholder.png);">
 		          	<p class="moto-text_system_11">
-		          		Địa chỉ: Nguyễn Thị Minh Khai, khu phố Đông Chiêu, phường Tân Đông Hiệp, Tx. Dĩ An, Bình Dương, Việt Nam
+		          		Địa chỉ: <a class="moto-link" data-action="url" target="_blank" href="{$smarty.session.sys_cnf->cnf_address->v2}">{$smarty.session.sys_cnf->cnf_address->v1}</a>
 	          		</p>
 	          	</div>
 	          </div>

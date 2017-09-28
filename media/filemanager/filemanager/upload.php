@@ -127,8 +127,11 @@ if ( ! empty($_FILES) || isset($_POST['url']))
 			}
 			$_FILES['file']['name'] = $info['filename']."_".$i.".".$extension;
 		}
-
+		
+		$_FILES['file']['name'] = stripVN($_FILES['file']['name']);
+		
 		$targetFile =  $targetPath. $_FILES['file']['name'];
+		$targetFileOpt =  $targetPathThumb. 'fit_'.$_FILES['file']['name'];
 		$targetFileThumb =  $targetPathThumb. $_FILES['file']['name'];
 
 		// check if image (and supported)
@@ -168,6 +171,12 @@ if ( ! empty($_FILES) || isset($_POST['url']))
 				$magicianObj -> saveImage($targetFile);
 			}
 
+			// them vao
+			if ( $extension != 'svg')
+			{
+				create_img($targetFile, $targetFileOpt, 405, 365, 0);
+			}
+			
 			$memory_error = FALSE;
 			if ( $extension != 'svg' && !create_img($targetFile, $targetFileThumb, 122, 91))
 			{

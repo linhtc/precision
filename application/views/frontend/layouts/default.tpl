@@ -18,8 +18,8 @@
   <script src='{base_url()}static/default/frontend/js/device.min.js'></script>
   <script type="text/javascript">
   	var rootBaseUrl = '{base_url()}';
-  	var googleMapIframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15670.17865806714!2d106.7512509!3d10.9221681!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d9b3bfa24799%3A0x3b917588638fd72f!2zTmd1eeG7hW4gVGjhu4sgTWluaCBLaGFpLCBraHUgcGjhu5EgxJDDtG5nIENoacOqdSwgcGjGsOG7nW5nIFTDom4gxJDDtG5nIEhp4buHcCwgVHguIETEqSBBbiwgQsOsbmggRMawxqFuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1506074560878';
-  	var youtubeIframe = 'https://www.youtube.com/embed/NwOtZnjqKGA?autoplay=0';
+  	var googleMapIframe = '{$smarty.session.sys_cnf->cnf_google_map->v1}';
+  	var youtubeIframe = '{$smarty.session.sys_cnf->cnf_video_youtube->v1}';
   </script>
   {include file='frontend/layouts/language.tpl'}
 </head>

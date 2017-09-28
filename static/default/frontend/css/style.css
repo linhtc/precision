@@ -965,6 +965,9 @@ br.br-lg {
     background: rgb(255, 255, 102);
     color: rgb(31, 73, 125);
 }
+.sf-menu ul>li:hover a {
+    color: rgb(31, 73, 125);
+}
 .sf-menu ul>li>a {
     color: #fff;
 }

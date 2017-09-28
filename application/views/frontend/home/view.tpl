@@ -9,51 +9,42 @@
 				  <div class="panel-body">
 			  		<div class="online-support" style="background-image:url({base_url()}media/uploads/images/phone2.png);">
 				  		<h4 class="blink_me">
-		                	<span><small style="font-size: 80%;">Hotline:</small> <br><a href="skype:nguyendinhthangckm?chat">098 44 99 008</a></span>
+		                	<span><small style="font-size: 80%;">Hotline:</small> 
+		                	<br><a href="{$smarty.session.sys_cnf->cnf_hotline->v2}">{$smarty.session.sys_cnf->cnf_hotline->v1}</a></span>
 		                </h4>
 			  		</div>
 					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kỹ thuật:</span>
-			  		<p style="position: relative;margin-top: 5px;">
+	                {foreach from=$smarty.session.sys_cnf->tphone key=ksub item=isub name=foo}
+			  		<p style="position: relative; margin-top: 5px; {if $smarty.foreach.foo.last} border-bottom: thin dotted; {/if}">
 	                	<span>
-	                		<b>Mr. Thắng: </b><br />
-	                		<b>0963 693 626</b>
-	                		<a style="padding-left: 5px;" href="tel:+84963693626" class="anchor-contact">
+	                		{$isub->n}
+	                		<a style="padding-left: 5px;" href="{$isub->v1}" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
-	                		<a style="padding-left: 20px;" href="skype:thangloi229_dtnd?chat" class="anchor-contact">
+	                		<a style="padding-left: 20px;" href="{$isub->v2}" class="anchor-contact">
 	                			<img src="{base_url()}media/images/skype.png" />
 	                		</a>
 	                	</span>
 	                </p>
-			  		<p style="position: relative; margin-top: 5px; border-bottom: thin dotted;">
-	                	<span>
-	                		<b>Mr. Hùng: </b><br />
-	                		<b>0982 791 717</b>
-	                		<a style="padding-left: 5px;" href="tel:+84982791717" class="anchor-contact">
-	                			<img src="{base_url()}media/images/zalo.png" />
-	                		</a>
-	                		<a style="padding-left: 20px;" href="skype:hungdau2002?chat" class="anchor-contact">
-	                			<img src="{base_url()}media/images/skype.png" />
-	                		</a>
-	                	</span>
-	                </p>
+			      	{/foreach}
 					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kinh doanh:</span>
-			  		<p style="position: relative;margin-top: 5px;border-bottom: thin dotted;">
+	                {foreach from=$smarty.session.sys_cnf->sphone key=ksub item=isub name=foo}
+			  		<p style="position: relative; margin-top: 5px; {if $smarty.foreach.foo.last} border-bottom: thin dotted; {/if}">
 	                	<span>
-	                		<b>Mr. Thắng: </b><br />
-	                		<b>0963 693 626</b>
-	                		<a style="padding-left: 5px;" href="tel:+84963693626" class="anchor-contact">
+	                		{$isub->n}
+	                		<a style="padding-left: 5px;" href="{$isub->v1}" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
-	                		<a style="padding-left: 20px;" href="skype:thangloi229_dtnd?chat" class="anchor-contact">
+	                		<a style="padding-left: 20px;" href="{$isub->v2}" class="anchor-contact">
 	                			<img src="{base_url()}media/images/skype.png" />
 	                		</a>
 	                	</span>
 	                </p>
+			      	{/foreach}
 	                <span style="color: #272d33; display: block; margin-top: 3px;">Thông tin liên hệ:</span>
 			  		<p style="position: relative;">
 	                	<span>
-	                		<b>Email: </b>info@toanthangprecision.com
+	                		<b>Email: </b>{$smarty.session.sys_cnf->cnf_email->v1}
 	                	</span>
 	                </p>
 				  </div>
@@ -77,7 +68,7 @@
 								  fjs.parentNode.insertBefore(js, fjs);
 								}(document, 'script', 'facebook-jssdk'));
 						}, 2000);</script>
-						<div class="fb-page" data-href="https://www.facebook.com/imdb" data-width="340" data-hide-cover="false" data-show-facepile="true"></div>
+						<div class="fb-page" data-href="{$smarty.session.sys_cnf->cnf_facebook_page->v1}" data-width="340" data-hide-cover="false" data-show-facepile="true"></div>
 				  </div>
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
@@ -265,24 +256,27 @@
       <div class="container">
         <div class="row"> 
           <div class="col-lg-6">
-            <h2 class="wow fadeInLeft ls-1">Chúng tôi phục vụ các nhu cầu chế tạo</h2>
+            <!-- <h2 class="wow fadeInLeft ls-1">Chúng tôi phục vụ các nhu cầu chế tạo</h2> -->
             <!-- <h3 class="wow fadeInLeft">các nhau cầu chế tạo</h3> -->
-            <h4 class="wow fadeIn offset-8">Các dịch vu gia công cơ khí chính xác, 
-            thiết kế chế tạo của chúng tôi đáp ứng nhu cầu của nhiều ngành công nghiệp với quy mô lớn và nhỏ.</h4>
-            <br />
-            <h4>Ngoài ra chúng tôi còn đáp ứng nhanh tiến độ theo từng yêu cầu của khách hàng.</h4>
+	        {foreach from=$finalList->home_section_4 key=ksub item=isub name=foo}
+	          {if $isub->v2 eq 'left'}
+		          {if $smarty.foreach.foo.first}
+		          <h2 class="wow fadeInLeft ls-1">{$isub->v1}</h2>
+		          {else}
+		          <h4 class="wow fadeIn offset-8">{$isub->v1}</h4> <br />
+		          {/if}
+	          {/if}
+	          {/foreach}
           </div>
           <div class="col-lg-6">
             <ul class="index-list icon-hover_3">
-              <li class="wow fadeInRight">
-              	<h4>Với sự chuyên nghiệp, giàu kinh nghiệm và tận tâm sẽ mang lại sự hài lòng cho khách hàng.</h4>
+              {foreach from=$finalList->home_section_4 key=ksub item=isub name=foo}
+	          {if $isub->v2 eq 'right'}
+	          <li class="wow fadeInRight" data-wow-delay="{$ksub*0.2}s">
+              	<h4>{$isub->v1}</h4>
               </li>
-              <li class="wow fadeInRight" data-wow-delay="0.2s">
-              	<h4>Chúng tôi tự hào mang lại chất lượng sản phẩm và dịch vụ cao nhất cho khách hàng.</h4>
-              </li>
-              <li class="wow fadeInRight" data-wow-delay="0.4s">
-              	<h4>Hãy liên hệ với chúng tôi nếu như bạn có nhu cầu cũng như bất kỳ câu hỏi nào.</h4>
-              </li>
+	          {/if}
+	          {/foreach}
             </ul>
           </div>
         </div>

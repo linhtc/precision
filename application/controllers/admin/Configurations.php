@@ -2,26 +2,15 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- *
- * @package Admin
- *
- *
- * @author Bui Huynh Kinh Luan <buihuynh.kinhluan@gmail.com>
- * @copyright (c) 2016, 500BITS
- * @link http://500bits.com
- * @license MIT
- * @version beta.0.1
- */
 class Configurations extends MY_Controller {
+	
+	private $configModel;
 	
 	function __construct() {
         parent::__construct();
         $this->class = strtolower(get_class());
         $this->numRows = 10;
-        $this->moduleModel = 'mbs_modules';
-        $this->campaignModel = 'campaigns';
-        $this->configModel = 'configurations';
+        $this->configModel = 'sys_configurations';
         $this->viewPath = 'admin/configurations/';
     }
 	
@@ -139,7 +128,7 @@ class Configurations extends MY_Controller {
         $this->layout->set_layout('default');
 
 
-        $objCnf = $this->db->select('`id`, campaign, `apply_key`, `apply_value`, `apply_name`')
+        $objCnf = $this->db->select('`id`, `apply_key`, `apply_value`, `apply_name`')
             ->from($this->configModel)
             ->where('id', $id)
             ->get()
@@ -193,7 +182,7 @@ class Configurations extends MY_Controller {
         $sort = $this->input->post('sort', true);
         $type = $this->input->post('type', true);
         $start = ($page-1)*$this->numRows;
-        $query = "select `id`, `apply_key`, `apply_value`, `apply_name`, 'Default' campaign_name from ".$this->configModel.' cnf';
+        $query = "select `id`, `apply_key`, `apply_value`, `apply_value2`, `apply_name`  from ".$this->configModel.' cnf';
         $query .= $this->criteria();
         $num = $this->db->query($query)->num_rows();
 //        $query .= " order by `".(empty($sortMaps[$sort]) ? 'id' : $sortMaps[$sort]) ."` ".$type;
@@ -249,15 +238,17 @@ class Configurations extends MY_Controller {
      * Modify data
      */
     function modify(){
-        $campaign = $this->input->post('campaign', true);
         $key = $this->input->post('apply_key', true);
-        $value = $this->input->post('apply_value', true);
         $name = $this->input->post('apply_name', true);
-        if(!empty($campaign) && !empty($key)){
+        $value = $this->input->post('apply_value', true);
+        $value2 = $this->input->post('apply_value2', true);
+        if(!empty($key)){
             $query = "
-                INSERT INTO `".$this->configModel."` (`campaign`, `apply_key`, `apply_value`, `apply_name`, `created`, `modified`)
-                VALUES ('".addslashes($campaign)."', '".addslashes($key)."', '".addslashes($value)."', '".addslashes($name)."', NOW(), NOW())
-                ON DUPLICATE KEY UPDATE `apply_value` = '".addslashes($value)."', `apply_name` = '".addslashes($name)."', `modified` = NOW();
+                INSERT INTO `".$this->configModel."` (`apply_key`, `apply_name`, `apply_value`, `apply_value2`, `created`, `modified`)
+                VALUES ('".addslashes($key)."', '".addslashes($name)."', 
+					'".addslashes($value)."', '".addslashes($value2)."', NOW(), NOW())
+                ON DUPLICATE KEY UPDATE `apply_value` = '".addslashes($value)."', `apply_value2` = '".addslashes($value2)."', 
+					`apply_name` = '".addslashes($name)."', `modified` = NOW();
             ";
             $result = $this->db->query($query);
             return $result ? $result : 'Thực hiện không thành công!';

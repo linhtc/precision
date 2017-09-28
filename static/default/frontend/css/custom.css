@@ -505,6 +505,10 @@ table.listjob td {
 	margin-top: -60px;
 }
 
+.mtop-minus-50 {
+	margin-top: -50px;
+}
+
 /* Absolute Center Spinner */
 .loading {
   position: fixed;

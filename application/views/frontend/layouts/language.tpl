@@ -1,5 +1,5 @@
-{$this->loadLangFolder('vietnamese')}
 <script type="text/javascript">
+	{$this->loadLangFolder('vietnamese')}
 	var rootBaseUrl = '{base_url()}';
 	if (typeof(Storage) !== "undefined") {
 	    /* Code for localStorage/sessionStorage. */
@@ -14,8 +14,8 @@
 		console.log('Not support localStorage');
 	}
 </script>
-{$this->loadLangFolder('english')}
 <script type="text/javascript">
+	{$this->loadLangFolder('english')}
 	var rootBaseUrl = '{base_url()}';
 	if (typeof(Storage) !== "undefined") {
 		localStorage.en_home = "{lang('home')}";
@@ -28,5 +28,5 @@
 	} else {
 		console.log('Not support localStorage');
 	}
+	{$this->loadLangFolder()}
 </script>
-{$this->loadLangFolder()}

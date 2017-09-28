@@ -11,10 +11,12 @@
  */
 class MY_Controller extends CI_Controller {
 
-    protected $model_name = '';
+	protected $model_name = '';
+	private $configModel;
 
     function __construct() {
-        parent::__construct();
+    	parent::__construct();
+    	$this->configModel = 'sys_configurations';
 
         global $URI, $CFG;
         
@@ -32,6 +34,66 @@ class MY_Controller extends CI_Controller {
         $this->session->set_userdata('lang_key', $langKey);
         $langKey = ($langKey == $config['language_abbr']) ? '' : $langKey.'/';
         $this->session->set_userdata('user_menu', $this->gen_menu($this->session->userdata('user_mn_text'), $langKey));
+        
+        // prepaire for display
+        $configs = $this->session->userdata('sys_cnf');
+        if(empty($configs)){
+        	$cnfSet = $this->db->select('apply_key k, apply_name n, apply_value v1, apply_value2 v2')
+        	->from($this->configModel)->where('deleted', 0)->get()->result();
+        	if($cnfSet){
+        		$configs = new stdClass();
+        		foreach($cnfSet as $cnf){
+        			if(strpos($cnf->k, 'cnf_footer_phone_') !== false){
+        				if(!isset($configs->fphone)){
+        					$configs->fphone = array();
+        				}
+        				array_push($configs->fphone, $cnf);
+        			} elseif(strpos($cnf->k, 'cnf_technical_phone_') !== false){
+        				if(!isset($configs->tphone)){
+        					$configs->tphone = array();
+        				}
+        				array_push($configs->tphone, $cnf);
+        			} elseif(strpos($cnf->k, 'cnf_sale_phone_') !== false){
+        				if(!isset($configs->sphone)){
+        					$configs->sphone = array();
+        				}
+        				array_push($configs->sphone, $cnf);
+        			} else{
+        				$configs->{$cnf->k} = $cnf;
+        			}
+        		}
+        		$this->session->set_userdata('sys_cnf', $configs);
+        	}
+        }
+//         print_r(json_encode($configs)); exit;
+    }
+    public function pageHasPhoto(){
+    	return array(
+    			'company' => array(
+    					'company_section_1' => 'section 1 - Công ty chúng tôi',
+    					'company_section_2' => 'section 2 - Tại sao chọn chúng tôi',
+    					'company_section_3' => 'section 3 - Triết lý kinh doanh'
+    			),
+    			'product' => array(
+    					'product_section_1' => 'section 1 - Gia công chính xác',
+    					'product_section_2' => 'section 2 - Thiết kế'
+    			)
+    	);
+    }
+    public function pageHasListing(){
+    	return array(
+    			'home' => array(
+    					'home_section_3' => 'section 3 - Năng lực',
+    					'home_section_4' => 'section 4 - Dịch vụ'
+    			),
+    			'company' => array(
+    					'company_section_2' => 'section 2 - Tại sao chọn chúng tôi',
+    					'company_section_3' => 'section 3 - Triết lý kinh doanh'
+    			),
+    			'product' => array(
+    					'product_section_3' => 'section 3 - Dịch vụ'
+    			)
+    	);
     }
     public function loadLangFolder($langFolder=null){
     	if(empty($langFolder)){

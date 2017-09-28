@@ -2,47 +2,31 @@
     <section class="well-2 bg-primary border" id="company-s1">
       <div class="container">
         <h2 class="secondary_color center_text">Công ty chúng tôi</h2>
-        <div class="row primary_color flow-offset-1 text-center">
-          <div class="col-sm-6 col-md-4">
-            <div class="box wow fadeInUp">
-            <!-- <a href="{base_url()}media/uploads/company/AluminiumMilling.jpg" data-lightbox="image-1" data-title="Về chúng tôi">
-              <img style="height:251px;" src="{base_url()}media/uploads/company/AluminiumMilling.jpg" alt="">
-            </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/company/fit_company_01.jpg);">
-              	<a href="{base_url()}media/uploads/company/company_01.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
-              </div>
-              <p>Công ty chúng tôi chuyên gia công chính xác chi tiết máy trên mọi vật liệu như Nhôm, Sắt, Đồng, Nhựa Teflon, ... </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="box wow fadeInUp">
-            <!-- <a href="{base_url()}media/uploads/company/CNCMilling4axis.png" data-lightbox="image-1" data-title="Về chúng tôi">
-              <img style="height:251px;" src="{base_url()}media/uploads/company/CNCMilling4axis.png" alt="">
-            </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/company/fit_company_02.jpg);">
-              	<a href="{base_url()}media/uploads/company/company_02.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
-              </div>
-              <p>Chúng tôi thiết kế, gia công các loại khuôn ép nhựa, khuôn thổi, khuôn đùn, ...</p>
-            </div>
-          </div>
-          <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
-            <div class="box wow fadeInUp">
-            <!-- <a href="{base_url()}media/uploads/company/SUS304Milling.png" data-lightbox="image-1" data-title="Về chúng tôi">
-              <img style="height:251px;" src="{base_url()}media/uploads/company/SUS304Milling.png" alt="">
-            </a> -->
-              <div class="img" style="background-image: url({base_url()}media/uploads/company/fit_company_03.jpg);">
-              	<a href="{base_url()}media/uploads/company/company_03.jpg" data-lightbox="image-1" data-title="Sản phẩm & Dịch vụ"></a>
-              </div>
-              <p>Với đội ngũ kỹ sư nhiều kinh nghiệm công ty chúng tôi thiết kế chế tạo các máy phục vụ trong lĩnh vực công nghiệp 
-              chế tạo máy, điện-điện tử, ...</p>
-            </div>
-          </div>
-        </div>
+        {assign var="curr" value=0}
+        {foreach from=$finalPhoto->company_section_1 key=ksub item=isub name=foo}
+        {math assign="curr" equation='x+y' x=$curr y=1}
+        {math assign="currdevide" equation='x%y' x=$curr y=3}
+        	{if $curr eq 1}
+          	<div class="row primary_color flow-offset-1 text-center">
+          	{/if}
+          	<div class="col-sm-6 col-md-4">
+	            <div class="box wow fadeInUp">
+	              <div class="img" style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});">
+	              	<a href="{base_url()}media/filemanager/thumbs/{$isub->v2}" data-lightbox="image-1-{$ksub}" data-title="Công ty chúng tôi"></a>
+	              </div>
+	              <p>{$isub->v1}</p>
+	            </div>
+	        </div>
+          	{if $curr gte 3}
+          	{assign var="curr" value=0}
+          	</div>
+          	{/if}
+        {/foreach}
       </div>
      </section> 
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-  <section class="parallax well-6 center_text" data-url="{base_url()}media/uploads/images/slider1.jpg" data-mobile="true" data-speed="0.6" id="company-s2">
+  <section class="parallax well-6 center_text" data-url="{base_url()}media/filemanager/source/{$finalPhoto->company_section_2[0]->v2}" data-mobile="true" data-speed="0.6" id="company-s2">
     <div class="container">
     <h2 class="wow fadeInRight">Tại sao chọn chúng tôi?</h2>
       <div class="row"> 
@@ -50,16 +34,20 @@
         </div>
         <div class="col-lg-6">
           <ul class="marked-list-1 text-left">
-                <li class="wow fadeInRight"><a href="#">Đội ngũ tư vấn kỹ thuật</a></li>
-                <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Chuyên nghiệp giàu kinh nghiệm</a></li>
-                <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Đối tác tin cậy</a></li>
+              {foreach from=$finalList->company_section_2 key=ksub item=isub name=foo}
+	          {if $isub->v2 eq 'left'}
+	          <li class="wow fadeInRight" data-wow-delay="{$ksub*0.2}s"><a href="#">{$isub->v1}</a></li>
+	          {/if}
+	          {/foreach}
           </ul>
         </div>
         <div class="col-lg-5">
           <ul class="marked-list-1 text-left">
-                <li class="wow fadeInRight"><a href="#">Sản phẩm và dịch vụ cao</a></li>
-                <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="#">Giá trị khách hàng cốt lõi</a></li>
-                <li class="wow fadeInRight" data-wow-delay="0.4s"><a href="#">Giao hàng đúng tiến độ</a></li>
+              {foreach from=$finalList->company_section_2 key=ksub item=isub name=foo}
+	          {if $isub->v2 eq 'right'}
+	          <li class="wow fadeInRight" data-wow-delay="{$ksub*0.2}s"><a href="#">{$isub->v1}</a></li>
+	          {/if}
+	          {/foreach}
           </ul>
         </div>
       </div>
@@ -67,23 +55,18 @@
   </section>
 <!--======================End parallax=========================-->
 <!--======================parallax=========================-->
-  <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/uploads/images/page-02_bg-02.jpg" data-mobile="true" data-speed="0.6" id="company-s3">
+  <section style="margin-top: 85px;" class="parallax well-2" data-url="{base_url()}media/filemanager/source/{$finalPhoto->company_section_3[0]->v2}" data-mobile="true" data-speed="0.6" id="company-s3">
     <div class="container">
       <h2>Triết lý của chúng tôi</h2>
       <h3>Mục tiêu của chúng tôi là sự hài lòng và thành công của bạn</h3>
       <div class="row  offset-9">
         <ul class="index-list_1 icon-hover_3 flow-offset-1">
-          <li class="wow fadeInUp col-lg-4 col-md-4"><h3>Sứ mệnh</h3>
-          <h4>Chúng tôi mong muốn tạo ra những sản phẩm hội tụ tất cả những tinh hoa công nghệ, chất lượng và độ chính xác cao, mang lại sự hài lòng cho khách hàng.</h4>
+          {foreach from=$finalList->company_section_3 key=ksub item=isub name=foo}
+          <li class="wow fadeInUp col-lg-4 col-md-4 {if not $smarty.foreach.foo.first}offset-6{/if}" data-wow-delay="{$ksub*0.2}s">
+	          <h3>{$isub->v1}</h3>
+	          <h4>{$isub->v2}</h4>
           </li>
-          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.2s"><h3>Kinh nghiệm</h3>
-          <h4>Với sự chuyên nghiệp, kinh nghiệm được đúc kết và tích lũy trong nhiều năm chúng tôi đảm bảo cung cấp đến khách hàng sản phẩm chất lượng cao, 
-          đúng tiến độ, giá cả cạnh tranh.</h4>
-          </li>
-          <li class="wow fadeInUp col-lg-4 col-md-4 offset-6" data-wow-delay="0.4s"><h3>Dịch vụ</h3>
-          <h4>Với phương châm mang lại sự hài lòng cho khách hàng, chúng tôi hỗ trợ và tư vấn mọi lúc mọi nơi, 
-          mang lại những dịch vụ tốt nhất hiện nay cho khách hàng.</h4>
-          </li>
+          {/foreach}
         </ul>
       </div>
     </div>

@@ -78,6 +78,16 @@ $route['en/contacts'] = 'frontend/Contact/view';
 // backend
 $route['admin'] = 'admin/users/login';
 
+$route['admin/manage-list/(:any)'] = "admin/ManageList/$1";
+$route['admin/manage-list/(:any)/(:any)'] = "admin/ManageList/$1/$2";
+$route['en/admin/manage-list/(:any)'] = "admin/ManageList/$1";
+$route['en/admin/manage-list/(:any)/(:any)'] = "admin/ManageList/$1/$2";
+
+$route['admin/manage-photo/(:any)'] = "admin/ManagePhoto/$1";
+$route['admin/manage-photo/(:any)/(:any)'] = "admin/ManagePhoto/$1/$2";
+$route['en/admin/manage-photo/(:any)'] = "admin/ManagePhoto/$1";
+$route['en/admin/manage-photo/(:any)/(:any)'] = "admin/ManagePhoto/$1/$2";
+
 // default
 $route['(\w{2})/(.*)'] = '$2';
 $route['(\w{2})'] = $route['default_controller'];
