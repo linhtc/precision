@@ -25,29 +25,45 @@
                 </div>
 
                 <div class="box-body pad">
-                    <div class="col-md-6">
-                        <form>
-                            <div class="form-group">
-                                <label for="kind">{lang('kind')}</label>
-                                <select id="kind" class="form-control selectpicker params" notnull>
-                                    <option value="default">{lang('default')}</option>
-                                    <option value="spec">{lang('spec')}</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="lang">{lang('keyword')}</label>
-                                <input type="text" class="form-control params" id="lang" notnull readonly value="{$item->lang}">
-                            </div>
-                            <div class="form-group">
+                    <form>
+                		<div class="row">
+	                		<div class="col-md-6">
+							    <div class="form-group">
+	                                <label for="lang">{lang('keyword')}</label>
+	                                <input type="text" class="form-control params" id="lang" notnull readonly value="{$item->lang}">
+	                            </div>
+	                		</div>
+	                		<div class="col-md-6">
+							    <div class="form-group">
+									<label for="kind">{lang('kind')}</label>
+	                                <select id="kind" class="form-control selectpicker params" notnull>
+	                                    <option value="">---</option>
+	                                    <option value="default">{lang('default')}</option>
+	                                    <option value="home">{lang('home')}</option>
+	                                    <option value="company">{lang('company')}</option>
+	                                    <option value="rd">{lang('rd')}</option>
+	                                    <option value="product_and_service">{lang('product_and_service')}</option>
+	                                    <option value="career">{lang('career')}</option>
+	                                    <option value="contact">{lang('contact')}</option>
+	                                </select>
+							    </div>
+	                		</div>
+                		</div>
+                		<div class="row">
+	                		<div class="col-md-6">
+							    <div class="form-group">
                                 <label for="vi">{lang('vi')}</label>
-                                <input type="text" class="form-control params" id="vi" notnull value="{$item->vi}" >
-                            </div>
-                            <div class="form-group">
+                                <textarea id="vi" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params">{$item->vi}</textarea>
+							    </div>
+	                		</div>
+	                		<div class="col-md-6">
+							    <div class="form-group">
                                 <label for="en">{lang('en')}</label>
-                                <input type="text" class="form-control params" id="en" notnull value="{$item->en}" >
-                            </div>
-                        </form>
-                    </div>
+                                <textarea id="en" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params">{$item->en}</textarea>
+							    </div>
+	                		</div>
+                		</div>
+					</form>
                 </div>
 
                 <div class="box-footer">

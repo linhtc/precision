@@ -629,3 +629,7 @@ table.listjob td {
   }
 }
 
+.isStuck .nation-flag {
+	display: block !important;
+}
+

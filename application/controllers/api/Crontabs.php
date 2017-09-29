@@ -212,15 +212,15 @@ class Crontabs extends MY_Controller {
     	
     	$lang2 = $lang;
     	
+    	$this->loadLangFolder('vietnamese');
+    	$lang2 = 'vn';
     	if($data){
     		foreach($data as $key){
     			$response->metadata->{$lang2.'_'.$key} = lang($key);
     		}
     	}
-    	if($lang == 'vn'){
-    		$this->loadLangFolder('english');
-    		$lang2 = 'en';
-    	}
+    	$this->loadLangFolder('english');
+    	$lang2 = 'en';
     	if($data){
     		foreach($data as $key){
     			$response->metadata->{$lang2.'_'.$key} = lang($key);

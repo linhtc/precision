@@ -156,13 +156,13 @@ class Languages extends MY_Controller {
      */
     private function criteria(){
         $id = $this->input->get_post('id', true);
-        $kind = $this->input->get_post('k', true);
+        $kind2 = $this->input->get_post('k', true);
         $lang = $this->input->get_post('l', true);
         $vi = $this->input->get_post('v', true);
         $en = $this->input->get_post('e', true);
         $time = $this->input->get_post('dt', true);
         $modified = explode(' - ', $time);
-        if(!empty($kind) && !is_array($kind)){
+        if(!empty($kind2) && !is_array($kind2)){
             $kind = explode(',', $kind);
         }
         $to = null; $from = null;
@@ -171,10 +171,12 @@ class Languages extends MY_Controller {
         if(!empty($id)){
             $criteria .= " AND u.id = '$id' ";
         }
-        if(is_array($kind) && count($kind)){
+        if(is_array($kind2) && count($kind2)){
             $tmpString = '';
-            foreach($kind as $item){ $tmpString .= ($tmpString == "" ? "" : ",")."'$item'"; }
-            $criteria .= " AND kind IN($tmpString) ";
+            foreach($kind2 as $item){ if(empty($item)){ continue; } $tmpString .= ($tmpString == "" ? "" : ",")."'$item'"; }
+            if(!empty($tmpString)){
+            	$criteria .= " AND kind IN($tmpString) ";
+            }
         }
         if(!empty($lang)){
             $criteria .= " AND u.lang like '%".addslashes($lang)."%' ";

@@ -10,10 +10,12 @@ function changeMyLanguage(){
 		key = 'en';
 		$('.national-flag').attr('src', rootBaseUrl+'media/images/eng.svg');
 		$('.national-flag').attr('key', key);
+		$('input:radio[name=language][value=EN]').attr('checked', true);
 	} else {
 		key = 'vn';
 		$('.national-flag').attr('src', rootBaseUrl+'media/images/vn.svg');
 		$('.national-flag').attr('key', key);
+		$('input:radio[name=language][value=VN]').attr('checked', true);
 	}
 	var pathname = window.location.pathname;
 	if(pathname.indexOf('/cnc') >= 0){
@@ -40,24 +42,32 @@ function changeMyLanguage(){
 	} catch(exx){
 		console.log(exx.message);
 	}
-	$('a[lang-key]').each(function(index) {
+	$('[lang-key]').each(function(index) {
 		  var ilang = key+'_'+$(this).attr('lang-key');
 		  if (typeof(Storage) !== "undefined") {
 			  var translate = localStorage.getItem(ilang);
 			  if(typeof translate !== 'undefined' && translate != null){
-				  $(this).text(translate);
-				  var href = $(this).attr('href');
-				  if(key == 'en' && href == rootBaseUrl){
-					  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
-					  $(this).attr('href', href);
-				  }
-				  if(key == 'en' && href.indexOf('/en') < 0){
-					  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
-					  $(this).attr('href', href);
-				  }
-				  if(key != 'en' && href.indexOf('/en') >= 0){
-					  href = href.replace(rootBaseUrl+'en/', rootBaseUrl);
-					  $(this).attr('href', href);
+				  var hasHtml = $(this).attr('has-html');
+				  if(hasHtml){
+					  $(this).html(translate);
+				  } else{
+					  $(this).text(translate);
+			  	  }
+				  var tagName = $(this).prop("tagName");
+				  if(tagName == 'A'){
+					  var href = $(this).attr('href');
+					  if(key == 'en' && href == rootBaseUrl){
+						  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
+						  $(this).attr('href', href);
+					  }
+					  if(key == 'en' && href.indexOf('/en') < 0){
+						  href = href.replace(rootBaseUrl, rootBaseUrl+key+'/');
+						  $(this).attr('href', href);
+					  }
+					  if(key != 'en' && href.indexOf('/en') >= 0){
+						  href = href.replace(rootBaseUrl+'en/', rootBaseUrl);
+						  $(this).attr('href', href);
+					  }  
 				  }
 			  }
 		  }
@@ -337,6 +347,7 @@ function checkScroller(){
     		var key = $('.national-flag').attr('key');
     		$.post(rootBaseUrl+"api/crontabs/langstorage", {lang:key, data:langToStore}, function(data, status){
 				data = data.metadata;
+				console.log(data);
 				if(typeof data === 'object'){
 					for(var key in data){
 						if(data.hasOwnProperty(key)){

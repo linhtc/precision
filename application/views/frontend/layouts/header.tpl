@@ -122,7 +122,11 @@
                 <li class="{if $uuid eq 'contact'}active{/if}">
                   <a href="{base_url()}{$smarty.session.lang_prefix}contacts" lang-key="contact">{lang('contact')}</a>
                 </li>
-                <li style="display: none;">
+                <li class="nav-search">
+                  <input type="text" placeholder="Nhập từ khóa..." />
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </li>
+                <li style="display: none;" class="nation-flag">
                 {if empty($smarty.session.lang_prefix)}
                   <a onclick="changeMyLanguage();return false;" style="cursor: pointer;">
                   	<img class="national-flag" key="vn" src="{base_url()}media/images/vn.svg" />
@@ -133,24 +137,9 @@
                   </a>
                 {/if}  
                 </li>
-                <li class="nav-search">
-                  <input type="text" placeholder="Nhập từ khóa..." />
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </li>
               </ul>
             </nav>
           </div>
-        <!-- <div class="col-lg-2 col-sm-2">
-            <nav class="nav">
-              <ul class="sf-menu" data-type="navbar">
-                <li class="nav-search">
-                  <input type="text" placeholder="Nhập từ khóa..." />
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </li>
-              </ul>
-            </nav>
-        
-	    </div> -->
         </div>
       </div>
     </div>
@@ -163,10 +152,10 @@
 	            <div class="camera_caption fadeIn">
 	              <div class="container">
 	                <div class="camera_cont cam_ins_2">
-	                  <h2>{$isub->v1}</h2>
+	                  <h2 lang-key="{$isub->v1}">{lang($isub->v1)}</h2>
 	                  <h3 style="display:none;">Chúng tôi cam kết</h3>
-	                  <h4>{$isub->v4}</h4>
-	                  <a href="#" class="btn btn-default btn-sm">xem thêm</a>
+	                  <h4 lang-key="{$isub->v4}" has-html="true">{lang($isub->v4)}</h4>
+	                  <a href="#" class="btn btn-default btn-sm" lang-key"view-more">{lang('view_more')}</a>
 	                </div>
 	              </div>
 	            </div>

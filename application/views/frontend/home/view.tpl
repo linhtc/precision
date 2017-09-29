@@ -5,7 +5,7 @@
 	      <div class="row offset">
 	      	<div class="col-lg-3 col-xs-3">
 	      		<div class="panel panel-default wow fadeInUp">
-				  <div class="panel-heading">Hỗ trợ trực tuyến</div>
+				  <div class="panel-heading" lang-key="ho tro truc tuyen">{lang('ho tro truc tuyen')}</div>
 				  <div class="panel-body">
 			  		<div class="online-support" style="background-image:url({base_url()}media/uploads/images/phone2.png);">
 				  		<h4 class="blink_me">
@@ -13,7 +13,9 @@
 		                	<br><a href="{$smarty.session.sys_cnf->cnf_hotline->v2}">{$smarty.session.sys_cnf->cnf_hotline->v1}</a></span>
 		                </h4>
 			  		</div>
-					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kỹ thuật:</span>
+					<span style="color: #272d33; display: block; margin-top: 3px;" lang-key="phong ky thuat">
+					{lang('phong ky thuat')}
+					</span>
 	                {foreach from=$smarty.session.sys_cnf->tphone key=ksub item=isub name=foo}
 			  		<p style="position: relative; margin-top: 5px; {if $smarty.foreach.foo.last} border-bottom: thin dotted; {/if}">
 	                	<span>
@@ -27,7 +29,9 @@
 	                	</span>
 	                </p>
 			      	{/foreach}
-					<span style="color: #272d33; display: block; margin-top: 3px;">Phòng kinh doanh:</span>
+					<span style="color: #272d33; display: block; margin-top: 3px;" lang-key="phong kinh doanh">
+					{lang('phong kinh doanh')}
+					</span>
 	                {foreach from=$smarty.session.sys_cnf->sphone key=ksub item=isub name=foo}
 			  		<p style="position: relative; margin-top: 5px; {if $smarty.foreach.foo.last} border-bottom: thin dotted; {/if}">
 	                	<span>
@@ -41,7 +45,9 @@
 	                	</span>
 	                </p>
 			      	{/foreach}
-	                <span style="color: #272d33; display: block; margin-top: 3px;">Thông tin liên hệ:</span>
+	                <span style="color: #272d33; display: block; margin-top: 3px;" lang-key="thong tin lien he">
+					{lang('thong tin lien he')}
+					</span>
 			  		<p style="position: relative;">
 	                	<span>
 	                		<b>Email: </b>{$smarty.session.sys_cnf->cnf_email->v1}
@@ -72,19 +78,19 @@
 				  </div>
 				</div>
 	      		<div class="panel panel-default wow fadeInUp">
-				  <div class="panel-heading">Thống kê</div>
+				  <div class="panel-heading" lang-key="thong ke">{lang('thong ke')}</div>
 				  <div class="panel-body" style="padding-bottom: 0;padding-top: 0;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
-				  		<span>Đang online: <script type="text/javascript" src="{base_url()}webcounter.php"></script></span>
+				  		<span lang-key="dang online">{lang('dang online')} <script type="text/javascript" src="{base_url()}webcounter.php"></script></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/homqua.png);">
-				  		<span>Hôm qua: <label id="count-yesterday"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
+				  		<span lang-key="hom qua">{lang('hom qua')} <label id="count-yesterday"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/tuan.png);">
-				  		<span>Tuần này: <label id="count-thisweek"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
+				  		<span lang-key="tuan nay">{lang('tuan nay')} <label id="count-thisweek"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/tong.png);">
-				  		<span>Tổng truy cập: <label id="count-total"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
+				  		<span lang-key="tong truy cap">{lang('tong truy cap')} <label id="count-total"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 				  </div>
 				</div>
@@ -102,8 +108,8 @@
 			            	style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});" 
 			            	bg-src="{base_url()}media/filemanager/source/{$isub->v2}">
 			              <a href="#" class="product_cont product_cont_mode">
-			                <h3>{$isub->v1}</h3>
-			                <p>{$isub->v4}</p>
+			                <h3 lang-key="{$isub->v1}">{lang($isub->v1)}</h3>
+			                <p has-html="true" lang-key="{$isub->v4}">{lang($isub->v4)}</p>
 			                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 			              </a>
 			            </div>
@@ -121,7 +127,7 @@
 <!--======================well_1=========================-->
     <section class="well-3" id="home-s2">
       <div class="container center_text">
-        <h2 class="secondary_color">Sản phẩm</h2>
+        <h2 class="secondary_color" lang-key="san pham">{lang('san pham')}</h2>
         {assign var="curr" value=0}
         {foreach from=$finalPhoto->home_section_2 key=ksub item=isub name=foo}
         {math assign="curr" equation='x+y' x=$curr y=1}
