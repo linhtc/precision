@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Toàn Thắng Precision</title>
+  <title>Toàn Thắng Precision - {$subtitle}</title>
   <meta charset="utf-8"/>
   <meta name="format-detection" content="telephone=no"/>
   <link rel="icon" href="{base_url()}static/default/frontend/images/favicon.ico" type="image/x-icon"/>
@@ -21,7 +21,7 @@
   	var googleMapIframe = '{$smarty.session.sys_cnf->cnf_google_map->v1}';
   	var youtubeIframe = '{$smarty.session.sys_cnf->cnf_video_youtube->v1}';
   </script>
-  {include file='frontend/layouts/language.tpl'}
+  
 </head>
 <body>
 <div class="page">

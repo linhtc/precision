@@ -62,11 +62,22 @@ class ManagePhoto extends MY_Controller {
 
             'static/default/admin/template/js/opt.min.js',
         );
+        
+        $photoHtml = '';
+        $pagePhoto = $this->pageHasPhoto();
+        foreach($pagePhoto as $label=>$photos){
+        	$photoHtml .= "<optgroup label=\"$label\">";
+        	foreach($photos as $key=>$val){
+        		$photoHtml .= "<option value=\"$key\">$val</option>";
+        	}
+        	$photoHtml .= '</optgroup>';
+        }
 
         $data = array(
             'permission' => $permission,
             'listJs' => add_Js($listJs),
             'listCss' => add_css($listCss),
+        		'photoHtml' => $photoHtml
         );
 
         $this->parser->parse($this->viewPath."view", $data);
@@ -219,20 +230,19 @@ class ManagePhoto extends MY_Controller {
         $this->check_permission($this->class, 'export');
         $this->layout->disable_layout();
 
-        $sortMaps = array('id', 'modified','ipaddress', 'subject');
+        $sortMaps = array('id', 'modified','ipaddress');
         $sort = $this->input->get_post('sort', true);
         $type = $this->input->get_post('type', true);
 
-        $query = "select `id`, `modified`, `ipaddress`, `subject`
-          FROM ".$this->subjectModel;
+        $query = "select `id`, `modified`, `ipaddress`
+          FROM ".$this->photoModel;
         $query .= $this->criteria();
         $query .= " order by `".(empty($sortMaps[$sort]) ? 'id' : $sortMaps[$sort]) ."` ".$type;
         $list = $this->db->query($query)->result_array();
         $header = array( array(
             'id' => lang('id'),
             'modified' => lang('last_update'),
-            'ipaddress' => lang('ipaddress'),
-            'subject' => lang('subject')
+            'ipaddress' => lang('ipaddress')
         ));
         $this->excel($header, $list);
         exit;
@@ -244,11 +254,18 @@ class ManagePhoto extends MY_Controller {
     private function criteria(){
     	$id = $this->input->get_post('id', true);
     	$time = $this->input->get_post('dt', true);
-        $ip = $this->input->get_post('ip', true);
-        $subject= $this->input->get_post('su', true);
+    	$ip = $this->input->get_post('ip', true);
+    	$c1 = $this->input->get_post('c1', true);
+    	$c2 = $this->input->get_post('c2', true);
+        $page = $this->input->get_post('p', true);
+        
         $modified = explode(' - ', $time);
         $to = null; $from = null;
 
+        if(!empty($page) && !is_array($page)){
+        	$page = explode(',', $page);
+        }
+        
         $criteria = " where `deleted` = 0 ";
         if(!empty($id)){
         	$criteria .= " AND `id` = '".addslashes($class)."' ";
@@ -270,11 +287,16 @@ class ManagePhoto extends MY_Controller {
             $to = date('Y-m-d', strtotime($to));
             $criteria .= " AND `modified` <= '$to 23:59:59' ";
         }
-        if(!empty($ip)){
-        	$criteria .= " AND `ipaddress` like '%".addslashes($ip)."%' ";
+        if(!empty($c1)){
+        	$criteria .= " AND `page_content` like '%".addslashes($c1)."%' ";
         }
-        if(!empty($subject)){
-        	$criteria .= " AND `subject` like '%".addslashes($subject)."%' ";
+        if(!empty($c2)){
+        	$criteria .= " AND `page_content2` like '%".addslashes($c2)."%' ";
+        }
+        if(is_array($page) && count($page)){
+        	$tmpString = '';
+        	foreach($page as $item){ $tmpString .= ($tmpString == "" ? "" : ",")."'$item'"; }
+        	$criteria .= " AND page_type IN($tmpString) ";
         }
         return $criteria;
     }

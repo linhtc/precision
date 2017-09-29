@@ -36,7 +36,7 @@
                             <tr>
                                 <th col-id="id">{lang('id')}</th>
                                 <th col-id="dt">{lang('modified')}</th>
-                                <th col-id="p">{lang('key')}</th>
+                                <th col-id="p" col-sel="1" col-multi="multiple">{lang('key')}</th>
                                 <th col-id="c1">{lang('value')}</th>
                                 <th col-id="c2">{lang('value2')}</th>
                                 <th col-id="action">{lang('action')}</th>
@@ -102,7 +102,7 @@
 
 <script>
     var selMap = {
-
+    		p: '{$listHtml}'
     };
     var areYouSure = '{lang('are_u_sure')}';
     var okButton = '{lang('ok')}';

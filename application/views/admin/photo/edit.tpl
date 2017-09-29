@@ -68,9 +68,7 @@
 	                		<div class="col-md-12">
 							    <div class="form-group">
 							        <label for="apply_value4">Mô tả thêm</label>
-							        <textarea id="apply_value4" placeholder="Nhập một giá trị..." rows="5" cols="1" class="form-control params">
-							        {$thisItem->page_content4}
-							        </textarea>
+							        <textarea id="apply_value4" placeholder="Nhập một giá trị..." rows="5" cols="1" class="form-control params">{$thisItem->page_content4}</textarea>
 							    </div>
 	                		</div>
                 		</div>
@@ -153,7 +151,7 @@
     }
 
     function funcCancel() {
-        window.location = '{base_url()}{$viewPath}view';
+        window.location = '{base_url()}admin/manage-photo/view';
     }
 
     function initLoading(){

@@ -4,7 +4,7 @@
     <div class="user-panel">
         <div class="pull-left image">
             <a href="/{$this->session->userdata('lang_key')}/admin/profiles/view" style="color:#ffffff;">
-            <img style="width:45px; height: 45px;" src="{if $this->session->userdata('user_avatar') eq ""}http://placehold.it/160x160{else}{base_url()}media/images/profiles/{$this->session->userdata('user_avatar')}{/if}" class="img-circle" alt="User Image" />
+            <img style="width:45px; height: 45px;" src="{if $this->session->userdata('user_avatar') eq ""}{base_url()}media/images/160_160.png{else}{base_url()}media/images/profiles/{$this->session->userdata('user_avatar')}{/if}" class="img-circle" alt="User Image" />
             </a>
         </div>
         <div class="pull-left info">

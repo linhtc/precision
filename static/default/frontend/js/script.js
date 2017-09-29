@@ -299,7 +299,6 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 function checkScroller(){
 	if (document.location.hash) {
         setTimeout(function() {
-    	    console.log('aaa');
             window.scrollTo(window.scrollX, window.scrollY - 100);
         }, 500);
     }
@@ -310,7 +309,6 @@ function checkScroller(){
     }, 10);
 //    $('.loading').remove();
     setTimeout(function(){
-    	console.log('counting...');
     	$.post(rootBaseUrl+"api/crontabs/viewer", function(data, status){
 //            console.log("Data: " + data + "\nStatus: " + status);
     		console.log(data);
@@ -321,12 +319,32 @@ function checkScroller(){
     }, 3000);
 
     checkScroller();
-    setTimeout(function() {
-	    console.log('ccc');
-	    $('.sf-menu ul li a').click(function(event) {
-	    	setTimeout(function() {
-	    		checkScroller();
-	    	}, 10);
-		});
-	}, 1000);
+    $('.sf-menu ul li a').click(function(event) {
+    	setTimeout(function() {
+    		checkScroller();
+    	}, 10);
+	});
+    
+    setTimeout(function(){
+    	var langToStore = [];
+    	$('[lang-key]').each(function(index) {
+	  		  var ilang = $(this).attr('lang-key');
+	  		  if (typeof(Storage) !== "undefined") {
+	  			  langToStore.push(ilang);
+	  		  }
+	  	});
+    	if(langToStore.length > 0){
+    		var key = $('.national-flag').attr('key');
+    		$.post(rootBaseUrl+"api/crontabs/langstorage", {lang:key, data:langToStore}, function(data, status){
+				data = data.metadata;
+				if(typeof data === 'object'){
+					for(var key in data){
+						if(data.hasOwnProperty(key)){
+							localStorage.setItem(key, data[key]);
+						}
+					}
+				}
+    		}, "json");
+    	}
+    }, 1000);
 })(jQuery);

@@ -70,7 +70,15 @@ class Languages extends MY_Controller {
             'static/default/admin/template/js/opt.min.js',
         );
 
-        $lHtml = '<option value="default">'.lang('default').'</option><option value="spec">'.lang('spec').'</option>';
+        $lHtml = '
+			<option value="">---</option>
+			<option value="home">'.lang('home').'</option>
+			<option value="company">'.lang('company').'</option>
+			<option value="rd">'.lang('rd').'</option>
+			<option value="product_and_service">'.lang('product_and_service').'</option>
+			<option value="project">'.lang('project').'</option>
+			<option value="contact">'.lang('contact').'</option>
+		';
         $data = array(
             'permission' => $permission,
             'listJs' => add_Js($listJs),
@@ -301,6 +309,8 @@ class Languages extends MY_Controller {
         $lang = $this->input->post('lang', true);
         $vi = $this->input->post('vi', true);
         $en = $this->input->post('en', true);
+        $vi = nl2br("$vi");
+        $en = nl2br("$en");
         $query = "INSERT INTO $this->langModel (`created`, `modified`, `kind`, `lang`, `vi`, `en`)
             VALUES (NOW(), NOW(), '".addslashes($kind)."', '".addslashes($lang)."', '".addslashes($vi)."', '".addslashes($en)."')
             ON DUPLICATE KEY UPDATE modified = VALUES(modified), kind = VALUES(kind), vi = VALUES(vi), en = VALUES(en), deleted = VALUES(deleted);

@@ -55,17 +55,13 @@
 	                		<div class="col-md-6">
 							    <div class="form-group">
 							        <label for="apply_value">Giá trị</label>
-							        <textarea id="apply_value" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params">
-							        {$thisItem->page_content}
-							        </textarea>
+							        <textarea id="apply_value" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params">{$thisItem->page_content}</textarea>
 							    </div>
 	                		</div>
 	                		<div class="col-md-6">
 							    <div class="form-group">
 							        <label for="apply_value">Giá trị 2</label>
-							        <textarea id="apply_value2" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params">
-							        {$thisItem->page_content2}
-							        </textarea>
+							        <textarea id="apply_value2" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params">{$thisItem->page_content2}</textarea>
 							    </div>
 	                		</div>
                 		</div>
@@ -123,7 +119,7 @@
     }
 
     function funcCancel() {
-        window.location = '{base_url()}{$viewPath}view';
+        window.location = '{base_url()}admin/manage-list/view';
     }
 
     function initLoading(){

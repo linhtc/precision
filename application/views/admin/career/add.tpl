@@ -3,7 +3,7 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-        Dạng danh sách
+        Công việc
         <small>Thêm mới</small>
     </h1>
     <ol class="breadcrumb">
@@ -30,37 +30,36 @@
                 		<div class="row">
 	                		<div class="col-md-6">
 							    <div class="form-group">
-	                                <label for="page_type">Trang (*)</label>
-	                                <select id="page_type" class="form-control selectpicker params" notnull>
-	                                    <option value=""></option>
-	                                    {foreach from=$pageList key=i item=item}
-	                                         <optgroup label="{$i}">
-	                                        {foreach from=$item key=ii item=iitem}
-	                                        <option value="{$ii}">{$iitem}</option>
-	                                        {/foreach}
-	                                        </optgroup>
-	                                    {/foreach}
-	                                </select>
+	                                <label for="page_job">Tiêu đề (*)</label>
+	                                <input id="page_job" placeholder="Nhập một giá trị..." type="text" class="form-control params">
 	                            </div>
 	                		</div>
 	                		<div class="col-md-6">
 							    <div class="form-group">
-							        <label for="apply_key">Sắp xếp</label>
-							        <input id="sort" placeholder="Nhập một giá trị..." type="text" class="form-control params">
+							        <label for="page_pos">Vị trí</label>
+							        <input id="page_pos" placeholder="Nhập một giá trị..." notnull type="text" class="form-control params">
 							    </div>
 	                		</div>
                 		</div>
                 		<div class="row">
 	                		<div class="col-md-6">
 							    <div class="form-group">
-							        <label for="apply_value">Giá trị</label>
-							        <textarea id="apply_value" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params"></textarea>
+							        <label for="page_time">Thời gian</label>
+							        <input id="page_time" placeholder="Nhập một giá trị..." notnull type="text" class="form-control params">
 							    </div>
 	                		</div>
 	                		<div class="col-md-6">
 							    <div class="form-group">
-							        <label for="apply_value">Giá trị 2</label>
-							        <textarea id="apply_value2" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params"></textarea>
+							        <label for="page_quan">Số lượng</label>
+							        <input id="page_quan" placeholder="Nhập một giá trị..." notnull type="text" class="form-control params">
+							    </div>
+	                		</div>
+                		</div>
+                		<div class="row">
+	                		<div class="col-md-12">
+							    <div class="form-group">
+							        <label for="page_require">Yêu cầu</label>
+							        <textarea id="page_require" placeholder="Nhập một giá trị..." rows="5" cols="1" notnull class="form-control params"></textarea>
 							    </div>
 	                		</div>
                 		</div>
@@ -117,7 +116,7 @@
     }
 
     function funcCancel() {
-        window.location = '{base_url()}admin/manage-list/view';
+        window.location = '{base_url()}admin/manage-career/view';
     }
 
     function initLoading(){

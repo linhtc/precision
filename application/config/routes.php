@@ -88,6 +88,11 @@ $route['admin/manage-photo/(:any)/(:any)'] = "admin/ManagePhoto/$1/$2";
 $route['en/admin/manage-photo/(:any)'] = "admin/ManagePhoto/$1";
 $route['en/admin/manage-photo/(:any)/(:any)'] = "admin/ManagePhoto/$1/$2";
 
+$route['admin/manage-career/(:any)'] = "admin/ManageCareer/$1";
+$route['admin/manage-career/(:any)/(:any)'] = "admin/ManageCareer/$1/$2";
+$route['en/admin/manage-career/(:any)'] = "admin/ManageCareer/$1";
+$route['en/admin/manage-career/(:any)/(:any)'] = "admin/ManageCareer/$1/$2";
+
 // default
 $route['(\w{2})/(.*)'] = '$2';
 $route['(\w{2})'] = $route['default_controller'];

@@ -169,7 +169,7 @@
     }
 
     function funcCancel() {
-        window.location = '{base_url()}{$viewPath}view';
+        window.location = '{base_url()}admin/manage-photo/view';
     }
 
     function initLoading(){

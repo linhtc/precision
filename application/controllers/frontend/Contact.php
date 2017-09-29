@@ -16,12 +16,14 @@ class Contact extends MY_Controller {
 	private $class;
 	private $pageType;
 	private $viewPath;
+	private $subTitle;
 	
 	function __construct() {
 		parent::__construct();
 		$this->class = strtolower(get_class());
 		$this->pageType = 'contact';
 		$this->viewPath = 'frontend/'.$this->pageType.'/';
+		$this->subTitle = get_class();
 	}
 	
 	/**
@@ -41,6 +43,7 @@ class Contact extends MY_Controller {
 		$data = array(
 				'listJs' => add_Js($listJs),
 				'listCss' => add_css($listCss),
+				'subtitle' => $this->subTitle,
 				'uuid' => $this->pageType
 		);
 		

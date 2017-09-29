@@ -15,13 +15,17 @@ class Career extends MY_Controller {
 
 	private $class;
 	private $pageType;
+	private $careerModel;
 	private $viewPath;
+	private $subTitle;
 	
     function __construct() {
         parent::__construct();
         $this->class = strtolower(get_class());
+        $this->careerModel = 'sys_careers';
         $this->pageType = 'career';
         $this->viewPath = 'frontend/'.$this->pageType.'/';
+        $this->subTitle = get_class();
     }
 
     /**
@@ -38,10 +42,18 @@ class Career extends MY_Controller {
         		'static/default/template/lightbox/js/lightbox.js',
         );
         
+        $listing = $this->db->select('`page_job` j, `page_time` t, `page_pos` p, `page_require` r, `page_quantity` q')
+        ->from($this->careerModel)
+        ->where('deleted', 0)
+        ->order_by('id', 'desc')
+        ->get()->result();
+        
         $data = array(
             'listJs' => add_Js($listJs),
         		'listCss' => add_css($listCss),
-        		'uuid' => $this->pageType
+        		'uuid' => $this->pageType,
+        		'subtitle' => $this->subTitle,
+        		'careerList' => $listing
         );
 
         $this->parser->parse($this->viewPath."view", $data);

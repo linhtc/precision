@@ -17,6 +17,7 @@ class Project extends MY_Controller {
 	private $pageType;
 	private $photoModel;
 	private $viewPath;
+	private $subTitle;
 	
     function __construct() {
         parent::__construct();
@@ -24,6 +25,7 @@ class Project extends MY_Controller {
         $this->photoModel = 'sys_photos';
         $this->pageType = 'project';
         $this->viewPath = 'frontend/'.$this->pageType.'/';
+        $this->subTitle = get_class();
     }
 
     /**
@@ -58,6 +60,7 @@ class Project extends MY_Controller {
             'listJs' => add_Js($listJs),
         		'listCss' => add_css($listCss),
         		'uuid' => $this->pageType,
+        		'subtitle' => $this->subTitle,
         		'finalPhoto' => $finalPhoto
         );
 

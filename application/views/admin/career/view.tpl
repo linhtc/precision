@@ -36,9 +36,11 @@
                             <tr>
                                 <th col-id="id">{lang('id')}</th>
                                 <th col-id="dt">{lang('modified')}</th>
-                                <th col-id="p" col-sel="1" col-multi="multiple">{lang('key')}</th>
-                                <th col-id="c1">{lang('value')}</th>
-                                <th col-id="c2">{lang('value2')}</th>
+                                <th col-id="j">{lang('job')}</th>
+                                <th col-id="p">{lang('pos')}</th>
+                                <th col-id="q">{lang('quan')}</th>
+                                <th col-id="t">{lang('time')}</th>
+                                <th col-id="r">{lang('require')}</th>
                                 <th col-id="action">{lang('action')}</th>
                             </tr>
                             </tfoot>
@@ -102,7 +104,7 @@
 
 <script>
     var selMap = {
-        p: '{$photoHtml}'
+    		p: '{$listHtml}'
     };
     var areYouSure = '{lang('are_u_sure')}';
     var okButton = '{lang('ok')}';

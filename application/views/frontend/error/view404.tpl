@@ -8,7 +8,7 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title>Toàn Thắng Precision</title>
+    <title>Toàn Thắng Precision - Page 404</title>
     <meta name="author" content="ukieweb"/>
     <meta name="keywords" content="404 page, villains, css3, template, html5 template"/>
     <meta name="description" content="404 - Page Template"/>

@@ -18,6 +18,7 @@ class ProductService extends MY_Controller {
 	private $listModel;
 	private $photoModel;
 	private $viewPath;
+	private $subTitle;
 	
     function __construct() {
         parent::__construct();
@@ -26,6 +27,7 @@ class ProductService extends MY_Controller {
         $this->photoModel = 'sys_photos';
         $this->pageType = 'product';
         $this->viewPath = 'frontend/'.$this->pageType.'/';
+        $this->subTitle = get_class();
     }
 
     /**
@@ -74,6 +76,7 @@ class ProductService extends MY_Controller {
             'listJs' => add_Js($listJs),
         		'listCss' => add_css($listCss),
         		'uuid' => $this->pageType,
+        		'subtitle' => $this->subTitle,
         		'finalList' => $finalList,
         		'finalPhoto' => $finalPhoto
         );

@@ -7,19 +7,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @package Admin
  *
  */
-class ManageList extends MY_Controller {
+class ManageCareer extends MY_Controller {
 
 	private $class;
 	private $numRow;
-	private $listModel;
+	private $careerModel;
 	private $viewPath;
 	
     function __construct() {
     	parent::__construct();
     	$this->class = strtolower(preg_replace('/(?<!^)([A-Z])/', '-\\1', get_class()));
         $this->numRows = 10;
-        $this->listModel = 'sys_lists';
-        $this->viewPath = 'admin/list/';
+        $this->careerModel = 'sys_careers';
+        $this->viewPath = 'admin/career/';
     }
 
     /**
@@ -141,8 +141,8 @@ class ManageList extends MY_Controller {
         $this->layout->set_layout('default');
 
 
-        $item = $this->db->select('id, page_type, page_content, page_content2, sort')
-            ->from($this->listModel)
+        $item = $this->db->select('id, page_job, page_time, page_pos, page_require, page_quantity')
+            ->from($this->careerModel)
             ->where('id', $id)
             ->get()
             ->row()
@@ -183,7 +183,7 @@ class ManageList extends MY_Controller {
         $id = $this->input->post('id', true);
         if(!empty($id)){
             $pullClass = array('deleted' => 1);
-            $result = $this->db->where('id', $id)->update($this->listModel, $pullClass);
+            $result = $this->db->where('id', $id)->update($this->careerModel, $pullClass);
             echo $result; exit;
         }
         echo 0; exit;
@@ -203,7 +203,7 @@ class ManageList extends MY_Controller {
         $numRows = $this->input->post('auto', true);
         if(!empty($numRows) && $numRows > 10 && $numRows < 101){ $this->numRows = $numRows; }
         $start = ($page-1)*$this->numRows;
-        $query = "select `id`, `modified`, `page_type` p, `page_content` c1, `page_content2` c2  from ".$this->listModel;
+        $query = "select `id`, `modified`, `page_job` j, `page_time` t, `page_pos` p, `page_require` r, `page_quantity` q  from ".$this->careerModel;
         $query .= $this->criteria();
         $num = $this->db->query($query)->num_rows();
         $query .= " order by `".(empty($sortMaps[$sort]) ? 'id' : $sortMaps[$sort]) ."` ".$type;
@@ -307,25 +307,22 @@ class ManageList extends MY_Controller {
      */
     private function modify(){
     	$id = $this->input->post('id', false);
-    	$s = $this->input->post('sort', false);
-    	$p = $this->input->post('page_type', false);
-    	$v = $this->input->post('apply_value', false);
-    	$v2 = $this->input->post('apply_value2', false);
+    	$j = $this->input->post('page_job', false);
+    	$q = $this->input->post('page_quan', false);
+    	$p = $this->input->post('page_pos', false);
+    	$t = $this->input->post('page_time', false);
+    	$r = $this->input->post('page_require', false);
     	if(!empty($p)){
-    		$v = nl2br("$v");
-    		$v2 = nl2br("$v2");
-    		if(empty($s)){
-    			$s = 1;
-    		}
+    		$r = nl2br("$r");
         	$ip = $this->getClientIP();
             $query = "
-                INSERT INTO `".$this->listModel."` (".(!empty($id) ? '`id`, ' : '')."`created`, `modified`, `ipaddress`, `page_type`, 
-					`page_content`, `page_content2`, `sort`) 
-                VALUES (".(!empty($id) ? $id.', ' : '')."NOW(), NOW(), '".addslashes($ip)."', '".addslashes($p)."', 
-					'".addslashes($v)."', '".addslashes($v2)."', '".addslashes($s)."')
+                INSERT INTO `".$this->careerModel."` (".(!empty($id) ? '`id`, ' : '')."`created`, `modified`, `ipaddress`, `page_job`, `page_quantity`, 
+					`page_pos`, `page_time`, `page_require`) 
+                VALUES (".(!empty($id) ? $id.', ' : '')."NOW(), NOW(), '".addslashes($ip)."', '".addslashes($j)."', '".addslashes($q)."', 
+					'".addslashes($p)."', '".addslashes($t)."', '".addslashes($r)."')
                 ON DUPLICATE KEY UPDATE `ipaddress` = VALUES(ipaddress), 
-					`page_content` = VALUES(page_content), `page_content2` = VALUES(page_content2), `sort` = VALUES(sort), 
-					`deleted` = VALUES(deleted), modified = VALUES(modified)
+					`page_job` = VALUES(page_job), `page_pos` = VALUES(page_pos), `page_time` = VALUES(page_time), `page_require` = VALUES(page_require), 
+					`page_quantity` = VALUES(page_quantity), `deleted` = VALUES(deleted), modified = VALUES(modified)
                 ;
             ";
             $result = $this->db->query($query);

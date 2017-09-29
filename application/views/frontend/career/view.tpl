@@ -52,18 +52,14 @@
 			    <th>Vị trí</th>
 			    <th>Hạn nộp hồ sơ</th>
 			  </tr>
+			  {foreach from=$careerList key=ksub item=isub name=foo}
 			  <tr>
-			    <td>Tuyển dụng Kỹ sư Cơ khí</td>
-			    <td>1</td> 
-			    <td>Kỹ sư cơ khí</td>
-			    <td>12/12/2017</td>
+			    <td>{$isub->j}</td>
+			    <td>{$isub->q}</td> 
+			    <td>{$isub->p}</td>
+			    <td>{$isub->t}</td>
 			  </tr>
-			  <tr>
-			    <td>Tuyển dụng Kỹ thuật viên Cơ khí</td>
-			    <td>1</td> 
-			    <td>Kỹ sư</td>
-			    <td>12/12/2017</td>
-			  </tr>
+		      {/foreach}
 			</table>
           </div>
         </div>

@@ -197,6 +197,46 @@ class Crontabs extends MY_Controller {
     }
     
     /**
+     * Get language to LocalStorage
+     * @request: {}
+     * @response: {}
+     **/
+    public function langstorage(){
+    	$this->layout->disable_layout(); // disable layout
+    	
+    	$response = new stdClass();
+    	$response->metadata = new stdClass();
+    	
+    	$lang = $this->input->post('lang', true);
+    	$data = $this->input->post('data', true);
+    	
+    	$lang2 = $lang;
+    	
+    	if($data){
+    		foreach($data as $key){
+    			$response->metadata->{$lang2.'_'.$key} = lang($key);
+    		}
+    	}
+    	if($lang == 'vn'){
+    		$this->loadLangFolder('english');
+    		$lang2 = 'en';
+    	}
+    	if($data){
+    		foreach($data as $key){
+    			$response->metadata->{$lang2.'_'.$key} = lang($key);
+    		}
+    	}
+    	if($lang == 'en'){
+    		$this->loadLangFolder('english');
+    	} else{
+    		$this->loadLangFolder('vietnamese');
+    	}
+    	
+    	$this->response($response);
+    	
+    }
+    
+    /**
      * Ham tra du lieu ve cho client voi header la json
      * @input: pointer stdClass
      * @output: json encode stdClass
