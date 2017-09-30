@@ -60,9 +60,13 @@ class Company extends MY_Controller {
         
         $finalPhoto = new stdClass();
         
-        $listing = $this->db->select('page_type k, page_content v1, page_content2 v2, page_content3 v3')
+        $listing = $this->db->select('page_type k, page_content v1, page_content2 v2, page_content3 v3, page_content4 v4')
         ->from($this->photoModel)
-        ->where('deleted', 0)->like('page_type', $this->pageType.'_', 'after')
+        ->where('deleted', 0)
+        ->group_start()
+        ->like('page_type', $this->pageType.'_', 'after')
+        ->or_where('page_type', 'home_section_5')
+        ->group_end()
         ->order_by('sort', 'asc')
         ->get()->result();
         foreach($listing as $item){

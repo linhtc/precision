@@ -73,7 +73,8 @@ class MY_Controller extends CI_Controller {
     					'home_section_0' => 'section 0 - Slider',
     					'home_section_1' => 'section 1 - Hỗ trợ trực tuyến',
     					'home_section_2' => 'section 2 - Sản phẩm',
-    					'home_section_4' => 'section 4 - Năng lực'
+    					'home_section_4' => 'section 4 - Năng lực',
+    					'home_section_5' => 'section 5 - Vài lời về công ty'
     			),
     			'company' => array(
     					'company_section_1' => 'section 1 - Công ty chúng tôi',

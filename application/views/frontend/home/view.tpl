@@ -155,32 +155,27 @@
 <!--======================End well_1=========================-->
 <!--======================well_1=========================-->
     <section class="well-2 bg-primary center_text" id="home-s3">
-    <h2 class="secondary_color wow fadeInRight">Chúng tôi sẽ giải quyết</h2>
-    <h3 class="primary_color wow fadeInLeft">các yêu cầu của khách hàng</h3>
+    <h2 class="secondary_color wow fadeInRight" lang-key="chung toi se giai quyet">{lang('chung toi se giai quyet')}</h2>
+    <h3 class="primary_color wow fadeInLeft" lang-key="cac yeu cau cua khach hang">{lang('cac yeu cau cua khach hang')}</h3>
     <div class="container text-left offset-1">
       <div class="row icon-hover_2 flow-offset-1">
-        <div class="col-lg-4 col-xs-12 wow fadeInUp">
-          <i class="icon primary-icon icon-md material-icons-toys"></i>
-          <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Gia công chính xác</h3>
-          <p>&nbsp;</p>
-          <h4 class="primary_color inset-3">Chúng tôi chuyên gia công chính xác chi tiết máy, gia công chi tiết khuôn, linh kiện-phụ tùng cơ khí ô tô-điện tử và các ngành công nghiệp khác. <br />
-          Bên cạnh đó chúng tôi áp dụng công nghệ xử lý bề mặt không những mang lại sản phẩm đạt yêu cầu kỹ thuật mà còn đáp ứng về mặt ngoại quan sản phẩm. </h4>
-        </div>
-        <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="0.2s">
-          <i class="icon primary-icon icon-md material-icons-access_alarm"></i>
-          <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Thiết kế, chế tạo máy</h3>
-          <p>&nbsp;</p>
-          <h4 class="primary_color inset-3">Với đội ngũ kỹ sư nhiều kinh nghiệm làm việc trong nhiều lĩnh vực, chúng tôi đưa ra các giải pháp công nghệ kỹ thuật từ đó thiết kế chế tạo máy theo nhu cầu của khách hàng. <br />
-          Những sản phẩm tưởng như không thể, phức tạp khi đến với chúng tôi sẽ đơn giản và tối ưu nhất.</h4>
-        </div>
-        <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="0.4s">
-          <i class="icon primary-icon icon-md material-icons-tonality"></i>
-          <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;'>Dịch vụ của chúng tôi</h3>
-          <p>&nbsp;</p>
-          <h4 class="primary_color inset-3">Với phương châm mang lại sự hài lòng cho khách hàng. <br />
-          Sản phẩm của chúng tôi được kiểm tra nghiêm ngặt từ khâu đầu vào, quá trình sản xuất cho tới khâu kiểm định, 
-          đóng gói và vận chuyển để mang lại sản phẩm đạt chất lượng và đáp ứng nhanh tiến độ.</h4>
-        </div>
+          {foreach from=$finalList->home_section_3 key=ksub item=isub name=foo}
+          {if $ksub eq 0}
+          {assign var="curricon" value="material-icons-toys"}
+          {/if}
+          {if $ksub eq 1}
+          {assign var="curricon" value="material-icons-access_alarm"}
+          {/if}
+          {if $ksub eq 2}
+          {assign var="curricon" value="material-icons-tonality"}
+          {/if}
+           <div class="col-lg-4 col-xs-12 wow fadeInUp offset-6" data-wow-delay="{$ksub*0.2}s">
+	          <i class="icon primary-icon icon-md {$curricon}"></i>
+	          <h3 class="secondary_color" style='font: 400 34px/48px "Open Sans", sans-serif;' lang-key="{$isub->v1}">{lang($isub->v1)}</h3>
+	          <p>&nbsp;</p>
+	          <h4 class="primary_color inset-3" lang-key="{$isub->v2}" has-html="true">{lang($isub->v2)}</h4>
+	        </div>
+          {/foreach}
       </div>
     </div>
     <a href="#" class="btn btn-default btn-md wow fadeIn">View all</a>
@@ -219,24 +214,19 @@
     </section>
 <!--======================End parallax=========================-->
 <!--======================End well=========================-->
-    <section class="well-4" id="home-s5">
+    <section class="well-4" id="company-s4">
       <div class="container">
         <div class="row flow-offset-1 text-center text-lg-left">
           <div class="col-lg-5">
-            <img src="{base_url()}static/default/frontend/images/introduce.jpg" alt="" class="wow fadeInLeft">
+            <img src="{base_url()}media/filemanager/source/{$finalPhoto->home_section_5[0]->v2}" alt="" class="wow fadeInLeft">
           </div>
           <div class="col-lg-7">
-            <h2 class="secondary_color wow fadeInRight" style="margin-top: -20px;">Một vài lời về công ty chúng tôi</h2>
+            <h2 class="secondary_color wow fadeInRight" style="margin-top: -20px;" lang-key="{$finalPhoto->home_section_5[0]->v1}">
+            	{lang($finalPhoto->home_section_5[0]->v1)}
+            </h2>
             <h3 class="primary_color wow fadeInRight"></h3>
-            <h4 class="primary_color offset-1 inset-3">
-            Công ty TNHH cơ khí chính xác Toàn Thắng được thành lập với mục tiêu cung cấp 
-            cho thị trường sản phẩm cơ khí chính xác, kết hợp chuyển giao công nghệ trong lĩnh vực thiết kế chế tạo máy.
-            <br />
-            Với đội ngũ kỹ sư chuyên nghiệp qua nhiều năm kinh nghiệm và có tay nghề kỹ thuật cao. 
-            Chúng tôi khẳng định sẽ mang đến sự hài lòng tuyệt đối nếu bạn lựa chọn chúng tôi.
-            <br />
-            Với phương châm mang lại sự hài lòng cho khách hàng. Công ty chúng tôi luôn nỗ lực cải tiến, liên tục phát triển không ngừng 
-            để đáp ứng yêu cầu ngày càng cao của Quý khách.
+            <h4 class="primary_color offset-1 inset-3" lang-key="{$finalPhoto->home_section_5[0]->v4}" has-html="true">
+            	{lang($finalPhoto->home_section_5[0]->v4)}
             </h4>
           </div>
         </div>

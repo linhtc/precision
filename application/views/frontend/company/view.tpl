@@ -77,22 +77,15 @@
       <div class="container">
         <div class="row flow-offset-1 text-center text-lg-left">
           <div class="col-lg-5">
-            <img src="{base_url()}static/default/frontend/images/introduce.jpg" alt="" class="wow fadeInLeft">
+            <img src="{base_url()}media/filemanager/source/{$finalPhoto->home_section_5[0]->v2}" alt="" class="wow fadeInLeft">
           </div>
           <div class="col-lg-7">
-            <h2 class="secondary_color wow fadeInRight" style="margin-top: -20px;" lang-key="mot vai loi ve cong ty chung toi">
-            	{lang('mot vai loi ve cong ty chung toi')}
+            <h2 class="secondary_color wow fadeInRight" style="margin-top: -20px;" lang-key="{$finalPhoto->home_section_5[0]->v1}">
+            	{lang($finalPhoto->home_section_5[0]->v1)}
             </h2>
             <h3 class="primary_color wow fadeInRight"></h3>
-            <h4 class="primary_color offset-1 inset-3">
-            Công ty TNHH cơ khí chính xác Toàn Thắng được thành lập với mục tiêu cung cấp 
-            cho thị trường sản phẩm cơ khí chính xác, kết hợp chuyển giao công nghệ trong lĩnh vực thiết kế chế tạo máy.
-            <br />
-            Với đội ngũ kỹ sư chuyên nghiệp qua nhiều năm kinh nghiệm và có tay nghề kỹ thuật cao. 
-            Chúng tôi khẳng định sẽ mang đến sự hài lòng tuyệt đối nếu bạn lựa chọn chúng tôi.
-            <br />
-            Với phương châm mang lại sự hài lòng cho khách hàng. Công ty chúng tôi luôn nỗ lực cải tiến, liên tục phát triển không ngừng 
-            để đáp ứng yêu cầu ngày càng cao của Quý khách.
+            <h4 class="primary_color offset-1 inset-3" lang-key="{$finalPhoto->home_section_5[0]->v4}" has-html="true">
+            	{lang($finalPhoto->home_section_5[0]->v4)}
             </h4>
           </div>
         </div>
