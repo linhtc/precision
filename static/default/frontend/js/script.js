@@ -48,8 +48,11 @@ function changeMyLanguage(){
 			  var translate = localStorage.getItem(ilang);
 			  if(typeof translate !== 'undefined' && translate != null){
 				  var hasHtml = $(this).attr('has-html');
+				  var hasPlaceholder = $(this).attr('has-placeholder');
 				  if(hasHtml){
 					  $(this).html(translate);
+				  } else if(hasPlaceholder){
+					  $(this).attr("placeholder", translate);
 				  } else{
 					  $(this).text(translate);
 			  	  }

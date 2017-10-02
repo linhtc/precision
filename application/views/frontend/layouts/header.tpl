@@ -26,14 +26,14 @@
 	          <div class="col-lg-2 col-sm-2 header-border-bt2">
 	          	<div class="quick-intro" style="background-image:url({base_url()}media/images/phone-call.png);">
 		          	<p class="moto-text_system_11">
-		          		Điện thoại:<br><a class="moto-link" data-action="url" target="_self" href="{$smarty.session.sys_cnf->cnf_hotline->v2}">{$smarty.session.sys_cnf->cnf_hotline->v1}</a><br>
+		          		<span lang-key="phone colon">{lang('phone colon')}</span><br><a class="moto-link" data-action="url" target="_self" href="{$smarty.session.sys_cnf->cnf_hotline->v2}">{$smarty.session.sys_cnf->cnf_hotline->v1}</a><br>
 	          		</p>
 	          	</div>
 	          </div>
 	          <div class="col-lg-3 col-sm-3 header-border-bt2">
 	          	<div class="quick-intro" style="background-image:url({base_url()}media/images/placeholder.png);">
 		          	<p class="moto-text_system_11">
-		          		Địa chỉ: <a class="moto-link" data-action="url" target="_blank" href="{$smarty.session.sys_cnf->cnf_address->v2}">{$smarty.session.sys_cnf->cnf_address->v1}</a>
+		          		<span lang-key="address colon">{lang('address colon')}</span> <a class="moto-link" data-action="url" target="_blank" href="{$smarty.session.sys_cnf->cnf_address->v2}">{$smarty.session.sys_cnf->cnf_address->v1}</a>
 	          		</p>
 	          	</div>
 	          </div>
@@ -58,16 +58,16 @@
                   <a href="{base_url()}{$smarty.session.lang_prefix}" class="sf-with-ul" lang-key="home">{lang('home')}</a>
 				    <ul style="display: none;">
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s1">Giới thiệu</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s1" lang-key="gioi thieu">{lang('gioi thieu')}</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s2">Sản phẩm</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s2" lang-key="san pham">{lang('san pham')}</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s3">Năng lực</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s3" lang-key="nang luc">{lang('nang luc')}</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s4">Dịch vụ</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}#home-s4" lang-key="dich vu">{lang('dich vu')}</a>
 				        </li>
 				    </ul>
                 </li>
@@ -75,16 +75,16 @@
                   <a href="{base_url()}{$smarty.session.lang_prefix}company" class="sf-with-ul" lang-key="company">{lang('company')}</a>
 				    <ul style="display: none;">
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s1">Công ty chúng tôi</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s1" lang-key="cong ty chung toi">{lang('cong ty chung toi')}</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s2">Tại sao chọn chúng tôi?</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s2" lang-key="tai sao chon chung toi">{lang('tai sao chon chung toi')}</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s3">Triết lý kinh doanh</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s3" lang-key="triet ly kinh doanh">{lang('triet ly kinh doanh')}</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s4">Vài lời về chúng tôi</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}company#company-s4" lang-key="vai loi ve chung toi">{lang('vai loi ve chung toi')}</a>
 				        </li>
 				    </ul>
                 </li>
@@ -92,7 +92,7 @@
                   <a href="{base_url()}{$smarty.session.lang_prefix}rd" class="sf-with-ul" lang-key="r_and_d">{lang('r_and_d')}</a>
 				    <ul style="display: none;">
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}rd#rd-s1">Nghiên cứu & Phát triển</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}rd#rd-s1" lang-key="nghien cuu va phat trien">{lang('nghien cuu va phat trien')}</a>
 				        </li>
 				        <li style="opacity: 0;">
 				            <a href="{base_url()}{$smarty.session.lang_prefix}rd#rd-s2">Team work</a>
@@ -103,13 +103,13 @@
 				    <a href="{base_url()}{$smarty.session.lang_prefix}products-services" class="sf-with-ul" lang-key="product_and_service">{lang('product_and_service')}</a>
 				    <ul style="display: none;">
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s1">Gia công chính xác</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s1" lang-key="gia cong chinh xac">{lang('gia cong chinh xac')}</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s2">Thiết kế & CGCN</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s2" lang-key="thiet ke va cgcn">{lang('thiet ke va cgcn')}</a>
 				        </li>
 				        <li style="opacity: 0;">
-				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s3">Dịch vụ</a>
+				            <a href="{base_url()}{$smarty.session.lang_prefix}products-services#product-s3" lang-key="dich vu">{lang('dich vu')}</a>
 				        </li>
 				    </ul>
 				</li>
@@ -123,7 +123,7 @@
                   <a href="{base_url()}{$smarty.session.lang_prefix}contacts" lang-key="contact">{lang('contact')}</a>
                 </li>
                 <li class="nav-search">
-                  <input type="text" placeholder="Nhập từ khóa..." />
+                  <input type="text" lang-key="input a value colon" has-placeholder="true" placeholder="{lang('input a value colon')}" />
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </li>
                 <li style="display: none;" class="nation-flag">
@@ -155,7 +155,7 @@
 	                  <h2 lang-key="{$isub->v1}">{lang($isub->v1)}</h2>
 	                  <h3 style="display:none;">Chúng tôi cam kết</h3>
 	                  <h4 lang-key="{$isub->v4}" has-html="true">{lang($isub->v4)}</h4>
-	                  <a href="#" class="btn btn-default btn-sm" lang-key"view-more">{lang('view_more')}</a>
+	                  <a lang-key="xem them" href="#" class="btn btn-default btn-sm">{lang('xem them')}</a>
 	                </div>
 	              </div>
 	            </div>
