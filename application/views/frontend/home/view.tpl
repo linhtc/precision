@@ -191,9 +191,9 @@
 	        {foreach from=$finalList->home_section_4 key=ksub item=isub name=foo}
 	          {if $isub->v2 eq 'left'}
 		          {if $smarty.foreach.foo.first}
-		          <h2 class="wow fadeInLeft ls-1">{$isub->v1}</h2>
+		          <h2 class="wow fadeInLeft ls-1" lang-key="{$isub->v1}">{lang($isub->v1)}</h2>
 		          {else}
-		          <h4 class="wow fadeIn offset-8">{$isub->v1}</h4> <br />
+		          <h4 class="wow fadeIn offset-8" lang-key="{$isub->v1}">{lang($isub->v1)}</h4> <br />
 		          {/if}
 	          {/if}
 	          {/foreach}
@@ -203,7 +203,7 @@
               {foreach from=$finalList->home_section_4 key=ksub item=isub name=foo}
 	          {if $isub->v2 eq 'right'}
 	          <li class="wow fadeInRight" data-wow-delay="{$ksub*0.2}s">
-              	<h4>{$isub->v1}</h4>
+              	<h4 lang-key="{$isub->v1}">{lang($isub->v1)}</h4>
               </li>
 	          {/if}
 	          {/foreach}

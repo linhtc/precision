@@ -43,7 +43,8 @@
 	                                    <option value="company">{lang('company')}</option>
 	                                    <option value="rd">{lang('rd')}</option>
 	                                    <option value="product_and_service">{lang('product_and_service')}</option>
-	                                    <option value="career">{lang('career')}</option>
+	                                    <option value="project">{lang('project')}</option>
+	                                    <option value="career">{lang('recruit')}</option>
 	                                    <option value="contact">{lang('contact')}</option>
 	                                </select>
 							    </div>

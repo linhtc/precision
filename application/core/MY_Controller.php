@@ -90,7 +90,9 @@ class MY_Controller extends CI_Controller {
     					'product_section_2' => 'section 2 - Thiết kế'
     			),
     			'project' => array(
-    					'project_section_1' => 'section 1 - Dự án'
+    					'project_section_1' => 'section 1 - Dự án',
+    					'project_section_2' => 'section 2 - Nhân lực',
+    					'project_section_3' => 'section 3 - Công nghệ'
     			)
     	);
     }

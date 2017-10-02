@@ -1,7 +1,7 @@
 <!--======================well-1=========================-->
     <section class="well-2 bg-primary border">
       <div class="container">
-        <h2 class="secondary_color center_text">Tuyển dụng</h2>
+        <h2 class="secondary_color center_text" lang-key="recruit">{lang('recruit')}</h2>
         <div class="row primary_color flow-offset-1">
           <div class="col-sm-12 col-md-12">
             <div class="box wow fadeInUp">

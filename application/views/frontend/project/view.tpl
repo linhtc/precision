@@ -1,7 +1,7 @@
 <!--======================well-3=========================-->
     <section class="well-3 bg-primary border">
       <div class="container">
-        <h2 class="center_text secondary_color">Dự án</h2>
+        <h2 class="center_text secondary_color" lang-key="project">{lang('project')}</h2>
         {assign var="reverse" value=0}
         {assign var="curr" value=0}
         {assign var="colrand" value=4}
@@ -20,7 +20,7 @@
           	{/if}
 	          <div class="col-lg-{if $curr eq 1}{$colrand}{else}{$colrand2}{/if} col-xs-{if $curr eq 1}{$colrand}{else}{$colrand2}{/if}">
 	            <div class="product bg-100p-pr wow fadeInUp" 
-	            	style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});"
+	            	style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3}); background-size: cover; background-position: top left;"
 	            	bg-src="{base_url()}media/filemanager/source/{$isub->v2}">
 	              <a href="#" class="product_cont">
 	                <h3>{$isub->v1}</h3>
@@ -61,28 +61,25 @@
       <div class="container">
         <div class="row flow-offset-1">
           <div class="col-lg-5">
-            <img src="{base_url()}media/uploads/images/page-04_img_07.jpg" alt="">
+            <img src="{base_url()}media/filemanager/source/{$finalPhoto->project_section_2[0]->v2}" alt="">
           </div>
           <div class="col-lg-7 primary_color">
-            <h2 class="secondary_color wow fadeInRight">Company team</h2>
-            <h3 class="wow fadeInRight">Committed to quality and efficiency</h3>
-            <p class="offset-5">Our Company has assembled a team of experienced and certified craftsmen, engineers, and designers with a commitment to quality and efficiency. </p>
-            <p>We deliver products according to the highest quality standards. Our customers receive reliability, predictability, performance, and quality through their entire project’s fabrication schedule. The result is an outstanding finished product, from the source material to the complete documentation.</p>
+            <h2 class="secondary_color wow fadeInRight" lang-key="nhan luc cong ty">{lang('nhan luc cong ty')}</h2>
+            <h3 class="wow fadeInRight" lang-key="{$finalPhoto->project_section_2[0]->v1}">{lang($finalPhoto->project_section_2[0]->v1)}</h3>
+            <h4 class="offset-5" lang-key="{$finalPhoto->project_section_2[0]->v4}">{lang($finalPhoto->project_section_2[0]->v4)}</h4>
           </div>
         </div>
       </div>
     </section>
 <!--======================End well-1=========================-->
 <!--======================parallax=========================-->
-    <section class="parallax well-2" data-url="{base_url()}media/uploads/images/page-04_bg-01.jpg" data-mobile="true" data-speed="0.6">
+    <section class="parallax well-2" data-url="{base_url()}media/filemanager/source/{$finalPhoto->project_section_3[0]->v2}" data-mobile="true" data-speed="0.6">
       <div class="container">
-        <h2 class="wow fadeInLeft">Our technology</h2>
-        <h3 class="wow fadeInLeft">Unsurpassed quality</h3>
+        <h2 class="wow fadeInLeft" lang-key="cong nghe cong ty">{lang('cong nghe cong ty')}</h2>
+        <h3 class="wow fadeInLeft" lang-key="{$finalPhoto->project_section_3[0]->v1}">{lang($finalPhoto->project_section_3[0]->v1)}</h3>
         <i class="icon secondary-icon icon-lg
          offset-5 material-icons-build wow fadeInLeft"></i>
-        <h4 class="offset-4">Our integrated production method is the product of our commitment to technology. 
-        From procurement to final delivery our technological applications offer precision 
-        and excellence in all of our work.</h4>
+        <h4 class="offset-4" lang-key="{$finalPhoto->project_section_3[0]->v4}">{lang($finalPhoto->project_section_3[0]->v4)}</h4>
       </div>
     </section>
 <!--======================End parallax=========================-->

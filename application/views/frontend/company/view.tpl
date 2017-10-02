@@ -14,7 +14,7 @@
 	              <div class="img" style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});">
 	              	<a href="{base_url()}media/filemanager/source/{$isub->v2}" data-lightbox="image-1-{$ksub}" data-title="{lang('cong ty chung toi')}"></a>
 	              </div>
-	              <p lang-key="{$isub->v1}">{lang($isub->v1)}</p>
+	              <h3 lang-key="{$isub->v1}">{lang($isub->v1)}</h3>
 	            </div>
 	        </div>
           	{if $curr gte 3}
