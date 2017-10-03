@@ -160,6 +160,81 @@ class Crontabs extends MY_Controller {
     }
     
     /**
+     * Word bags temp
+     * @request: {}
+     * @response: {}
+     **/
+    public function bag(){
+    	$this->layout->disable_layout(); // disable layout
+    	
+//     	$words = $this->db->select('vi, ens')->from($this->langModel)->where('deleted', 0)->get()->result();
+    	
+    	
+    	$query = "
+			select *
+			from(
+				SELECT `vi`, `en`, 
+					(select group_concat(concat_ws(',', p.id)) from sys_lists p where p.page_content = l.lang or p.page_content2 = l.lang) pid
+				FROM `sys_languages` l
+				WHERE `deleted` = 0
+			) rs 
+			where rs.pid is not null
+			union all
+			select *
+			from(
+				SELECT `vi`, `en`, 
+					(select group_concat(concat_ws(',', p.id)) from sys_photos p where p.page_content = l.lang or p.page_content4 = l.lang) pid
+				FROM `sys_languages` l
+				WHERE `deleted` = 0
+			) rs 
+			where rs.pid is not null
+		";
+    	$words = $this->db->query($query)->result();
+    	foreach($words as $word){
+    		$vi = strtolower($this->stripVN($word->vi));
+    		$vi = strip_tags($vi);
+    		$vi = preg_replace('/[^a-zA-Z0-9]/', " ", $vi);
+    		$en = strtolower($this->stripVN($word->en));
+    		$en = strip_tags($en);
+    		$en = preg_replace('/[^a-zA-Z0-9]/', " ", $en);
+    		$pages = explode(',', $word->pid);
+    		$vis = explode(' ', $vi);
+    		if($vis && $pages){
+    			foreach($vis as $vi){
+    				if(empty($vi)){
+    					continue;
+    				}
+    				$body = '';
+    				foreach($pages as $page){
+    					$body .= (empty($body) ? '' : ',')."('".addslashes($vi)."', '".addslashes($page)."', 1)";
+    				}
+    				$query = "INSERT INTO sys_bags(`word`, `page`, `times`) VALUES".$body."
+						ON DUPLICATE KEY UPDATE times = VALUES(times) + 1;
+					";
+    				$this->db->query($query);
+    			}
+    		}
+    		$vis = explode(' ', $en);
+    		if($vis && $pages){
+    			foreach($vis as $vi){
+    				if(empty($vi)){
+    					continue;
+    				}
+    				$body = '';
+    				foreach($pages as $page){
+    					$body .= (empty($body) ? '' : ',')."('".addslashes($vi)."', '".addslashes($page)."', 1)";
+    				}
+    				$query = "INSERT INTO sys_bags(`word`, `page`, `times`) VALUES".$body."
+						ON DUPLICATE KEY UPDATE times = VALUES(times) + 1;
+					";
+    				$this->db->query($query);
+    			}
+    		}
+    	}
+    	exit;
+    }
+    
+    /**
      * Counting viewer
      * @request: {}
      * @response: {}

@@ -1,3 +1,11 @@
+CREATE TABLE `sys_bags` (
+  `word` varchar(50) NOT NULL,
+  `page` bigint(20) NOT NULL DEFAULT '0',
+  `times` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`word`,`page`),
+  KEY `idx_q` (`word`,`page`,`times`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 -- MySQL dump 10.13  Distrib 5.7.19, for Linux (x86_64)
 --
 -- Host: localhost    Database: elearning
