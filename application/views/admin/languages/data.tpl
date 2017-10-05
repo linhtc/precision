@@ -4,9 +4,9 @@
             <td>{$item.id}</td>
             <td>{$item.modified|date_format:lang('smt_dt_format')}</td>
             <td>{lang($item.kind)}</td>
-            <td>{$item.lang}</td>
-            <td>{$item.vi}</td>
-            <td>{$item.en}</td>
+            <td style="max-width: 250px; overflow: hidden;">{$item.lang}</td>
+            <td style="max-width: 250px; overflow: hidden;">{$item.vi}</td>
+            <td style="max-width: 250px; overflow: hidden;">{$item.en}</td>
             <td>
                 {if (not empty($permission['edit'])) or $permission eq 1}
                     <a href="edit/{$this->mask($item.id)}" class="label label-info" style="cursor: pointer;">{lang('edit')}</a>

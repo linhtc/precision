@@ -20,7 +20,8 @@
 # Set this to the host name on which this will run
 define(DOMAIN, 'toanthangprecision.com');
 # Create this directory and chmod it 777
-define(COUNTS_DIR, '/home/toant653/public_html'); 
+define(COUNTS_DIR, '/home/toant653/public_html');
+// define(COUNTS_DIR, '/var/www/html/precision');
 # ------------------------------------------------------------
 # ---------------- Change nothing below here -----------------
 # ------------------------------------------------------------
@@ -51,7 +52,7 @@ function outputOnUnloadCode($self) {
     . 'var s = document.createElement("script");'
     . 's.src="' . $self . '?logout=1";'
     . 'document.body.appendChild(s);'
-    . 'document.write("...");'
+//     . 'document.write("...");'
     . '});';
 }
 function main() {

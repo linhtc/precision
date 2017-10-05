@@ -81,16 +81,16 @@
 				  <div class="panel-heading" lang-key="thong ke">{lang('thong ke')}</div>
 				  <div class="panel-body" style="padding-bottom: 0;padding-top: 0;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
-				  		<span lang-key="dang online">{lang('dang online')} <script type="text/javascript" src="{base_url()}webcounter.php"></script></span>
+				  		<span><label lang-key="dang online">{lang('dang online')}</label> <script type="text/javascript" src="{base_url()}webcounter.php"></script></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/homqua.png);">
-				  		<span lang-key="hom qua">{lang('hom qua')} <label id="count-yesterday"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
+				  		<span><label lang-key="hom qua">{lang('hom qua')}</label> <label id="count-yesterday"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/tuan.png);">
-				  		<span lang-key="tuan nay">{lang('tuan nay')} <label id="count-thisweek"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
+				  		<span><label lang-key="tuan nay">{lang('tuan nay')}</label> <label id="count-thisweek"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/tong.png);">
-				  		<span lang-key="tong truy cap">{lang('tong truy cap')} <label id="count-total"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
+				  		<span><label lang-key="tong truy cap">{lang('tong truy cap')}</label> <label id="count-total"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
 			  		</div>
 				  </div>
 				</div>
