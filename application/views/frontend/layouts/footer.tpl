@@ -6,7 +6,7 @@
           <i class="icon secondary-icon icon-xs material-icons-location_on"></i>
           <h3 lang-key="address colon">{lang('address colon')}</h3>
           <p>
-          	<a href="{$smarty.session.sys_cnf->cnf_address->v2}" target="_blank">
+          	<a href="{$smarty.session.sys_cnf->cnf_address->v2}" target="_blank" has-alias="true" id="footer-address" >
           	{$smarty.session.sys_cnf->cnf_address->v1}
          	</a>
           </p>

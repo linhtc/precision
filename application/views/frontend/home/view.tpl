@@ -19,7 +19,7 @@
 	                {foreach from=$smarty.session.sys_cnf->tphone key=ksub item=isub name=foo}
 			  		<p style="position: relative; margin-top: 5px; {if $smarty.foreach.foo.last} border-bottom: thin dotted; {/if}">
 	                	<span>
-	                		{$isub->n}
+	                		<label has-alias="true" has-html="true" id="home-left-tphone-{$ksub}">{$isub->n}</label>
 	                		<a style="padding-left: 5px;" href="{$isub->v1}" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
@@ -35,7 +35,7 @@
 	                {foreach from=$smarty.session.sys_cnf->sphone key=ksub item=isub name=foo}
 			  		<p style="position: relative; margin-top: 5px; {if $smarty.foreach.foo.last} border-bottom: thin dotted; {/if}">
 	                	<span>
-	                		{$isub->n}
+	                		<label has-alias="true" has-html="true" id="home-left-sphone-{$ksub}">{$isub->n}</label>
 	                		<a style="padding-left: 5px;" href="{$isub->v1}" class="anchor-contact">
 	                			<img src="{base_url()}media/images/zalo.png" />
 	                		</a>
@@ -62,7 +62,7 @@
 				  </div>
 				</div>
 	      		<div class="panel panel-default wow fadeInUp" style="min-height: 216px;">
-				  <div class="panel-heading" style="display:none;">Video Clip</div>
+				  <div class="panel-heading" style="display:none;">Facebook</div>
 				  <div class="panel-body" style="padding: 0px;">
 				  	<div id="fb-root"></div>
 						<script>setTimeout(function(){
@@ -81,7 +81,7 @@
 				  <div class="panel-heading" lang-key="thong ke">{lang('thong ke')}</div>
 				  <div class="panel-body" style="padding-bottom: 0;padding-top: 0;">
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/online.png);">
-				  		<span><label lang-key="dang online">{lang('dang online')}</label> <script type="text/javascript" src="{base_url()}webcounter.php"></script></span>
+				  		<span><label lang-key="dang online">{lang('dang online')}</label> <script type="text/javascript" src="{base_url()}visitors.php"></script></span>
 			  		</div>
 			  		<div class="statistic-request" style="background-image:url({base_url()}media/uploads/images/homqua.png);">
 				  		<span><label lang-key="hom qua">{lang('hom qua')}</label> <label id="count-yesterday"><i class="fa fa-spinner" aria-hidden="true"></i></label></span>
