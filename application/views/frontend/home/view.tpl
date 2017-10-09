@@ -178,7 +178,7 @@
           {/foreach}
       </div>
     </div>
-    <a href="#" class="btn btn-default btn-md wow fadeIn">View all</a>
+    <a href="#" class="btn btn-default btn-md wow fadeIn" lang-key="xem them">{lang('xem them')}</a>
     </section>
 <!--======================End well_1=========================-->
 <!--======================parallax=========================-->

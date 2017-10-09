@@ -23,7 +23,7 @@
 	            	style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3}); background-size: cover; background-position: top left;"
 	            	bg-src="{base_url()}media/filemanager/source/{$isub->v2}">
 	              <a href="#" class="product_cont">
-	                <h3>{$isub->v1}</h3>
+	                <h3><span lang-key="du an">{lang('du an')}</span> {$isub->v1}</h3>
 	                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 	              </a>
 	            </div>
@@ -47,7 +47,7 @@
           	<div class="col-lg-{$colrand2} col-xs-{$colrand2}">
 	            <div class="product pr-img-06 bg-100p-pr wow fadeInUp" style="background-color: silver; background-image: url();">
 	              <a href="#" class="product_cont">
-	                <h3>Và còn nhiều nữa...</h3>
+	                <h3 lang-key="va con nhieu nua">{lang('va con nhieu nua')}</h3>
 	                <i class="icon primary-icon icon-sm material-icons-keyboard_arrow_right"></i>
 	              </a>
 	            </div>

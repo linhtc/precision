@@ -6,7 +6,7 @@
           <div class="col-sm-12 col-md-12">
             <div class="box wow fadeInUp">
               <!-- <img src="{base_url()}media/images/recruitment.jpg" alt="" style="margin-bottom: 0px;"> -->
-              <div class="img" style="background-image: url({base_url()}media/images/recruitment.jpg);">
+              <div class="img" style="background-image: url({base_url()}media/images/recruitment.jpg); background-size:100% auto;">
 	          
 	          </div>
             </div>         
