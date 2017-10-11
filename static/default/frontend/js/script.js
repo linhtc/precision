@@ -373,7 +373,6 @@ function checkScroller(){
     setTimeout(function(){
     	$.post(rootBaseUrl+"api/crontabs/viewer", function(data, status){
 //            console.log("Data: " + data + "\nStatus: " + status);
-    		console.log(data);
     		$('#count-yesterday').text(data.yesterday);
     		$('#count-thisweek').text(data.thisweek);
     		$('#count-total').text(data.total);
@@ -399,7 +398,6 @@ function checkScroller(){
     		var key = $('.national-flag').attr('key');
     		$.post(rootBaseUrl+"api/crontabs/langstorage", {lang:key, data:langToStore}, function(data, status){
 				data = data.metadata;
-				console.log(data);
 				if(typeof data === 'object'){
 					for(var key in data){
 						if(data.hasOwnProperty(key)){

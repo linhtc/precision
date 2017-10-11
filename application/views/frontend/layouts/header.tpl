@@ -123,7 +123,7 @@
                   <a href="{base_url()}{$smarty.session.lang_prefix}contacts" lang-key="contact">{lang('contact')}</a>
                 </li>
                 <li class="nav-search">
-                  <input type="text" lang-key="input a value colon" has-placeholder="true" placeholder="{lang('input a value colon')}" />
+                  <input id="seeking-input" has-seeking="true" type="text" lang-key="input a value colon" has-placeholder="true" placeholder="{lang('input a value colon')}" />
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </li>
                 <li style="display: none;" class="nation-flag">

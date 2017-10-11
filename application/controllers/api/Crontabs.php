@@ -235,6 +235,100 @@ class Crontabs extends MY_Controller {
     }
     
     /**
+     * Word bags temp
+     * @request: {}
+     * @response: {}
+     **/
+    public function seek(){
+    	$this->layout->disable_layout(); // disable layout
+    	
+    	$q = $this->input->get('term');
+    	$qs = explode(' ', $q);
+    	$cr = '';
+    	if(empty($q)){
+    		exit;
+    	}
+    	foreach($qs as $qq){
+    		$qq = trim($qq);
+    		if(empty($qq)){ continue; }
+    		$cr .= (empty($cr) ? '' : ',')."'$qq'";
+    	}
+    	
+    	
+    	$query = "
+			select l.page_type category, l.page_content v, l.page_content2 v2
+			from sys_lists l
+			where l.id in (
+				select rss.page from( select rs.page
+				from(
+					select b.page, sum(b.times) times
+					from sys_bags b
+					where b.word in ($cr)
+					group by b.page
+				) rs
+			    order by rs.times
+			    limit 5 ) rss
+			) and l.deleted = 0
+			union all
+			select l.page_type category, l.page_content v, l.page_content4 v2
+			from sys_photos l
+			where l.id in (
+				select rss.page from( select rs.page
+				from(
+					select b.page, sum(b.times) times
+					from sys_bags b
+					where b.word in ($cr)
+					group by b.page
+				) rs
+			    order by rs.times
+			    limit 5) rss
+			) and l.deleted = 0
+			;
+		";
+    	$words = $this->db->query($query)->result();
+    	
+    	$response = new stdClass();
+    	$response->query = $q;
+    	$response->suggestions = [];
+    	foreach($words as $word){
+    		$word->label = lang($word->v);//.' '.lang($word->v2);
+    		unset($word->v);
+    		unset($word->v2);
+    		$word->category = str_replace('section_', 's', $word->category);
+    		$word->category = str_replace('_', '-', $word->category);
+    		$lang = $this->session->userdata('lang_key');
+    		if($lang == 'vi'){
+    			$lang = '';
+    		} else{
+    			$lang.='/';
+    		}
+    		$url = base_url().$lang;
+    		if(strpos($word->category, 'home') !== false){
+    			$url.='home#'.$word->category;
+    		} elseif(strpos($word->category, 'company') !== false){
+    			$url.='company#'.$word->category;
+    		} elseif(strpos($word->category, 'rd') !== false){
+    			$url.='rd#'.$word->category;
+    		} elseif(strpos($word->category, 'product') !== false){
+    			$url.='products-services#'.$word->category;
+    		} elseif(strpos($word->category, 'project') !== false){
+    			$url.='projects#'.$word->category;
+    		}
+    		$word->category = $url;
+    		if(strlen($word->label) > 200){
+    			$word->label = substr($word->label, 0, 197);
+    			$word->label.='...';
+    		}
+    		array_push($response->suggestions, $word);
+    	}
+    	
+//     	print_r($response); exit;
+//     	$this->response($response->suggestions);
+    	header('Content-Type: application/json');
+    	echo json_encode($response->suggestions, JSON_UNESCAPED_UNICODE); exit;
+    }
+    
+    /**
      * Counting viewer
      * @request: {}
      * @response: {}

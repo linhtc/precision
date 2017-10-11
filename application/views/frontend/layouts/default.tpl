@@ -11,6 +11,7 @@
   <!-- <link rel='stylesheet' href="{base_url()}static/default/frontend/css/google-map.css"> -->
   <link rel="stylesheet" href="{base_url()}static/default/frontend/css/camera.css"/>
   <link rel="stylesheet" href="{base_url()}static/default/frontend/css/custom.css"/>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   {$listCss}
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
   <script src="{base_url()}static/default/frontend/js/jquery.js"></script>
@@ -35,9 +36,12 @@
 <!-- <div class="loading">Loading&#8230;</div> -->
 <script src="{base_url()}static/default/admin/template/plugins/blockui/jquery.blockUI.js"></script>
 <script src="{base_url()}static/default/frontend/js/script.js"></script>
+
 	{$listJs}
 	
   {include file='frontend/layouts/contact.tpl'}
+  
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script type="text/javascript">
 setTimeout(function(){
 	var giframe = document.getElementById('google-map-iframe');
@@ -50,6 +54,21 @@ setTimeout(function(){
 	if(yiframe != null){
 		yiframe.setAttribute('src', youtubeIframe);
 	}
+}, 1000);
+setTimeout(function(){
+	console.log('has-seeking');
+	$( "[has-seeking]" ).autocomplete({
+	    source: rootBaseUrl+'api/crontabs/seek/',
+	    minLength: 2,
+	    select: function( event, ui ) {
+	    	console.log(ui.item);
+	      console.log( "Selected: " + ui.item.value + " aka " + ui.item.id );
+	      if(ui.item.category != undefined){
+	    	  $( "[has-seeking]" ).val('');
+	    	  window.location = ui.item.category;
+	      }
+	    }
+	});
 }, 1000);
 </script>
 </body>
