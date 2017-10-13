@@ -14,7 +14,7 @@
 	              <div class="img" style="background-image: url({base_url()}media/filemanager/thumbs/{$isub->v3});">
 	              	<a href="{base_url()}media/filemanager/source/{$isub->v2}" data-lightbox="image-1-{$ksub}" data-title="{lang('gia cong chinh xac o phan san pham')}"></a>
 	              </div>
-	              <h3 class="mtop-minus-50">{$isub->v1}</h3>
+	              <h3 class="mtop-minus-50"><span lang-key="chi tiet may">{lang('chi tiet may')}</span> {$isub->v1}</h3>
 	              <p></p>
 	            </div>
 	          </div>
