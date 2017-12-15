@@ -34,7 +34,7 @@ function mailShare()
 		</a>
 	</li>
 	<li>
-		<a target="_blank" href="https://www.youtube.com/user/FANUCEurope">
+		<a target="_blank" href="https://www.youtube.com/watch?v=bCym01myYow">
 			<img width="48" height="48" alt="YouTube" src="{base_url()}media/uploads/images/ico_yt_share.png">
 		</a>
 	</li>

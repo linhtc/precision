@@ -88,7 +88,7 @@
 				        </li>
 				    </ul>
                 </li>
-                <li class="{if $uuid eq 'rd'}active{/if}">
+                <li class="{if $uuid eq 'rd'}active{/if}" style="display:none;">
                   <a href="{base_url()}{$smarty.session.lang_prefix}rd" class="sf-with-ul" lang-key="r_and_d">{lang('r_and_d')}</a>
 				    <ul style="display: none;">
 				        <li>
@@ -113,7 +113,7 @@
 				        </li>
 				    </ul>
 				</li>
-                <li class="{if $uuid eq 'project'}active{/if}">
+                <li class="{if $uuid eq 'project'}active{/if}" style="display:none;">
                   <a href="{base_url()}{$smarty.session.lang_prefix}projects" lang-key="project">{lang('project')}</a>
                 </li>
                 <li class="{if $uuid eq 'career'}active{/if}">
@@ -123,7 +123,7 @@
                   <a href="{base_url()}{$smarty.session.lang_prefix}contacts" lang-key="contact">{lang('contact')}</a>
                 </li>
                 <li class="nav-search">
-                  <input id="seeking-input" has-seeking="true" type="text" lang-key="input a value colon" has-placeholder="true" placeholder="{lang('input a value colon')}" />
+                  <input type="text" lang-key="input a value colon" has-placeholder="true" placeholder="{lang('input a value colon')}" />
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </li>
                 <li style="display: none;" class="nation-flag">

@@ -297,4 +297,13 @@ class MY_Controller extends CI_Controller {
     							return $ipaddress;
     }
 
+    /**
+     * Ham tra du lieu ve cho client voi header la json
+     * @input: pointer stdClass
+     * @output: json encode stdClass
+     **/
+    protected function response(stdClass &$response) {
+    	header('Content-Type: application/json');
+    	echo json_encode($response, JSON_UNESCAPED_UNICODE); exit;
+    }
 }
